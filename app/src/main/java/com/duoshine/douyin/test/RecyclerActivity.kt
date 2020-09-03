@@ -3,19 +3,78 @@ package com.duoshine.douyin.test
 
 import android.os.Bundle
 import android.util.DisplayMetrics
-import android.util.Log
 import android.view.ViewGroup
+import android.widget.ExpandableListView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.duoshine.douyin.R
-import com.duoshine.douyin.adapter.CommentAdapter
-import com.duoshine.douyin.adapter.CommentReplyAdapter
+import com.duoshine.douyin.adapter.CommentExpandAdapter
+import com.duoshine.douyin.model.CommentReply
+import com.duoshine.douyin.model.CommentReplyModel
+import com.duoshine.douyin.model.Comments
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import kotlinx.android.synthetic.main.activity_recycler_test.*
 
 
 class RecyclerActivity : AppCompatActivity() {
+
+    private val reply = ArrayList<CommentReply>().apply {
+        val commentReply = CommentReply("","duo_shine","哈哈，你真搞笑","2020-09-03 22:00:00")
+        add(commentReply)
+    }
+
+    //    private val commentModel: CommentModel = CommentModel("0", 20, 1, true, comments)
+    private val comments = ArrayList<Comments>().apply {
+        val comment1 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment2 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment3 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment4 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment5 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment6 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment7 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment8 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment9 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        val comment10 = Comments(
+            "0", "", "duo_shine", "写抖音需要自制力",
+            "2020-09-03 22:00:00", 1, false, 9000, reply
+        )
+        add(comment1)
+        add(comment2)
+        add(comment3)
+        add(comment4)
+        add(comment5)
+        add(comment6)
+        add(comment7)
+        add(comment8)
+        add(comment9)
+        add(comment10)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,16 +106,14 @@ class RecyclerActivity : AppCompatActivity() {
         }
 
         //添加适配器
-        val bottomSheetCommentList = view.findViewById<RecyclerView>(R.id.bottom_sheet_comment_list)
-        bottomSheetCommentList.layoutManager = LinearLayoutManager(this)
-        val adapter = CommentAdapter(this)
-        bottomSheetCommentList.adapter = adapter
+        val bottomSheetCommentList =
+            view.findViewById<ExpandableListView>(R.id.bottom_sheet_comment_list)
+        //取消左侧的箭头指示  自定义在右侧
+        bottomSheetCommentList.setGroupIndicator(null)
+            //设置取消下划线
+        bottomSheetCommentList.divider = null
+        val adapter = CommentExpandAdapter(this, comments)
+        bottomSheetCommentList.setAdapter(adapter)
 
-        adapter.setExpandedReplyListener(object : CommentAdapter.ExpandedReplyListener {
-            override fun onClick(position: Int, recyclerView: RecyclerView) {
-                recyclerView.layoutManager = LinearLayoutManager(this@RecyclerActivity)
-                recyclerView.adapter = CommentReplyAdapter(this@RecyclerActivity)
-            }
-        })
     }
 }

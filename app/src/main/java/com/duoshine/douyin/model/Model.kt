@@ -9,14 +9,15 @@ data class CommentModel(
 )
 
 data class Comments(
-    val commentId :String, //当前视频评论id
+    val commentId: String, //当前视频评论id
     val avatar: String,//评论人头像
     val name: String,//评论人
     val content: String, //评论内容
     val date: String, //评论时间
-    val replyCount:Int, //评论回复数量
-    val starCount:Int, //赞的数量
-    val reply: MutableList<CommentReplyModel> //回复实体
+    val replyCount: Int, //评论回复总数
+    var replyExpanded:Boolean = false, //当前评论的更多回复是否展开  true为展开状态
+    val starCount: Int, //赞的数量
+    val reply: MutableList<CommentReply> //回复实体
 )
 
 
