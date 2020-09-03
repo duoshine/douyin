@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@android:color/white" />
+    <size
+        android:width="@dimen/qb_px_18"
+        android:height="@dimen/qb_px_18" />
+</shape>
+<!--播放进度条的圆点 替换系统默认的圆点 这样不会放大-->

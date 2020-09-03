@@ -1,0 +1,114 @@
+{
+  "status_code": 0,
+  "status_msg": "",
+  "category_list": [
+    {
+      "name": "文化教育",
+      "index": 100
+    },
+    {
+      "name": "知识",
+      "index": 101
+    },
+    {
+      "index": 102,
+      "name": "才艺"
+    },
+    {
+      "name": "动漫二次元",
+      "index": 103
+    },
+    {
+      "index": 104,
+      "name": "旅行"
+    },
+    {
+      "name": "科技",
+      "index": 105
+    },
+    {
+      "name": "美食",
+      "index": 106
+    },
+    {
+      "name": "时尚",
+      "index": 107
+    },
+    {
+      "name": "汽车",
+      "index": 108
+    },
+    {
+      "name": "游戏",
+      "index": 109
+    },
+    {
+      "name": "剧情",
+      "index": 110
+    },
+    {
+      "name": "体育",
+      "index": 111
+    },
+    {
+      "name": "亲子",
+      "index": 112
+    },
+    {
+      "name": "创意",
+      "index": 113
+    },
+    {
+      "index": 114,
+      "name": "影视"
+    },
+    {
+      "name": "舞蹈",
+      "index": 115
+    },
+    {
+      "name": "音乐",
+      "index": 116
+    },
+    {
+      "index": 117,
+      "name": "动植物"
+    },
+    {
+      "name": "娱乐",
+      "index": 118
+    },
+    {
+      "name": "校园",
+      "index": 119
+    },
+    {
+      "name": "日常生活",
+      "index": 120
+    },
+    {
+      "name": "情感",
+      "index": 121
+    },
+    {
+      "name": "新闻资讯",
+      "index": 122
+    },
+    {
+      "index": 123,
+      "name": "政务"
+    },
+    {
+      "name": "搞笑",
+      "index": 124
+    },
+    {
+      "name": "三农",
+      "index": 125
+    },
+    {
+      "name": "其他",
+      "index": 126
+    }
+  ]
+}

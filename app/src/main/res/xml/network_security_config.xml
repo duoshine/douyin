@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Android 9 包含可提升您的应用安全性的多个行为变更，但这些变更仅在您的应用以 API 级别 28 或更高级别为目标平台时才会生效：
+默认情况下启用网络传输层安全协议 (TLS)
+如果您的应用以 Android 9（28） 或更高版本为目标平台，则默认情况下 isCleartextTrafficPermitted() 函数返回 false。
+ 如果您的应用需要为特定域名启用明文，您必须在应用的网络安全性配置中针对这些域名将 cleartextTrafficPermitted 显式设置为 true。
+ -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

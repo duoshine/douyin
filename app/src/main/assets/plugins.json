@@ -1,0 +1,199 @@
+[
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.miniapp",
+        "pluginType": 2,
+        "standalone": false,
+        "minVersionCode": 123000,
+        "maxVersionCode": 123069,
+        "extraPackages": [
+            "com.tt.miniapp",
+            "com.tt.miniapphost",
+            "com.ss.android.ugc.aweme.miniapp",
+            "com.eclipsesource.v8",
+            "uk.co.senab",
+            "com.squareup.picasso",
+            "com.bytedance.v8_inspect",
+            "com.unity3d.player"
+        ]
+    },
+    {
+        "packageName": "com.ss.android.ies.live.liveresource",
+        "pluginType": 2,
+        "loadSign": 1,
+        "minVersionCode": 122000
+    },
+    {
+        "packageName": "com.ss.android.ugc.aweme.livecore_plugin",
+        "pluginType": 2,
+        "shareRes": false,
+        "minVersionCode": 105000
+    },
+    {
+        "packageName": "com.ss.android.ugc.aweme.fusionfuelplugin",
+        "pluginType": 2,
+        "extraPackages": [
+            "com.rocket.android",
+            "extrocket"
+        ],
+        "minVersionCode": 3000
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.player_pluginv3",
+        "pluginType": 2,
+        "standalone": false,
+        "shareRes": false,
+        "loadSign": 1,
+        "minVersionCode": 123099000,
+        "extraPackages": [
+            "com.ss.ttmplugin",
+            "com.ss.android.ugc.aweme.player.sdk.plugin"
+        ]
+    },
+    {
+        "packageName": "com.bytedance.aweme.map.plugin",
+        "pluginType": 2,
+        "minVersionCode": 4
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.videocache_v2",
+        "pluginType": 2,
+        "standalone": false,
+        "shareRes": false,
+        "loadSign": 1,
+        "minVersionCode": 1185
+    },
+    {
+        "packageName": "com.bytedance.aweme.visionsearch.plugin",
+        "pluginType": 2,
+        "minVersionCode": 1
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.cloudgame",
+        "pluginType": 2,
+        "standalone": false,
+        "minVersionCode": 1
+    },
+    {
+        "_comment": "Cronet-so外置耦合插件",
+        "packageName": "com.bytedance.aweme.cronet.plugin",
+        "pluginType": 2,
+        "standalone": false,
+        "minVersionCode": 123099000,
+        "extraPackages": [
+            "org.chromium",
+            "com.bytedance.aweme.cronet.api",
+            "com.bytedance.aweme.cronet.impl",
+            "com.ttnet.org.chromium",
+            "org.chromium.wschannel",
+            "com.bytedance.ttnet",
+            "com.bytedance.frameworks.baselib.network.http.cronet"
+        ],
+        "shareRes": false
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.v8",
+        "pluginType": 2,
+        "standalone": false,
+        "minVersionCode": 3
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.cert_plugin",
+        "pluginType": 2,
+        "minVersionCode": 1022,
+        "pluginName": "libawemecert.so",
+        "internalAsSo": false,
+        "extraPackages": [
+            "com.ss.android.ugc.aweme.cert_plugin",
+            "com.ss.android.bytedcert"
+        ]
+    },
+    {
+        "packageName": "com.ss.android.ugc.aweme.alipay_verify",
+        "pluginType": 2,
+        "minVersionCode": 1000,
+        "extraPackages": [
+            "com.ss.android.ugc.aweme.alipay_verify",
+            "com.alipay",
+            "com.squareup.otto",
+            "com.alibaba.fastjson"
+        ]
+    },
+    {
+        "packageName": "com.ss.android.ugc.aweme.aliyun_verify",
+        "pluginType": 2,
+        "minVersionCode": 1000,
+        "extraPackages": [
+            "com.ss.android.ugc.aweme.aliyun_verify",
+            "com.aliyun"
+        ]
+    },
+    {
+        "packageName": "com.bytedance.aweme.intertrust.plugin",
+        "pluginType": 2,
+        "standalone": false,
+        "shareRes": false,
+        "loadSign": 1,
+        "minVersionCode": 1000
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.exoplayer",
+        "pluginType": 2,
+        "minVersionCode": 1000
+    },
+    {
+        "_comment": "内置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.xrtc",
+        "pluginName": "libxrtc.so",
+        "pluginType": 2,
+        "minVersionCode": 116000,
+        "loadAsHostClass": true,
+        "internalAsSo": true,
+        "extraPackages": [
+            "com.rocket.android.rtc.ui"
+        ]
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.minigamelite",
+        "pluginName": "minigamelite",
+        "minVersionCode": 123000,
+        "loadAsHostClass": true,
+        "pluginType": 2
+    },
+    {
+        "_comment": "flutter外置耦合插件",
+        "packageName": "com.ss.android.ugc.aweme.flutter",
+        "pluginType": 2,
+        "minVersionCode": 110801,
+        "extraPackages": [
+            "com.ss.android.ugc.aweme.flutter"
+        ]
+    },
+    {
+        "_comment": "外置耦合插件",
+        "packageName": "com.ss.android.ies.mira.bytenn",
+        "pluginName": "bytenn",
+        "minVersionCode": 1000,
+        "loadAsHostClass": true,
+        "pluginType": 2
+    },
+    {
+        "_comment": "长视频投屏所用插件",
+        "packageName": "com.ss.android.ugc.aweme.projectscreen_plugin",
+        "pluginName": "projectscreen_plugin",
+        "pluginType": 2,
+        "standalone": false,
+        "minVersionCode": 1,
+        "shareRes": true,
+        "extraPackages": [
+            "com.hpplay.sdk.source"
+        ]
+    }
+]

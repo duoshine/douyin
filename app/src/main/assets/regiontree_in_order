@@ -1,0 +1,3944 @@
+CN#中国
+  Anhui#安徽
+    Anqing#安庆
+    Bengbu#蚌埠
+    Bozhou#亳州
+    Chaohu#巢湖
+    Chizhou#池州
+    Chuzhou#滁州
+    Fuyang#阜阳
+    Huaibei#淮北
+    Hefei#合肥
+    Huainan#淮南
+    Huangshan#黄山
+    Luan#六安
+    MOS#马鞍山
+    Suzhou#宿州
+    Tongling#铜陵
+    Wuhu#芜湖
+    Xuancheng#宣城
+  sar_city_Macao#澳门
+    Cathedral#大堂区
+    Taipa#氹仔
+    St. Lawrence#风顺堂区
+    Fatima#花地玛堂区
+    Coloane#路环岛
+    St. Anthony#圣安多尼堂区
+    St. Lazarus#望德堂区
+  city_Beijing#北京
+    Changping#昌平
+    Chaoyang#朝阳
+    East#东城
+    Daxing#大兴
+    Fangshan#房山
+    Fengtai#丰台
+    Haidian#海淀
+    Huairou#怀柔
+    Mentougou#门头沟
+    Miyun#密云
+    Pinggu#平谷
+    Shijingshan#石景山
+    Shunyi#顺义
+    Tongzhou#通州
+    West#西城
+    Yanqing#延庆
+  city_Chongqing#重庆
+    Beibei#北碚
+    Banan#巴南
+    Bishan#璧山
+    Chengkou#城口
+    Dadukou#大渡口
+    Dianjiang#垫江
+    Dazu#大足
+    Fengdu#丰都
+    Fengjie#奉节
+    Fuling#涪陵
+    Aikawa#合川
+    Jiangbei#江北
+    Jiangjin#江津
+    Jiulongpo#九龙坡
+    Kaixian#开县
+    Two Rivers#两江新区
+    Liangping#梁平
+    South Bank#南岸
+    Nanchuan#南川
+    Pengshui#彭水
+    Qianjiang#黔江
+    Qijiang#綦江
+    Rongchang#荣昌
+    Shapingba#沙坪坝
+    Shuangqiao#双桥
+    columns#石柱
+    Tongliang#铜梁
+    Tongnan#潼南
+    Wulong#武隆
+    Wushan#巫山
+    Pine Valley#万盛
+    Wuxi#巫溪
+    Wanzhou#万州
+    Xiushan#秀山
+    Yubei#渝北
+    Yongchuan#永川
+    Yunyang#云阳
+    Youyang#酉阳
+    Yuzhong#渝中
+    longevity#长寿
+    Zhongxian#忠县
+  Fujian#福建
+    Fuzhou#福州
+    Longyan#龙岩
+    Ningde#宁德
+    Nanping#南平
+    Putian#莆田
+    Quanzhou#泉州
+    Sanming#三明
+    Xiamen#厦门
+    Zhangzhou#漳州
+  Guangdong#广东
+    Chaozhou#潮州
+    Dongguan#东莞
+    Foshan#佛山
+    Guangzhou#广州
+    Heyuan#河源
+    Huizhou#惠州
+    Jiangmen#江门
+    Jieyang#揭阳
+    Maoming#茂名
+    Meizhou#梅州
+    Qingyuan#清远
+    Shaoguan#韶关
+    Shantou#汕头
+    Shanwei#汕尾
+    Shenzhen#深圳
+    Yunfu#云浮
+    Yangjiang#阳江
+    Zhuhai#珠海
+    Zhanjiang#湛江
+    Zhaoqing#肇庆
+    Zhongshan#中山
+  Gansu#甘肃
+    Silver#白银
+    Dingxi#定西
+    Gannan#甘南
+    Jinchang#金昌
+    Jiuquan#酒泉
+    Jiayuguan#嘉峪关
+    Longnan#陇南
+    Linxia#临夏
+    Lanzhou#兰州市
+    Pingliang#平凉
+    Qingyang#庆阳
+    Tin Shui#天水
+    Wuwei#武威
+    Zhangye#张掖
+  Guangxi#广西
+    Beihai#北海
+    Baise#百色
+    Chongzuo#崇左
+    Fangchenggang#防城港
+    Guigang#贵港
+    Guilin#桂林
+    Hechi#河池
+    Hezhou#贺州
+    guests#来宾
+    Liuzhou#柳州
+    Nanning#南宁
+    Chow#钦州
+    Wuzhou#梧州
+    Yulin#玉林
+  Guizhou#贵州
+    Anshun#安顺
+    Bijie#毕节
+    Guiyang#贵阳
+    Liupanshui#六盘水
+    Southeast#黔东南
+    South Guizhou#黔南
+    Southwest Guizhou#黔西南
+    Tongren#铜仁
+    Lawrence#遵义
+  Hubei#湖北
+    Enshi#恩施
+    Ezhou#鄂州
+    Huanggang#黄冈
+    Yellowstone#黄石
+    Jingmen#荆门
+    Jingzhou#荆州
+    Qianjiang#潜江
+    Shennongjia#神农架
+    Shiyan#十堰
+    Suizhou#随州
+    Tianmen#天门
+    Wuhan#武汉
+    Xiaogan#孝感
+    Xianning#咸宁
+    Bristol#仙桃
+    Yangyang#襄阳
+    Yichang#宜昌
+  Hebei#河北
+    Baoding#保定
+    Chengde#承德
+    Cangzhou#沧州
+    Handan#邯郸
+    Hengshui#衡水
+    Langfang#廊坊
+    Qinhuangdao#秦皇岛
+    Shijiazhuang#石家庄
+    Tangshan#唐山
+    Xingtai#邢台
+    Zhangjiakou#张家口
+  Heilongjiang#黑龙江
+    Daqing#大庆
+    Mountains#大兴安岭
+    Harbin#哈尔滨
+    Hegang#鹤岗
+    Heihe#黑河
+    Jiamusi#佳木斯
+    Jixi#鸡西
+    Mudanjiang#牡丹江
+    Qiqihar#齐齐哈尔
+    Qitaihe#七台河
+    Suihua#绥化
+    Shuangyashan#双鸭山
+    Yichun#伊春
+  Hainan#海南
+    White Sands#白沙
+    Baoting#保亭
+    Changjiang#昌江
+    Chengmai#澄迈
+    Honour#定安
+    East#东方
+    Danzhou#儋州
+    Haikou#海口
+    Music East#乐东
+    Pro High#临高
+    Lingshui#陵水
+    Qionghai#琼海
+    Qiongzhong#琼中
+    Sansha#三沙
+    Sanya#三亚
+    Tunchang#屯昌
+    Wenchang#文昌
+    Manning#万宁
+    Fingers#五指山
+  Hunan#湖南
+    Changde#常德
+    Chenzhou#郴州
+    Huaihua#怀化
+    Hengyang#衡阳
+    Loudi#娄底
+    Shaoyang#邵阳
+    Xiangtan#湘潭
+    Xiangxi#湘西
+    Yiyang#益阳
+    Yueyang#岳阳
+    Yongzhou#永州
+    Zhangjiajie#张家界
+    Changsha#长沙
+    Zhuzhou#株洲
+  Henan#河南
+    Anyang#安阳
+    Hebi#鹤壁
+    Jiyuan#济源
+    Jiaozuo#焦作
+    Kaifeng#开封
+    Luohe#漯河
+    Luoyang#洛阳
+    Nanyang#南阳
+    mesa#平顶山
+    Puyang#濮阳
+    Sanmenxia#三门峡
+    Shangqiu#商丘
+    Xuchang#许昌
+    Xinxiang#新乡
+    Xinyang#信阳
+    Zhoukou#周口
+    Zhumadian#驻马店
+    Zhengzhou#郑州
+  Jilin#吉林
+    White City#白城
+    White Mountains#白山
+    Jilin#吉林
+    Liaoyuan#辽源
+    Siping#四平
+    Matsubara#松原
+    Tonghua#通化
+    Yanbian#延边
+    Changchun#长春
+  Jiangsu#江苏
+    Changzhou#常州
+    Huai#淮安
+    Lianyungang#连云港
+    Nanjing#南京
+    Nantong#南通
+    Suqian#宿迁
+    Suzhou#苏州
+    Taizhou#泰州
+    Wuxi#无锡
+    Xuzhou#徐州
+    Yancheng#盐城
+    Yangzhou#扬州
+    Zhenjiang#镇江
+  Jiangxi#江西
+    Fuzhou#抚州
+    Ganzhou#赣州
+    Jian#吉安
+    Jingdezhen#景德镇
+    Jiujiang#九江
+    Nanchang#南昌
+    Pingxiang#萍乡
+    Shangrao#上饶
+    Xinyu#新余
+    Yichun#宜春
+    Yingtan#鹰潭
+  Liaoning#辽宁
+    Anshan#鞍山
+    Benxi#本溪
+    Chaoyang#朝阳
+    Dandong#丹东
+    Dalian#大连
+    Fushun#抚顺
+    Fuxin#阜新
+    Huludao#葫芦岛
+    Jinzhou#锦州
+    Liaoyang#辽阳
+    Panjin#盘锦
+    Shenyang#沈阳
+    Tieling#铁岭
+    Yingkou#营口
+  Inner Mongolia#内蒙古
+    Alxa#阿拉善
+    Baotou#包头
+    Bayannur#巴彦淖尔
+    Chifeng#赤峰
+    Erdos#鄂尔多斯
+    Hohhot#呼和浩特
+    Hulunbeier#呼伦贝尔
+    Tongliao#通辽
+    Wuhai#乌海
+    Bu#乌兰察布
+    Xing#兴安
+    Gol#锡林郭勒
+  Ningxia#宁夏
+    Guyuan#固原
+    Shizuishan#石嘴山
+    Wuzhong#吴忠
+    Yinchuan#银川
+    Zhongwei#中卫
+  Qinghai#青海
+    Guoluo#果洛
+    rambling#海北
+    Haidong#海东
+    Huangnan#黄南
+    Hainan#海南
+    Hercynian#海西
+    Xining#西宁
+    Yushu#玉树
+  Sichuan#四川
+    Aba#阿坝
+    Pakistan#巴中
+    Chengdu#成都
+    Deyang#德阳
+    Florida#达州
+    Kwong#广安
+    Guangyuan#广元
+    Ganzi#甘孜
+    Liangshan#凉山
+    Leshan#乐山
+    Luzhou#泸州
+    Meishan#眉山
+    Mianyang#绵阳
+    Nanchong#南充
+    Neijiang#内江
+    Panzhihua#攀枝花
+    Suining#遂宁
+    Yaan#雅安
+    Yibin#宜宾
+    Zigong#自贡
+    Ziyang#资阳
+  Shandong#山东
+    Binzhou#滨州
+    Dongying#东营
+    Texas#德州
+    Heze#菏泽
+    Jining#济宁
+    Jinan#济南
+    Liaocheng#聊城
+    Laiwu#莱芜
+    Linyi#临沂
+    Qingdao#青岛
+    Rizhao#日照
+    Taian#泰安
+    Weifang#潍坊
+    Weihai#威海
+    Yantai#烟台
+    Zibo#淄博
+    Zaozhuang#枣庄
+  city_Shanghai#上海
+    Baoshan#宝山
+    Chongming#崇明
+    Fengxian#奉贤
+    Hongkou#虹口
+    Huangpu#黄浦
+    Jing#静安
+    Jiading#嘉定
+    Jinshan#金山
+    Luwan#卢湾
+    Minhang#闵行
+    Pudong New District#浦东新区
+    Po#普陀
+    Qingpu#青浦
+    Songjiang#松江
+    Xuhui#徐汇
+    Yangpu#杨浦
+    Zhabei#闸北
+    Changning#长宁
+  Shaanxi#陕西
+    Ankang#安康
+    Baoji#宝鸡
+    Hanzhong#汉中
+    Shangluo#商洛
+    Tongchuan#铜川
+    Weinan#渭南
+    Xi'an#西安
+    Xianyang#咸阳
+    Yanan#延安
+    Yulin#榆林
+  Shanxi#山西
+    Datong#大同
+    Jincheng#晋城
+    Jinzhong#晋中
+    Linfen#临汾
+    Luliang#吕梁
+    Shuozhou#朔州
+    Taiyuan#太原
+    Xinzhou#忻州
+    Yuncheng#运城
+    Yangquan#阳泉
+    Changzhi#长治
+  city_Tianjin#天津
+    North Star#北辰
+    Baodi#宝坻
+    Binhai New Area#滨海新区
+    Toray#东丽
+    Hebei#河北
+    east#河东
+    Peace#和平
+    Red Bridge#红桥
+    west#河西
+    Jinghai#静海
+    Jinnan#津南
+    Jixian#蓟县
+    Ninghe#宁河
+    Nankai#南开
+    Wuqing#武清
+    West Green#西青
+  sar_Taiwan#台湾
+    Kaohsiung City#高雄市
+    Hualien County#花莲县
+    Keelung City#基隆市
+    Kinmen County#金门县
+    Chiayi City#嘉义市
+    Chiayi County#嘉义县
+    Lianjiang County#连江县
+    Miaoli County#苗栗县
+    Nantou County#南投县
+    Pingtung County#屏东县
+    Penghu County#澎湖县
+    Taipei#台北市
+    Taitung County#台东县
+    Tainan City#台南市
+    Taoyuan County#桃园县
+    Taichung City#台中市
+    New Taipei City#新北市
+    Hsinchu City#新竹市
+    Hsinchu County#新竹县
+    Yilan County#宜兰县
+    Yunlin County#云林县
+    Changhua County#彰化县
+  sar_city_Hong Kong#香港
+    North#北区
+    Tai Po#大埔区
+    Eastern#东区
+    Kwun Tong#观塘区
+    Wong Tai Sin#黄大仙区
+    Kowloon City#九龙城区
+    Kwai Tsing#葵青区
+    Islands#离岛区
+    Southern#南区
+    Tsuen Wan#荃湾区
+    Sham Shui Po#深水埗区
+    Sha Tin#沙田区
+    Tuen Mun#屯门区
+    Wan Chai#湾仔区
+    Sai Kung#西贡区
+    Yau Tsim Mong#油尖旺区
+    Yuen Long#元朗区
+    Central and Western#中西区
+  Xinjiang#新疆
+    Aksu#阿克苏
+    Arar#阿拉尔
+    Altay#阿勒泰
+    Bortala#博尔塔拉
+    Bayingolin#巴音郭楞
+    Changji#昌吉
+    Hamilton#哈密
+    Hotan#和田
+    Karamay#克拉玛依
+    Kashgar#喀什
+    Kizilsu#克孜勒苏
+    Shihezi#石河子
+    Tacheng#塔城
+    Turpan#吐鲁番
+    Figure wooden Shook#图木舒克
+    Wujiaqu#五家渠
+    Urumqi#乌鲁木齐
+    Ili#伊犁
+  Tibet#西藏
+    Ali#阿里
+    Qamdo#昌都
+    Lhasa#拉萨
+    Nyingchi#林芝
+    Nagqu#那曲
+    Shigatse#日喀则
+    Shannan#山南
+  Yunnan#云南
+    Baoshan#保山
+    Chuxiong#楚雄
+    Devon#德宏
+    Dali#大理
+    Diqing#迪庆
+    Red#红河
+    Kunming#昆明
+    Lincang#临沧
+    Lijiang#丽江
+    Nu#怒江
+    Pu'er#普洱
+    Qujing#曲靖
+    Wenshan#文山
+    Xishuangbanna#西双版纳
+    Yuxi#玉溪
+    Zhaotong#昭通
+  Zhejiang#浙江
+    Huzhou#湖州
+    Hangzhou#杭州
+    Jinhua#金华
+    Jiaxing#嘉兴
+    Lishui#丽水
+    Ningbo#宁波
+    Quzhou#衢州
+    Shaoxing#绍兴
+    Taizhou#台州
+    Wenzhou#温州
+    Zhoushan#舟山
+A#A
+AD#安道尔
+AT#奥地利
+  Burgenland#布尔根兰
+  Tyrol#蒂罗尔
+  Vorarlberg#福拉尔贝格
+  Carinthia#克恩顿
+  Upper Austria#上奥地利
+  Styria#施蒂利亚
+  Salzburg#萨尔茨堡
+  Vienna#维也纳
+  Lower Austria#下奥地利
+AU#澳大利亚
+  Northern Territory#北部地区
+    Palmerston#北帕默斯顿
+    Darwin#达尔文
+  Canberra#堪培拉
+  Queensland#昆士兰
+    Brisbane#布里斯班
+    Gold Coast#黄金海岸
+    Cairns#凯恩斯
+    Caloundra#卡罗旺德拉
+    Townsville#汤斯维尔
+    Toowoomba#图文巴
+  South Australia#南澳大利亚
+    Adelaide#阿德莱德
+    Port Augusta#奥古斯塔
+    Mount Gambier#甘比亚山
+    Whyalla#怀阿拉
+    Port Lincoln#林肯港
+    Murray Bridge#默里布里奇
+    Port Pirie#皮里港
+    Victor Harbor#维克托港
+  Tasmania#塔斯马尼亚
+    Burnie#伯尼港
+    Devonport#德文波特
+    Hobart#霍巴特
+    Launceston#朗塞斯顿
+  Victoria#维多利亚
+    Geelong#吉朗
+    Melbourne#墨尔本
+  Western Australia#西澳大利亚
+    Albany#奥尔巴尼
+    Bunbury#班伯里
+    Fremantle#弗里曼特尔港
+    Geraldton#杰拉尔顿
+    Kalgoorlie#卡尔古利
+    Mandurah#曼哲拉
+    Perth#珀斯
+  New South Wales#新南威尔士
+    Newcastle#纽卡斯尔
+    Wollongong#伍伦贡
+    Sydney#悉尼
+AL#阿尔巴尼亚
+DZ#阿尔及利亚
+IE#爱尔兰
+  Offaly#奥法利
+  Dublin#都柏林
+  Donegal#多内加尔
+  Tipperary#蒂珀雷里
+  Galway#戈尔韦
+  Kildare#基尔代尔
+  Kilkenny#基尔肯尼
+  Cavan#卡范
+  Cork#科克
+  Carlow#卡洛
+  Kerry#凯里
+  Clare#克莱尔
+  Longford#朗福德
+  Limerick#利默里克
+  Louth#劳斯
+  Laois#崂斯
+  Roscommon#罗斯康芒
+  Leitrim#利特里姆
+  Mayo#梅奥
+  Monaghan#莫内根
+  Meath#米斯
+  Sligo#斯莱戈
+  Wicklow#威克洛
+  Wexford#韦克斯福德
+  Waterford#沃特福德
+  Westmeath#西米斯
+AO#安哥拉
+  Bengo#本戈
+  Benguela#本格拉
+  Cuanza Norte#北宽扎
+  Lunda Norte#北隆达
+  Bie#比耶
+  Cabinda#卡宾达
+  Cuando Cubango#宽多库邦戈
+  Cunene#库内内
+  Luanda#罗安达
+  Malanje#马兰热
+  Moxico#莫希科
+  Cuanza Sul#南宽扎
+  Lunda Sul#南隆达
+  Namibe#纳米贝
+  Huambo#万博
+  Huila#威拉
+  Uige#威热
+  Zaire#扎伊尔
+AR#阿根廷
+  Viedma#别德马
+  Bahia Blanca#布兰卡港
+  Parana#巴拉那
+  Posadas#波萨达斯
+  Buenos Aires#布宜诺斯艾利斯
+  Formosa#福莫萨
+  Jujuy#胡胡伊
+  Cordoba#科尔多瓦
+  Concordia#肯考迪娅
+  Villa Krause#克劳斯城
+  Corrientes#科连特斯
+  Catamarca#卡塔马卡
+  Rio Gallegos#里奥加耶戈斯
+  Rio Cuarto#里奥夸尔托
+  La Rioja#拉里奥哈
+  La Plata#拉普拉塔
+  Rawson#罗森
+  Rosario#罗萨里奥
+  Comodoro Rivadavia#里瓦达维亚海军准将城
+  Resistencia#雷西斯滕匹亚
+  Mar del Plata#马德普拉塔
+  Mendoza#门多萨
+  Neuquen#内乌肯
+  Santiago del Estero#圣地亚哥-德尔埃斯特罗
+  Salta#萨尔塔
+  Santa Fe#圣菲
+  San Juan#圣胡安
+  San Rafael#圣拉斐尔
+  Santa Rosa#圣罗莎
+  San Luis#圣路易斯
+  San Miguel de Tucuman#圣米格尔-德图库曼
+  San Nicolas#圣尼古拉斯
+  Trelew#特雷利乌
+  Ushuaia#乌斯怀亚
+EG#埃及
+AW#阿鲁巴
+AE#阿拉伯联合酋长国
+  Abu Dhabi#阿布扎比
+  Al l'Ayn#艾因
+  Dubayy#迪拜
+  Ash Shariqah#沙迦
+OM#阿曼
+AZ#阿塞拜疆
+ET#埃塞俄比亚
+EE#爱沙尼亚
+AG#安提瓜岛和巴布达
+B#B
+BB#巴巴多斯岛
+PG#巴布亚新几内亚
+BW#博茨瓦纳
+IS#冰岛
+BT#不丹
+PR#波多黎各
+BY#白俄罗斯
+BA#波黑
+BS#巴哈马
+BG#保加利亚
+PK#巴基斯坦
+BH#巴林
+PL#波兰
+PE#秘鲁
+BI#布隆迪
+BE#比利时
+BO#玻利维亚
+BM#百慕大
+MP#北马里亚纳群岛
+BJ#贝宁
+PA#巴拿马
+BR#巴西
+  Acre#阿克里
+  Alagoas#阿拉戈斯
+  Amapa#阿马帕
+  Rio Grande do Norte#北里奥格兰德
+  Parana#巴拉那
+  Pernambuco#伯南布哥
+  Brasilia#巴西利亚
+  Bahia#巴伊亚
+  Goias#戈亚斯
+  Rondonia#朗多尼亚
+  Roraima#罗赖马
+  Rio de Janeiro#里约热内卢
+  Maranhao#马拉尼昂
+  Minas Gerais#米纳斯吉拉斯
+  Mato Grosso#马托格罗索
+  Rio Grande do Sul#南里奥格兰德
+  Mato Grosso do Sul#南马托格罗索
+  Piaui#皮奥伊
+  Para#帕拉
+  Paraiba#帕拉伊巴
+  Ceara#塞阿拉
+  Espirito Santo#圣埃斯皮里图
+  Sao Paulo#圣保罗
+  Sergipe#塞尔希培
+  Santa Catarina#圣卡塔琳娜
+  Tocantins#托坎廷斯
+  Amazonas#亚马孙
+C#C
+KP#朝鲜
+D#D
+DE#德国
+  Erfurt#爱尔福特
+  Arnsberg#阿恩斯贝格
+  Augsburg#奥格斯堡
+  Ansbach#安斯巴格
+  Potsdam#波茨坦
+  Bochum#波鸿
+  Berlin#柏林
+  Bielefeld#比勒费尔德
+  Bremen#不来梅
+  Brunswick#不伦瑞克
+  Bayreuth#拜伊罗特
+  Dresden#德累斯顿
+  Darmstadt#达姆施塔特
+  Dessau#德绍
+  Dusseldorf#杜塞尔多夫
+  Detmold#代特莫尔特
+  Freiburg#弗赖堡
+  Frankfurt#法兰克福
+  Hamburg#汉堡
+  Halle#哈雷
+  Hannover#汉诺威
+  Kiel#基尔
+  GieBen#吉森
+  Koblenz#科布伦次
+  Karlsruhe#卡尔斯鲁厄
+  Cologne#科隆
+  Chemnitz#开姆尼斯
+  Kassel#卡塞尔
+  Leipzig#莱比锡
+  Landshut#兰茨胡特
+  Luneburg#吕讷堡
+  Magdeburg#马格德堡
+  Mannheim#曼海姆
+  Munich#慕尼黑
+  Muenster#明斯特
+  Mainz#美因兹
+  Nuremberg#纽伦堡
+  Stuttgart#斯图加特
+  Schwerin#什未林
+  Trier#特里尔
+  Wuerzburg#维尔茨堡
+  Wiesbaden#威斯巴登
+DK#丹麦
+DO#多米尼加共和国
+E#E
+EC#厄瓜多尔
+RU#俄罗斯
+  Abakan#阿巴坎
+  Arkhangelsk#阿尔汉格尔斯克
+  Aginskoye#阿金斯科耶
+  Orenburg#奥伦堡
+  Orel#奥廖尔
+  Elista#埃利斯塔
+  Anadyr#阿纳德尔
+  Astrakhan#阿斯特拉罕
+  Petropavlovsk-Kamchatskiy#彼得罗巴甫洛夫斯克
+  Petrozavodsk#彼得罗扎沃茨克
+  Belgorod#别尔哥罗德
+  Perm#彼尔姆
+  Barnaul#巴尔瑙尔
+  Chabarovsk#伯力
+  Birobidzan#比罗比詹
+  Blagoveshchensk#布拉戈维申斯克
+  Bryansk#布良斯克
+  Penza#奔萨
+  Chelyabinsk#车里雅宾斯克
+  Chita#赤塔
+  Rostov-na-Donu#顿河畔罗斯托夫
+  Omsk#鄂木斯克
+  Volgograd#伏尔加格勒
+  Vladikavkaz#弗拉季高加索
+  Vladimir#弗拉基米尔
+  Gorno-Altajsk#戈尔诺－阿尔泰斯克
+  Grozny#格罗兹尼
+  Vladivostok#海参崴
+  Khanty-Mansiysk#汉特－曼西斯克
+  Kirov#基洛夫
+  Kaliningrad#加里宁格勒
+  Kudymkar#库德姆卡尔
+  Kurgan#库尔干
+  Kursk#库尔斯克
+  Kaluga#卡卢加
+  Krasnodar#克拉斯诺达尔
+  Krasnojarsk#克拉斯诺亚尔斯克
+  Kemerovo#克麦罗沃
+  Kazan#喀山
+  Kostroma#科斯特罗马
+  Kyzyl#克孜勒
+  Lipeck#利佩茨克
+  Ryazan#梁赞
+  Murmansk#摩尔曼斯克
+  Makhachkala#马哈奇卡拉
+  Magadan#马加丹
+  Magas#马加斯
+  Maykop#迈科普
+  Moscow#莫斯科
+  Nalchik#纳尔奇克
+  Velikij Novgorod#诺夫哥罗德
+  Naryan-Mar#纳里扬马尔
+  Juzno-Sachalinsk#南萨哈林斯克
+  Palana#帕拉纳
+  Pskov#普斯科夫
+  Cheboksary#切博克萨雷
+  Cherkessk#切尔克斯克
+  Tyumen#秋明
+  St. Peterburg#圣彼得堡
+  Syktyvkar#瑟克特夫卡尔
+  Salekhard#萨列哈尔德
+  Saransk#萨兰斯克
+  Saratov#萨拉托夫
+  Samara#萨马拉
+  Smolensk#斯摩棱斯克
+  Stavropol#斯塔夫罗波尔
+  Tambov#坦波夫
+  Tula#图拉
+  Tomsk#托木斯克
+  Tver#特维尔
+  Ufa#乌法
+  Vologda#沃洛格达
+  Voronezh#沃罗涅什
+  Ulan-Ude#乌兰乌德
+  Uljanovsk#乌里扬诺夫斯克
+  Ust-Ordynsky#乌斯季奥尔登斯基
+  Niznij Novgorod#下诺夫哥罗德
+  Novosibirsk#新西伯利亚
+  Irkutsk#伊尔库茨克
+  Jakutsk#雅库茨克
+  Jekaterinburg#叶卡捷林堡
+  Jaroslavl#雅罗斯拉夫尔
+  Izhevsk#伊热夫斯克
+  Yoshkar-Ola#约什卡尔奥拉
+  Ivanovo#伊万诺沃
+ER#厄立特里亚
+F#F
+FR#法国
+  Arles#阿尔勒
+  Orleans#奥尔良
+  Aix-en-Provence#艾克斯
+  Ajaccio#阿雅克修
+  Paris#巴黎
+  Besancon#贝桑松
+  Dijon#第戎
+  Frejus#弗雷瑞斯
+  Caen#卡昂
+  Lyon#里昂
+  Rouen#鲁昂
+  Lille#里尔
+  Rennes#雷恩
+  Limoges#利摩日
+  Montpellier#蒙彼利埃
+  Marseille#马赛
+  Metz#梅斯
+  Nice#尼斯
+  Nantes#南特
+  Chalons-en-Champagne#沙隆
+  Toulouse#图卢兹
+  Valence#瓦朗斯
+  Amiens#亚眠
+FJ#斐济
+FI#芬兰
+PH#菲律宾
+  Davao#达沃
+  Caloocan#卡卢坎
+  Manila#马尼拉
+  Cebu#宿务
+G#G
+CU#古巴
+GM#冈比亚
+GU#关岛
+GG#格恩西岛
+CG#刚果民主共和国
+CO#哥伦比亚
+GL#格陵兰
+GD#格林纳达
+CR#哥斯达黎加
+H#H
+HT#海地
+HN#洪都拉斯
+KR#韩国
+  Daegu#大邱
+    Dalseong-gun#达城郡
+    Daegu#大邱
+    Suseong-gu#寿城区
+  Daejeon#大田
+  Busan#釜山
+  Gwangju#光州
+  Gangwon-do#江原道
+    Chuncheon#春川市
+    Donghae#东海市
+    Goseong County#高城郡
+    Hoengseong County#横城郡
+    Hongcheon County#洪川郡
+    Hwacheon County#华川郡
+    Gangneung#江陵市
+    Jeongseon County#旌善郡
+    Inje County#麟蹄郡
+    Yeongwol County#宁越郡
+    Pyeongchang County#平昌郡
+    Sokcho#束草市
+    Samcheok#三陟市
+    Taebaek#太白市
+    Cheorwon County#铁原郡
+    Yangyang County#襄阳郡
+    Yanggu County#杨口郡
+    Wonju#原州市
+  Jeju-do#济州岛
+    Anseong#安城市
+    Ansan#安山市
+    Anyang#安养市
+    Pocheon#抱川市
+    Seongnam#城南市
+    Dongducheon#东豆川市
+    Bucheon#富川市
+    Gwacheon#果川市
+    Gwangmyeong#光明市
+    Goyang#高阳市
+    Gwangju#广州市
+    Hwaseong#华城市
+    Hanam#河南市
+    Guri#九里市
+    Gapyeong County#加平郡
+    Gunpo#军浦市
+    Gimpo#金浦市
+    Yeoncheon County#涟川郡
+    Icheon#利川市
+    Yongin#龙仁市
+    Yeoju County#骊州郡
+    Namyangju#南杨州市
+    Pyeongtaek#平泽市
+    Paju#坡州市
+    Siheung#始兴市
+    Suwon#水原市
+    Osan#乌山市
+    Yangpyeong County#扬平郡
+    Uiwang#仪旺市
+    Uijeongbu#议政府
+    Yangju#杨州市
+  Gyeonggi-do#济州特别自治道
+  Gyeongsangbuk-do#全罗北道
+    Sunchang County#淳昌郡
+    Buan County#扶安郡
+    Gochang County#高敞郡
+    Gimje#金堤市
+    Jeongeup#井邑市
+    Muju County#茂朱郡
+    Namwon#南原市
+    Gunsan#群山市
+    Jeonju#全州市
+    Imsil County#任实郡
+    Wanju County#完州郡
+    Iksan#益山市
+    Jinan County#鎭安郡
+    Jangsu County#长水郡
+  Gyeongsangnam-do#全罗南道
+    Boseong County#宝城郡
+    Gokseong County#谷城郡
+    Wando County#莞岛郡
+    Goheung County#高兴郡
+    Gwangyang#光阳市
+    Haenam County#海南郡
+    Hwasun County#和顺郡
+    Gangjin County#康津郡
+    Yeonggwang County#灵光郡
+    Yeosu#丽水市
+    Yeongam County#灵岩郡
+    Naju#罗州市
+    Mokpo#木浦市
+    Gurye County#求礼郡
+    Suncheon#顺天市
+    Damyang County#潭阳郡
+    Muan County#务安郡
+    Sinan County#新安郡
+    Hampyeong County#咸平郡
+    Jangseong County#长城郡
+    Jindo County#珍岛郡
+    Jangheung County#长兴郡
+  Chungcheongbuk-do#庆尚北道
+    Andong#安东市
+    Bonghwa County#奉化郡
+    Goryeong County#高灵郡
+    Gumi#龟尾市
+    Gimcheon#金泉市
+    Gunwi County#军威郡
+    Yecheon County#醴泉郡
+    Pohang#浦项市
+    Cheongdo County#淸道郡
+    Chilgok County#漆谷郡
+    Cheongsong County#靑松郡
+    Gyeongsan#庆山市
+    Gyeongju#庆州市
+    Yeongju#荣州市
+    Sangju#尙州市
+    Mungyeong#闻庆市
+    Seongju County#星州郡
+    Uiseong County#义城郡
+    Yeongcheon#永川市
+    Yeongdeok County#盈德郡
+    Ulleung County#郁陵郡
+    Yeongyang County#英阳郡
+    Uljin County#蔚珍郡
+  Chungcheongnam-do#庆尚南道
+    Changnyeong County#昌宁郡
+    Changwon#昌原市
+    Goseong County#固城郡
+    Hadong County#河东郡
+    Geochang County#居昌郡
+    Gimhae#金海市
+    Geoje#巨济市
+    Jinju#晋州市
+    Yangsan#梁山市
+    Masan#马山市
+    Miryang#密阳市
+    Namhae County#南海郡
+    Hapcheon County#陜川郡
+    Sacheon#泗川市
+    Sancheong County#山淸郡
+    Tongyeong#统营市
+    Haman County#咸安郡
+    Hamyang County#咸阳郡
+    Uiryeong County#宜宁郡
+    Jinhae#鎭海市
+  Incheon#仁川
+  Seoul#首尔
+  Ulsan#蔚山
+  Jeollabuk-do#忠清北道
+    Boeun County#报恩郡
+    Jeungpyeong County#曾坪郡
+    Jecheon#堤川市
+    Danyang County#丹阳郡
+    Goesan County#槐山郡
+    Cheongwon County#淸原郡
+    Cheongju#淸州市
+    Okcheon County#沃川郡
+    Eumseong County#阴城郡
+    Yeongdong County#永同郡
+    Jincheon County#鎭川郡
+    Chungju#忠州市
+  Jeollanam-do#忠清南道
+    Boryeong#保宁市
+    Buyeo County#扶余郡
+    Gongju#公州市
+    Hongseong County#洪城郡
+    Gyeryong#鸡龙市
+    Geumsan County#锦山郡
+    Yesan County#礼山郡
+    Nonsan#论山市
+    Cheongyang County#青阳郡
+    Seosan#瑞山市
+    Seocheon County#舒川郡
+    Taean County#泰安郡
+    Cheonan#天安市
+    Dangjin County#唐津郡
+    Yeongi County#燕岐郡
+    Asan#牙山市
+NL#荷兰
+  Ede#埃德
+  Almere#阿尔梅勒
+  Emmen#埃门
+  Amersfoort#阿默斯福特
+  Amsterdam#阿姆斯特丹
+  Arnhem#阿纳姆
+  Apeldoorn#阿珀尔多伦
+  Assen#阿森
+  Eindhoven#埃因霍芬
+  Breda#布雷达
+  Dordrecht#多德雷赫特
+  Tilburg#蒂尔堡
+  Enschede#恩斯赫德
+  Groningen#格罗宁根
+  Hoofddorp#霍夫多尔普
+  Haarlem#哈勒姆
+  Hague#海牙
+  Leiden#莱顿
+  Leeuwarden#吕伐登
+  Lelystad#莱利斯塔德
+  Rotterdam#鹿特丹
+  Middelburg#米德尔堡
+  Maastricht#马斯特里赫特
+  Nijmegen#奈梅亨
+  's-Hertogenbosch#斯海尔托亨博思
+  Utrecht#乌得勒支
+  Zoetermeer#佐特尔梅
+  Zwolle#兹沃勒
+ME#黑山共和国
+KZ#哈萨克斯坦
+J#J
+DJ#吉布提
+KG#吉尔吉斯斯坦
+CZ#捷克共和国
+KI#基里巴斯
+GH#加纳
+CA#加拿大
+  Prince Edward Island#爱德华王子岛省
+    Charlottetow#查洛城
+    Summerside#森麻实
+  Ontario#安大略省
+    Prince Edward County#爱德华王子县
+    Elliot Lake#埃利奥特莱克
+    Orillia#奥里利亚
+    Oshawa#奥沙瓦
+    Brampton#宾顿
+    Peterborough#彼得堡
+    Belleville#贝尔维尔
+    Barrie#巴里
+    Burlington#布灵敦
+    Brockville#布罗克维尔
+    Brant#布兰特
+    Brantford#布兰特福德
+    North Bay#北湾
+    Dryden#德赖登
+    Toronto#多伦多
+    Greater Sudbury#大萨德伯里市
+    Guelph#圭尔夫
+    Temiskaming Shores#Temiskaming海岸
+    Haldimand County#哈迪曼郡
+    Hamilton#哈密尔顿
+    Kirkland Lake#吉兰湖
+    Cambridge#剑桥
+    Kitchener#基秦拿
+    Kingston#京士顿
+    Port Colborne#科尔本港
+    Clarence-Rockland#克拉伦斯罗克兰
+    Kenora#凯诺拉
+    Cornwall#康沃尔
+    London#伦敦
+    Thunder Bay#雷湾
+    Mississauga#密西沙加
+    Norfolk County#诺福克郡
+    Niagara Falls#尼亚加拉瀑布城
+    Owen Sound#欧文桑德
+    Pembroke#彭布罗克郡
+    Pickering#皮克宁市
+    St. Catharines#圣凯瑟琳市
+    Thorold#索罗尔德
+    Sarnia#珊尼亚
+    Sault Sainte Marie#苏圣玛丽
+    Stratford#斯特勒福
+    St. Thomas#圣托马斯
+    Timmins#天明
+    Woodstock#伍德斯托克
+    Markham#万锦
+    Welland#韦兰
+    Vaughan#旺市
+    Windsor#温莎
+    Ottawa#渥太华
+    Waterloo#沃特卢
+    Quinte West#西里
+  British Columbia#不列颠哥伦比亚省
+    Abbotsford#阿伯茨福德
+    Port Alberni#艾伯尼港
+    Armstrong#阿姆斯特朗
+    Burnaby#本那比
+    White Rock#白石镇
+    Powell River#鲍威尔河
+    North Vancouver#北温哥华
+    Grand Forks#大福克斯
+    Duncan#邓肯
+    Dawson Creek#道森克里克
+    Enderby#恩德比
+    Fernie#弗尼
+    Vernon#弗农
+    Port Coquitlam#高桂林港
+    Coquitlam#高贵林市
+    Greenwood#格林伍德
+    Kimberley#金伯利
+    Kelowna#基隆拿
+    Campbell River#坎贝尔河
+    Colwood#科尔伍德
+    Cranbrook#克兰布鲁克
+    Kamloops#坎卢普斯
+    Castlegar#卡斯尔加
+    Quesnel#奎斯内尔
+    Kitimat#卡提玛特
+    Courtenay#库特尼
+    Langford#朗福德
+    Revelstoke#雷夫尔斯托克
+    Langley#兰利
+    Prince Rupert#鲁珀特王子港
+    Rossland#罗斯兰
+    Richmond#列治文市
+    Port Moody#穆迪港
+    Merritt#梅利特
+    Nelson#纳尔逊
+    Nanaimo#纳奈莫
+    Penticton#彭蒂克顿
+    Parksville#帕克斯维尔
+    Pitt Meadows#匹特草原
+    Chilliwack#奇利瓦克
+    Prince George#乔治王子城
+    Surrey#素里市
+    Salmon Arm#萨蒙阿姆
+    Fort St. John#圣约翰堡
+    Trail#特雷尔
+    Terrace#泰勒斯
+    Victoria#维多利亚市
+    Vancouver#温哥华
+    Williams Lake#威廉姆斯湖
+    New Westminster#新威斯敏斯特
+  Quebec#魁北克省
+    Alma#阿尔马
+    Châteauguay#城堡盖
+    Eastmain#东主
+    Kuujjuaq#古朱华克
+    Kuujjuarapik#古朱华拉碧
+    Gatineau#加蒂诺
+    Gaspé#加斯佩
+    Ville de Québec#魁北克市
+    Kangiqsujuaq#康吉克苏华克
+    Rivière-du-Loup#陆卜河
+    Montréal#蒙特利尔
+    Natashquan#纳塔诗昆
+    Sept-Îles#七岛
+    Sherbrooke#舍卜
+    Saguenay#山更尼
+    Chicoutimi#诗古提米
+    Trois-Rivières#三河市
+    Chibougamau#希布加莫
+    Schefferville#谢弗村
+    Inukjuak#伊努朱亚克
+    Ivujivik#伊武志维克
+  Manitoba#曼尼托巴省
+    Portage la Prairie#波蒂奇拉普雷里
+    Brandon#布兰登
+    Dauphin#多芬
+    Flin Flon#弗林弗伦
+    Morden#莫登
+    Steinbach#斯坦巴克
+    Thompson#汤普森
+    Winkler#温克勒
+    Winnipeg#温尼伯
+    Selkirk#些吉
+  Newfoundland and Labrador#纽芬兰-拉布拉多省
+    Port-aux-Basques#巴斯克港
+    Davis Inlet#戴维斯因莱特
+    Goose Bay#鹅湾
+    Gander#甘德
+    Corner Brook#角落卜克
+    Cartwright#卡特赖特
+    Nain#内恩
+    St. Anthony#圣安东尼
+    St. John's#圣约翰斯
+    Hopedale#希望带
+    Indian Harbour#印第安港
+  Nunavut#努纳武特领地
+    Alert#阿勒特
+    Arctic Bay#北极湾
+    Baker Lake#贝克湖
+    Broughton Island#布罗顿岛
+    Bathurst Inlet#巴瑟斯特因莱特
+    Grise Fiord#格赖斯菲约德
+    Cambridge Bay#剑桥湾镇
+    Clyde River#克莱德河
+    Cape Dyer#开普代尔
+    Rankin Inlet#兰今湾
+    Chesterfield Inlet#切斯特田因莱特
+    Resolute#瑞瑟鲁特
+    Coral Harbour#珊瑚港
+    Hall Beach#堂滩
+    Igloolik#依格鲁利克
+    Iqaluit#伊魁特
+    Eureka#尤里卡
+    Pond Inlet#因莱特港
+    Umingmaktuuq#尤明默督
+    Gjoa Harbour#约亚港
+  Saskatchewan#萨斯喀彻温省
+    Prince Albert#艾伯特王子城
+    Estevan#埃斯特万
+    North Battleford#北巴特尔福德
+    Flin Flon#弗林弗伦
+    Humboldt#洪堡
+    Regina#里贾纳
+    Lloydminster#洛伊民斯特
+    Meadow Lake#梅多莱克
+    Melfort#梅尔福特
+    Melville#梅尔维尔
+    Moose Jaw#穆斯乔
+    Martensville#马腾斯维尔
+    Saskatoon#萨斯卡通
+    Swift Current#斯威夫特卡伦特
+    Weyburn#韦本
+    Warman#沃曼
+    Yorkton#约克顿
+  Northwest Territories#西北领地
+    Arctic Red River#北极红河
+    Fort Franklin#富兰克林堡
+    Yellowknife#黄刀镇
+    Holman#霍尔曼
+    Hay River#海河
+    Fort Good Hope#好望堡
+    Reindeer Station#伦迪尔站
+    Fort Resolution#雷索卢申堡
+    Nahanni Butte#纳汉尼比尤特
+    Sachs Harbour#萨克斯港
+    Sawmill Bay#索米尔湾
+    Wrigley#永利
+    Inuvik#伊努维克
+  New Brunswick#新不伦瑞克省
+    Sackville#袋村
+    Fredericton#弗雷德里克顿
+    Moncton#蒙克顿
+    Saint John#圣约翰
+  Nova Scotia#新斯科舍省
+    Antigonish#安蒂戈尼什
+    Dartmouth#达特茅斯
+    Glace Bay#格莱斯湾
+    Wolfville#狼村
+    Prince George#乔治王子城
+    Halifax#夏里法斯
+    Sydney#悉尼
+    Yarmouth#雅茅斯
+  Alberta#亚伯达省
+    Edmonton#埃德蒙顿
+    Airdrie#艾尔德里
+    Brooks#布鲁克斯
+    Grande Prairie#大草原城
+    Red Deer#红鹿市
+    Calgary#卡尔加里
+    Camrose#卡姆罗斯
+    Lloydminster#劳埃德明斯特
+    Leduc#勒杜克
+    Cold Lake#冷湖
+    Lacombe#拉康姆
+    Lethbridge#莱斯布里奇
+    Medicine Hat#梅迪辛哈特
+    Chestermere#切斯特密尔
+    St. Albert#圣阿尔伯特
+    Spruce Grove#斯普鲁斯格罗夫
+    Fort Saskatchewan#萨斯喀彻温堡
+    Wetaskiwin#韦塔斯基温
+  Yukon#育空领地
+    Beaver Creek#比弗河
+    Whitehorse#白马
+    Dawson City#道森
+    Old Crow#旧克罗
+    Carmacks#卡马克斯
+    Ross River#罗斯河
+    Mayo#梅奥
+KH#柬埔寨
+  Otdar Mean Chey#奥多棉吉
+  Banteay Mean Chey#班迭棉吉
+  Prey Veng#波罗勉
+  Krong Pailin#拜林市
+  Krong Keb#白马市
+  Kampong Chhnang#磅清扬
+  Kampong Spoe#磅士卑
+  Kampong Thum#磅同
+  Preah Vihear#柏威夏
+  Kampong Cham#磅湛
+  Takev#茶胶
+  Svay Rieng#柴桢
+  Kampot#贡布
+  Kandal#干丹
+  Kaoh Kong#戈公
+  Phnum Penh#金边市
+  Kracheh#桔井
+  Rotanak Kiri#腊塔纳基里
+  Mondol Kiri#蒙多基里
+  Bat Dambang#马德望
+  Pouth sat#菩萨
+  Stoeng Treng#上丁
+  Krong Preah#西哈努克市
+  Siem Reab#暹粒
+K#K
+HR#克罗地亚
+CM#喀麦隆
+KY#开曼群岛
+KE#肯尼亚
+QA#卡塔尔
+KW#科威特
+L#L
+LR#利比里亚
+LB#黎巴嫩
+LY#利比亚
+RO#罗马尼亚
+RE#留尼旺岛
+LU#卢森堡
+LS#莱索托
+LT#立陶宛
+LV#拉脱维亚
+LA#老挝
+RW#卢旺达
+LI#列支敦士登
+M#M
+MM#缅甸
+MG#马达加斯加
+MV#马尔代夫
+  Addu Atoll#阿杜
+  North Ari Atoll#北阿里
+  North Thiladhunmathi#北蒂拉杜马蒂
+  North Miladhunmadhulu#北米拉杜马杜卢
+  North Maalhosmadhulu#北马洛斯马杜卢
+  North Nilandhe Atoll#北尼兰杜
+  North Huvadhu Atoll#北苏瓦迪瓦
+  Foammulah#福阿穆拉库
+  Faadhippolhu#法迪福卢
+  Felidhu Atoll#费利杜
+  Hadhdhunmathi#哈杜马蒂
+  Kolhumadulu#科卢马杜卢
+  Male#马累
+  Male Atoll#马累岛
+  Mulakatholhu#穆拉库
+  South Ari Atoll#南阿里
+  South Thiladhunmathi#南蒂拉杜马蒂
+  South Miladhunmadhulu#南米拉杜马杜卢
+  South Maalhosmadulu#南马洛斯马杜卢
+  South Nilandhe Atoll#南尼兰杜
+  South Huvadhu Atoll#南苏瓦迪瓦
+MD#摩尔多瓦
+US#美国
+  Idaho#爱达荷州
+    Idaho Falls City#爱达荷福尔斯市
+    Ada County#艾达县
+    Pocatello City#波卡特洛市
+    BoiseCity#博伊西市
+    Caldwell City#考德威尔市
+    Canyon County#坎宁县
+    Meridian City#默里迪恩市
+    Nampa City#南帕市
+  Iowa#爱荷华州
+    Iowa City#爱荷华市
+    Ankeny City#安克尼市
+    Ames City#埃姆斯市
+    Dubuque City#迪比克市
+    Des Moines City#得梅因市
+    Davenport City#达文波特市
+    Waterloo City#滑铁卢市
+    Council Bluffs City#康瑟尔布拉夫斯市
+    Sioux City#苏斯市
+    Cedar Rapids City#锡达拉皮兹市
+    West Des Moines City#西得梅因市
+  Arkansas#阿肯色州
+    North Little Rock City#北小岩城
+    Fayetteville City#费耶特维尔市
+    Rogers City#杰斯市
+    Conway City#康威市
+    Pine Bluff City#派恩布拉夫市
+    Jonesboro City#琼斯博罗市
+    Fort Smith City#史密斯堡市
+    Springdale City#斯普林代尔市
+    Little Rock City#小岩城
+  Alaska#阿拉斯加州
+    Anchorage Municipality#安克雷奇市
+    Fairbanks North Star Borough#费尔班克斯北极星自治市镇
+    Matanuska-Susitna Borough#马塔努斯卡-苏西特纳自治市镇
+  North Dakota#北达科他州
+    Bismarck City#俾斯麦市
+    Fargo City#法戈市
+    Grand Forks City#格兰德福克斯市
+  North Carolina#北卡罗来纳州
+    Iredell County#艾尔德尔县
+    Alamance County#阿拉曼斯县
+    Orange County#奥兰治县
+    Onslow County#昂斯洛县
+    Asheville City#阿什维尔
+    Buncombe County#邦科姆县
+    Burke County#伯克县
+    Burlington City#伯灵顿市
+    Brunswick County#不伦瑞克县
+    Chatham County#查塔姆县
+    Durham City#达勒姆市
+    Davidson County#戴维森县
+    Franklin County#富兰克林县
+    Forsyth County#福赛斯县
+    Fayetteville City#费耶特维尔市
+    Greensboro City#格林斯博罗市
+    Greenville City#格林维尔市
+    High Point City#海波因特市
+    Henderson County#亨德森县
+    Harnett County#哈奈特县
+    Huntersville Town#亨特斯维尔镇
+    Guilford County#吉尔福德县
+    Jacksonville City#杰克逊维尔市
+    Gaston County#加斯顿县
+    Gastonia City#加斯托尼亚市
+    Chapel Hill Town#教堂山市
+    Cabarrus County#卡贝勒斯县
+    Cumberland County#坎伯兰县
+    Concord City#康科德市
+    Cleveland County#克利夫兰县
+    Cary Town#卡里镇
+    Catawba County#卡托巴县
+    Robeson County#罗伯逊县
+    Randolph County#伦道夫县
+    Rockingham County#罗金厄姆县
+    Rocky Mount City#落基山市
+    Lincoln County#林肯县
+    Raleigh City#罗利市
+    Rowan County#罗文县
+    Pitt County#皮特县
+    Surry County#萨里县
+    Sampson County#桑普森县
+    Wilkes County#威尔克斯县
+    Wilmington City#威尔明顿市
+    Wayne County#韦恩县
+    Wake County#韦克县
+    Winston-Salem City#温斯顿-塞勒姆市
+    New Hanover County#新汉诺威县
+    Charlotte City#夏洛特市
+    Johnston County#约翰斯顿县
+    Union County#尤宁县
+  Pennsylvania#宾夕法尼亚州
+    Abington Township#阿宾顿小镇
+    Allentown City#阿伦敦市
+    Allegheny County#阿勒格尼县
+    Northampton County#北安普顿县
+    Beaver County#比佛县
+    Bucks County#巴克斯县
+    Berks County#伯克斯县
+    Blair County#布莱尔县
+    Bethlehem City#伯利恒市
+    Bristol Township#布里斯托尔小镇
+    Bensalem Township#班萨莱姆小镇
+    Butler County#巴特勒县
+    Dauphin County#道芬县
+    Philadelphia City#费城
+    Franklin County#富兰克林县
+    Fayette County#费耶特县
+    Washington County#华盛顿县
+    Cumberland County#坎伯兰县
+    Cambria County#坎布里亚县
+    Clearfield County#克利尔菲尔德县
+    Crawford County#克劳福德县
+    Lebanon County#莱巴嫩县
+    Reading City#雷丁市
+    Lower Merion Township#劳尔梅里恩小镇
+    Lehigh County#利哈伊县
+    Lycoming County#莱康明县
+    Lancaster City#兰开斯特市
+    Lancaster County#兰开斯特县
+    Lawrence County#劳伦斯县
+    Luzerne County#路泽恩县
+    Millcreek Township#米尔克里克小镇
+    Montgomery County#蒙哥马利县
+    Monroe County#门罗县
+    Mercer County#默瑟县
+    Northumberland County#诺森伯兰县
+    Pike County#派克县
+    Pittsburgh City#匹兹堡市
+    Chester County#切斯特县
+    Upper Darby Township#上达比小镇
+    Schuylkill County#斯古吉尔县
+    Scranton City#斯克兰顿市
+    Somerset County#萨默塞特县
+    Centre County#申特县
+    Delaware County#特拉华县
+    Westmoreland County#威斯特摩兰县
+    Indiana County#印第安纳县
+    Adams County#亚当斯县
+    York County#约克县
+    Erie City#伊利市
+    Erie County#伊利县
+  Texas#得克萨斯
+    Abilene City#阿比林市
+    Edinburg City#爱丁堡市
+    Odessa City#敖德萨市
+    El Paso City#埃尔帕索市
+    El Paso County#埃尔帕索县
+    Arlington City#阿灵顿市
+    Allen City#艾伦市
+    Ellis County#埃利斯县
+    Amarillo City#阿马里洛市
+    Port Arthur City#阿瑟港市
+    Austin City#奥斯汀市
+    Fort Bend County#本德堡县
+    Baytown City#贝敦市
+    Bell County#贝尔县
+    Bexar County#贝克萨尔县
+    Bryan City#布莱恩市
+    Plano City#布兰诺市
+    North Richland Hills City#北里奇兰希尔斯市
+    Brownsville City#布朗斯维尔市
+    Brazoria County#布拉佐里亚县
+    Beaumont City#博蒙特市
+    Bastrop County#巴斯特罗普县
+    Grand Prairie City#大草原市
+    Denton City#登顿市
+    Denton County#登顿县
+    Dallas City#达拉斯市
+    Desoto City#德索托市
+    Pharr City#法尔市
+    Flower Mound Town#弗劳尔芒德镇
+    Frisco City#弗里斯科市
+    Grapevine City#格瑞普番恩市
+    Harlingen City#哈林根市
+    Harris County#哈里斯县
+    Hays County#海斯县
+    Garland City#加兰市
+    Killeen City#基林市
+    College Station City#卡城
+    Kaufman County#考夫曼县
+    Carrollton City#卡罗顿市
+    Conroe City#康罗市
+    Comal County#科马尔县
+    Cameron County#卡梅伦县
+    Corpus Christi City#科珀斯克里斯蒂市
+    Lubbock City#拉伯克市
+    Richardson City#理查森市
+    Round Rock City#朗德罗克市
+    Laredo City#拉雷多市
+    Rowlett City#罗利特市
+    League City#联盟市
+    Longview City#朗维尤市
+    Lewisville City#路易斯维尔市
+    Midland City#米德兰市
+    Montgomery County#蒙哥马利县
+    Mckinney City#麦金尼市
+    Mcallen City#麦卡伦市
+    Mansfield City#曼斯菲尔德市
+    Mesquite City#梅斯基特市
+    Missouri City#密苏里市
+    Mission City#米慎市
+    Irving City#欧文市
+    Pearland City#皮尔兰市
+    Pflugerville City#普夫卢格维尔市
+    Parker County#帕克县
+    Pasadena City#帕萨迪纳市
+    Georgetown City#乔治敦市
+    San Antonio City#圣安东尼奥市
+    San Angelo City#圣安吉洛市
+    Sugar Land City#舒格兰市
+    San Marcos City#圣马科斯市
+    Smith County#史密斯县
+    Tyler City#泰勒市
+    Tarrant County#塔兰特县
+    Travis County#特拉维斯县
+    Temple City#坦普尔市
+    Victoria City#维多利亚市
+    Waco City#韦科市
+    Williamson County#威廉森县
+    Wichita Falls City#威奇托福尔斯​​市
+    Fort Worth City#沃斯堡市
+    New Braunfels City#新布劳恩费尔斯市
+    Cedar Park City#锡达帕克市
+    Houston City#休斯敦市
+    Hidalgo County#伊达尔戈县
+    Johnson County#约翰逊县
+    Euless City#尤利斯市
+  Ohio#俄亥俄州
+    Akron City#阿克伦市
+    Allen County#艾伦县
+    Portage County#波蒂奇县
+    Beavercreek Township#比弗克里克小镇
+    Butler County#巴特勒县
+    Dayton City#代顿市
+    Fairfield County#费尔菲尔德县
+    Franklin County#富兰克林县
+    Columbus City#哥伦布市
+    Columbiana County#哥伦比亚纳县
+    Green Township#格林小镇
+    Hamilton County#哈密​​尔顿县
+    Hamilton City#哈密​​市
+    Washington Township#华盛顿小镇
+    Geauga County#吉奥格县
+    Canton City#坎顿市
+    Colerain Township#科尔雷恩小镇
+    Cleveland City#克利夫兰市
+    Clark County#克拉克县
+    Clermont County#克莱蒙县
+    Kettering City#凯特林市
+    Licking County#利金县
+    Lucas County#卢卡斯县
+    Lakewood City#莱克伍德市
+    Lake County#莱克县
+    Lorain City#洛雷恩市
+    Lorain County#洛雷恩县
+    Richland County#里奇兰县
+    Ross County#罗斯县
+    Miami Township#迈阿密小镇
+    Medina County#梅迪纳县
+    Montgomery County#蒙哥马利县
+    Mahoning County#马霍宁县
+    Muskingum County#马斯京根县
+    Parma City#帕尔马市
+    Plain Township#普莱恩小镇
+    Scioto County#塞尔托县
+    Summit County#萨米特县
+    Springfield City#斯普林菲尔德市
+    Stark County#斯塔克县
+    Trumbull County#特兰伯尔县
+    Toledo City#托莱多市
+    Delaware County#特拉华县
+    Wayne County#韦恩县
+    Warren County#沃伦县
+    West Chester Township#西切斯特镇
+    Cincinnati City#辛辛那提市
+    Elyria City#伊利里亚市
+    Youngstown City#扬斯敦市
+  Oklahoma#俄克拉何马州
+    Edmond City#爱德蒙市
+    Broken Arrow City#断箭市
+    Oklahoma City#俄克拉何马市
+    Lawton City#劳顿市
+    Rogers County#罗杰斯县
+    Midwest City#米德韦斯特市
+    Moore City#摩尔市
+    Norman City#诺曼市
+    Tulsa City#塔尔萨市
+    Enid City#伊妮德市
+  Oregon#俄勒冈州
+    Albany City#奥尔巴尼市
+    Bend City#本德市
+    Beaverton City#比弗顿市
+    Portland City#波特兰市
+    Douglas County#道格拉斯县
+    Tigard City#蒂伽德市
+    Deschutes County#德舒特县
+    Gresham City#格雷沙姆市
+    Washington County#华盛顿县
+    Jackson County#杰克逊县
+    Clackamas County#克拉克马斯县
+    Corvallis City#科瓦利斯市
+    Lane County#雷恩县
+    Medford City#梅德福市
+    Marion County#马里恩县
+    Salem City#塞勒姆市
+    Springfield City#斯普林菲尔德市
+    Hillsboro City#希尔斯伯勒市
+    Eugene City#尤金市
+  Virginia#弗吉尼亚州
+    Albemarle County#阿尔伯马尔县
+    Augusta County#奥古斯塔县
+    Bedford County#贝德福德县
+    Fairfax County#费尔法克斯县
+    Fauquier County#福基尔县
+    Virginia Beach City#弗吉尼亚比奇市
+    Frederick County#弗雷德里克县
+    Franklin County#富兰克林县
+    Harrisonburg City#哈里森堡市
+    Henry County#亨利县
+    Hanover County#汉诺威县
+    Hampton City#汉普顿市
+    Campbell County#坎贝尔县
+    Roanoke City#罗阿诺克市
+    Roanoke County#罗阿诺克县
+    Loudoun County#劳登县
+    Rockingham County#罗金厄姆县
+    Lynchburg City#林奇堡市
+    Richmond City#列治文市
+    Newport News City#纽波特纽斯市
+    Norfolk City#诺福克市
+    Pittsylvania County#皮茨尔瓦尼亚县
+    Portsmouth City#朴次茅斯市
+    Chesapeake City#切萨皮克市
+    Suffolk City#萨福克市
+    Prince William County#威廉王子县
+    Alexandria City#亚历山大市
+  Florida#佛罗里达州
+    Ocala City#奥卡拉市
+    Okaloosa County#奥卡卢萨县
+    Alachua County#阿拉楚阿县
+    Orlando City#奥兰多市
+    Orange County#奥兰治县
+    Escambia County#埃斯坎比亚县
+    Osceola County#奥西奥拉县
+    Polk County#波尔克县
+    North Port City#北港市
+    Boca Raton City#博卡拉顿市
+    Bradenton City#布雷登顿市
+    Brevard County#布里瓦德县
+    North Miami City#北迈阿密市
+    Boynton Beach City#博因顿比奇市
+    Deerfield Beach City#迪尔菲尔德海滩市
+    Deltona City#德尔托纳市
+    Delray Beach City#德拉海滩市
+    Doral City#多拉市
+    Daytona Beach City#德通纳海滩市
+    Davie Town#戴维市
+    Gainesville City#盖恩斯维尔市
+    Columbia County#哥伦比亚县
+    Highlands County#高原县
+    Hialeah City#海厄利亚市
+    Hernando County#赫尔南多县
+    Wellington Village#惠灵顿村
+    Hollywood City#好莱坞市
+    Homestead City#霍姆斯特德市
+    Bay County#海湾县
+    Jacksonville City#杰克逊维尔市
+    Kissimmee City#基西米市
+    Coconut Creek City#科科纳特克里克市
+    Coral Gables City#科勒尔盖布尔斯市
+    Coral Springs City#科勒尔斯普林斯市
+    Clearwater City#克利尔沃特市
+    Collier County#科利尔县
+    Clay County#克莱县
+    Cape Coral City#开普科勒尔市
+    Leon County#莱昂县
+    Fort Lauderdale City#劳德代尔堡市
+    Lauderhill City#兰德尔希尔市
+    Largo City#拉哥市
+    Lakeland City#莱克兰市
+    Lake County#莱克县
+    Lee County#李县
+    Miami-Dade County#迈阿密戴德县
+    Miami Beach City#迈阿密海滩市
+    Miami Gardens City#迈阿密花园市
+    Miami City#迈阿密市
+    Martin County#马丁县
+    Melbourne City#墨尔本市
+    Fort Myers City#迈尔斯堡市
+    Margate City#马盖特市
+    Marion County#马里恩县
+    Miramar City#米拉马尔市
+    Manatee County#马纳提县
+    Nassau County#纳苏县
+    Pembroke Pines City#彭布罗克派恩斯市
+    Plantation City#普兰太绅市
+    Pinellas Park City#皮内拉斯公园市
+    Pinellas County#皮内拉斯县
+    Pompano Beach City#庞帕诺比奇市
+    Pensacola City#彭萨科拉市
+    Pasco County#帕斯科县
+    Port Orange City#珀特奥兰治市
+    Putnam County#帕特兰县
+    Sunrise City#日出市
+    St. Petersburg City#圣彼德斯堡市
+    Sanford City#桑福德市
+    Sarasota City#萨拉索塔市
+    Sarasota County#萨拉索塔县
+    Santa Rosa County#圣罗莎县
+    Port St. Lucie City#圣露西港市
+    St. Lucie County#圣露西县
+    Seminole County#塞米诺尔县
+    Sumter County#萨姆特县
+    St. Johns County#圣约翰斯县
+    Tallahassee City#塔拉哈西市
+    Tamarac City#塔马拉克市
+    Tampa City#坦帕市
+    Walton County#沃尔顿县
+    Volusia County#沃卢夏县
+    Weston City#韦斯顿市
+    Hillsborough County#希尔斯伯勒县
+    Citrus County#希勒斯县
+    Charlotte County#夏洛特县
+    West Palm Beach City#西棕榈滩市
+    Indian River County#印地安河县
+    Jupiter Town#朱庇特镇
+    Palm Coast City#棕榈海岸市
+    Palm Beach Gardens City#棕榈滩花园市
+    Palm Beach County#棕榈滩县
+    Palm Bay City#棕榈湾市
+  Vermont#佛蒙特州
+    Chittenden County#奇滕登县
+    Windsor County#温莎县
+  District of Columbia#哥伦比亚特区
+    Washington City#华盛顿市
+  Wyoming#怀俄明州
+    Casper City#卡斯帕市
+    Cheyenne City#夏延市
+  Washington#华盛顿州
+    Auburn City#奥本市
+    Everett City#埃弗里特市
+    Island County#艾兰县
+    Bellevue City#贝尔维尤市
+    Burien City#布里恩市
+    Bellingham City#贝灵汉市
+    Federal Way City#费多威市
+    Whatcom County#霍特科姆县
+    Kitsap County#基沙普县
+    King County#金县
+    Kirkland City#柯克兰市
+    Clark County#克拉克县
+    Kennewick City#肯纳威克市
+    Kent City#肯特市
+    Redmond City#雷德蒙市
+    Renton City#伦顿市
+    Lakewood City#莱克伍德市
+    Richland City#里奇兰市
+    Marysville City#马里斯维尔市
+    Mason County#梅森县
+    Pierce County#皮尔斯县
+    Pasco City#帕斯科市
+    Spokane Valley City#斯波坎谷市
+    Spokane City#斯波坎市
+    Spokane County#斯波坎县
+    Sammamish City#瑟马米什市
+    Snohomish County#斯诺霍米什县
+    Thurston County#瑟斯顿县
+    Tacoma City#塔科马市
+    Vancouver City#温哥华市
+    Shoreline City#雪兰市
+    Seattle City#西雅图市
+    Yakima City#亚基马市
+    Yakima County#亚基马县
+  California#加利福尼亚州
+    Ontario City#安大略市
+    El Dorado County#埃尔多拉多县
+    Elk Grove City#埃尔克格罗夫市
+    El Cajon City#埃尔卡洪市
+    El Monte City#艾尔蒙特市
+    Lake Elsinore City#埃尔西诺湖市
+    Alhambra City#阿罕布拉市
+    Arcadia City#阿卡迪亚市
+    Oakland City#奥克兰市
+    Oxnard City#奥克斯纳德市
+    Alameda City#阿拉米达市
+    Alameda County#阿拉米达县
+    Orange City#奥兰治市
+    Orange County#奥兰治县
+    Anaheim City#阿纳海姆市
+    Upland City#阿普兰市
+    Escondido City#埃斯孔迪多市
+    Antioch City#安条克市
+    Buena Park City#布埃纳帕克市
+    Burbank City#伯班克市
+    Baldwin Park City#鲍德温公园市
+    Bellflower City#贝尔佛劳尔市
+    Berkeley City#伯克利市
+    Bakersfield City#贝克斯菲尔德市
+    Brentwood City#布伦特伍德市
+    Pomona City#波莫纳市
+    Porterville City#波特维尔市
+    Butte County#布尤特县
+    Dublin City#都柏林市
+    Eastvale City#东谷市
+    Delano City#德拉诺市
+    Daly City#达利市
+    Temecula City#蒂梅丘拉市
+    Davis City#戴维斯市
+    Irvine City#尔湾市
+    Encinitas City#恩西尼塔斯市
+    Fairfield City#费尔菲尔德市
+    Folsom City#福尔瑟姆市
+    Fullerton City#富勒顿市
+    Fremont City#弗里蒙特市
+    Fresno City#弗雷斯诺市
+    Fresno County#弗雷斯诺县
+    Fontana City#方塔纳市
+    Highland City#高地市
+    Glendale City#格伦代尔市
+    Glendora City#格伦多拉市
+    Humboldt County#洪堡县
+    Hanford City#汉福德市
+    Hemet City#赫米特市
+    Hesperia City#赫斯珀里亚市
+    Hawthorne City#霍桑市
+    Huntington Beach City#亨廷顿海滩市
+    Huntington Park City#亨廷顿帕克市
+    Whittier City#惠提尔市
+    Walnut Creek City#核桃溪市
+    Hayward City#海沃德市
+    Garden Grove City#加登格罗夫市
+    Gardena City#加迪纳市
+    Gilroy City#吉尔罗伊市
+    San Francisco City#旧金山市
+    Cupertino City#库比蒂诺市
+    Colton City#科尔顿市
+    Carlsbad City#卡尔斯巴德市
+    Kern County#克恩县
+    Concord City#康科德市
+    Rancho Cucamonga City#库卡蒙加牧场市
+    Corona City#科罗纳市
+    Clovis City#克洛维斯市
+    Camarillo City#卡马里奥市
+    Compton City#康普顿市
+    Carson City#卡森市
+    Costa Mesa City#科斯塔梅萨市
+    Contra Costa County#康特拉科斯塔县
+    Cathedral City#卡西德勒尔市
+    Redondo Beach City#雷东多海滩市
+    Redlands City#雷德兰兹市
+    Redding City#雷丁市
+    Lodi City#洛迪市
+    Redwood City#雷德伍德市
+    Livermore City#利弗莫尔市
+    Riverside City#里弗赛德市
+    Riverside County#里弗赛德县
+    La Habra City#拉哈布拉市
+    Union City#联合市
+    Rocklin City#罗克林市
+    Lancaster City#兰开斯特市
+    Lakewood City#莱克伍德市
+    Tulare City#莱里市
+    La Mesa City#拉梅萨市
+    Rancho Cordova City#兰乔科尔多瓦市
+    Los Angeles City#洛杉矶市
+    Los Angeles County#洛杉矶县
+    Rosemead City#罗斯米德市
+    Roseville City#罗斯维尔市
+    Lynwood City#林伍德市
+    Rialto City#里亚托市
+    Richmond City#列治文市
+    Madera City#马德拉市
+    Madera County#马德拉县
+    Modesto City#莫德斯托市
+    Mendocino County#门多西诺县
+    Milpitas City#米尔皮塔斯市
+    Moreno Valley City#莫雷诺谷市
+    Murrieta City#穆列塔市
+    Marin County#马林县
+    Menifee City#门尼菲市
+    Merced City#默塞德市
+    Merced County#默塞德县
+    Mission Viejo City#米慎维荷市
+    Montebello City#蒙特贝罗市
+    Manteca City#曼特卡市
+    Monterey Park City#蒙特利公园市
+    Monterey County#蒙特雷县
+    Chino City#茅野市
+    Newport Beach City#纽波特海滩市
+    Laguna Niguel City#尼古湖市
+    South Gate City#南盖特市
+    Nevada County#内华达县
+    South San Francisco City#南旧金山市
+    Napa City#纳帕市
+    Norwalk City#诺沃克市
+    Novato City#诺瓦托市
+    National City#纳雄耐尔市
+    Oceanside City#欧申赛德市
+    Apple Valley Town#苹果谷镇
+    Pico Rivera City#皮克里维拉市
+    Palo Alto City#帕洛阿托市
+    Paramount City#派拉蒙市
+    Pleasanton City#普莱森顿市
+    Placentia City#普拉森市
+    Perris City#佩里斯市
+    Placer County#普莱瑟县
+    Palmdale City#帕姆代尔市
+    Fountain Valley City#喷泉谷市
+    Pasadena City#帕萨迪纳市
+    Petaluma City#佩塔卢马市
+    Pittsburg City#匹兹堡市
+    Chico City#奇科市
+    Chula Vista City#丘拉维斯塔市
+    Chino Hills City#奇诺岗市
+    Thousand Oaks City#千橡市
+    Santa Ana City#圣安娜市
+    San Buenaventura City#圣布埃纳文图拉市
+    Santa Barbara City#圣巴巴拉市
+    Santa Barbara County#圣巴巴拉县
+    San Bernardino City#圣贝纳迪诺市
+    San Bernardino County#圣贝纳迪诺县
+    San Diego City#圣迭戈市
+    San Diego County#圣迭戈县
+    Santee City#桑蒂市
+    San Joaquin County#圣华金县
+    San Jose City#圣何塞市
+    Mountain View City#山景市
+    Santa Clara City#圣克拉拉市
+    Santa Clara County#圣克拉拉县
+    San Clemente City#圣克利门蒂市
+    Sacramento City#萨克拉门托市
+    Sacramento County#萨克拉门托县
+    Santa Cruz City#圣克鲁斯市
+    Santa Cruz County#圣克鲁斯县
+    San Leandro City#圣莱安德罗市
+    San Rafael City#圣拉斐尔市
+    Lake Forest City#森林湖市
+    San Ramon City#圣拉蒙市
+    Salinas City#萨利纳斯市
+    Santa Rosa City#圣罗莎市
+    Cerritos City#塞里托斯市
+    San Luis Obispo County#圣路易斯奥比斯波县
+    San Marcos City#圣马科斯市
+    Santa Maria City#圣玛丽亚市
+    Santa Monica City#圣莫尼卡市
+    San Mateo City#圣马特奥市
+    San Mateo County#圣马特奥县
+    Sonoma County#索诺玛县
+    Sunnyvale City#桑尼维尔市
+    Shasta County#沙斯塔县
+    Stockton City#斯托克顿市
+    Santa Clarita City#圣塔克拉瑞塔市
+    Stanislaus County#斯坦尼斯劳斯县
+    Citrus Heights City#圣特斯海茨市
+    Turlock City#特洛克市
+    Tulare County#图莱里县
+    Torrance City#托兰斯市
+    Tracy City#特雷西市
+    Downey City#唐尼市
+    Tustin City#塔斯廷市
+    Woodland City#伍德兰市
+    Victorville City#维克托维尔市
+    Vacaville City#瓦卡维尔市
+    Vallejo City#瓦列霍市
+    Visalia City#维塞利亚市
+    Westminster City#威斯敏斯特市
+    Vista City#维斯塔市
+    Watsonville City#沃森维尔市
+    Ventura County#文图拉县
+    West Covina City#西柯汶纳市
+    Simi Valley City#西米谷市
+    West Sacramento City#西萨克拉门托市
+    Yorba Linda City#约巴林达市
+    Yuba City#尤巴市
+    Yuba County#尤巴县
+    Indio City#印地欧市
+    Inglewood City#英格尔伍德市
+    Yucaipa City#尤卡帕市
+    Aliso Viejo City#亚里索维耶荷市
+    Jurupa Valley City#朱鲁帕谷市
+    Palm Desert City#棕榈沙漠市
+    Diamond Bar City#钻石吧市
+    Long Beach City#长滩市
+  Colorado#科罗拉多州
+    El Paso County#埃尔帕索县
+    Aurora City#奥罗拉市
+    Arapahoe County#阿拉帕霍县
+    Arvada City#阿瓦达市
+    Boulder City#博尔德市
+    Broomfield City#布鲁姆菲尔德市
+    Denver City#丹佛市
+    Douglas County#道格拉斯县
+    Grand Junction City#大章克申市
+    Greeley City#格里利市
+    Jefferson County#杰斐逊县
+    Colorado Springs City#科罗拉多斯普林斯市
+    Fort Collins City#柯林斯堡市
+    CommerceCity#科默斯市
+    Loveland City#拉夫兰市
+    Lakewood City#莱克伍德市
+    Larimer County#拉里默县
+    Longmont City#朗蒙特市
+    Mesa County#梅萨县
+    Pueblo City#普韦布洛市
+    Pueblo County#普韦布洛县
+    Thornton City#桑顿市
+    Centennial City#森特尼尔市
+    Westminster City#威斯敏斯特市
+    Castle Rock Town#岩堡镇
+    Adams County#亚当斯县
+  Connecticut#康涅狄格州
+    Bridgeport City#布里奇波特市
+    Bridgeport Town#布里奇波特镇
+    Bristol City#布里斯托市
+    Bristol Town#布里斯托镇
+    Danbury City#丹伯里市
+    Danbury Town#丹伯里镇
+    East Hartford Town#东哈特福德镇
+    Fairfield County#费尔菲尔德县
+    Fairfield Town#费尔菲尔德镇
+    Greenwich Town#格林尼治镇
+    Hamden Town#哈姆登市
+    Hartford City#哈特福德市
+    Hartford County#哈特福德县
+    Hartford Town#哈特福德镇
+    Litchfield County#利奇菲尔德县
+    Manchester Town#曼彻斯特市
+    Middlesex County#米德尔塞克斯县
+    Milford City#米尔福德市
+    Milford Town#米尔福德镇
+    Meriden City#梅里登市
+    Meriden Town#梅里登镇
+    New Haven City#纽黑文市
+    New Haven County#纽黑文县
+    New Haven Town#纽黑文镇
+    Norwalk City#诺沃克市
+    Norwalk Town#诺瓦克镇
+    Stamford City#斯坦福市
+    Stamford Town#斯坦福镇
+    Stratford Town#斯特拉特福镇
+    Windham County#温德姆县
+    Waterbury City#沃特伯里市
+    Waterbury Town#沃特伯里市
+    New Britain Town#新不列颠市
+    New Britain City#新不列颠市
+    West Hartford Town#西哈特福德镇
+    West Haven City#西黑文市
+    West Haven Town#西黑文镇
+    New London County#新伦敦县
+  Kansas#堪萨斯州
+    Olathe City#奥拉西市
+    Kansas City#堪萨斯市
+    Lawrence City#劳伦斯市
+    Lenexa City#列涅萨市
+    Manhattan City#曼哈顿市
+    Overland Park City#欧弗兰帕克市
+    Topeka City#托皮卡市
+    Wichita City#威奇托市
+    Shawnee City#肖尼市
+  Kentucky#肯塔基州
+    Boone County#布恩县
+    Bowling Green City#鲍灵格林市
+    Lexington-Fayette Urban County#列克星敦-费耶特县
+    Laurel County#劳雷尔县
+    Louisville/Jefferson County Metro Government#路易斯维尔/杰斐逊县
+    Owensboro City#欧文斯伯勒市
+    Pike County#派克县
+    Warren County#沃伦县
+  Rhode Island#罗得岛州
+    Pawtucket City#波塔基特市
+    Cranston City#克兰斯顿市
+    Kent County#肯特县
+    Newport County#纽波特县
+    Providence City#普罗维登斯市
+    Providence County#普罗维登斯县
+    Warwick City#沃威克市
+  Louisiana#路易斯安那州
+    Ascension Parish#阿森松教区
+    Baton Rouge City#巴吞鲁日市
+    Bossier City#博西尔市
+    Lake Charles City#查尔斯湖市
+    East Baton Rouge Parish#东巴吞鲁日教区
+    Jefferson Parish#杰斐逊教区
+    Calcasieu Parish#卡尔克苏教区
+    Kenner City#肯纳市
+    Lafourche Parish#拉福什堂区
+    Lafayette Parish#拉斐特教区
+    Lafayette City#拉斐特市
+    Rapides Parish#拉皮德堂区
+    Livingston Parish#利文斯通教区
+    Shreveport City#什里夫波特市
+    St. Tammany Parish#圣坦慕尼教区
+    Tangipahoa Parish#坦吉帕霍阿堂区
+    Terrebonne Parish#泰勒博恩教区
+    Ouachita Parish#沃希托教区
+    New Orleans City#新奥尔良市
+  Montana#蒙大拿州
+    Billings City#比林斯市
+    Great Falls City#大瀑布
+    Flathead County#弗拉特黑德县
+    Missoula City#米苏拉市
+  Maryland#马里兰州
+    Anne Arundel County#阿内阿伦德尔县
+    Baltimore City#巴尔的摩市
+    Bowie City#鲍伊市
+    Charles County#查尔斯县
+    Frederick City#弗雷德里克市
+    Frederick County#弗雷德里克县
+    Gaithersburg City#盖瑟斯堡市
+    Harford County#哈福德县
+    Washington County#华盛顿县
+    Calvert County#卡尔弗特县
+    Carroll County#卡洛尔县
+    Rockville City#罗克维尔市
+    Montgomery County#蒙哥马利县
+    Prince George'S County#乔治王子县
+    St. Mary'S County#圣玛丽斯县
+    Cecil County#塞西尔县
+    Wicomico County#威科米科县
+  Minnesota#明尼苏达州
+    Apple Valley City#阿普尔瓦利市
+    Burnsville City#伯恩斯维尔市
+    Blaine City#布莱恩市
+    Brooklyn Park City#布鲁克林帕克市
+    Bloomington City#布卢明顿市
+    Duluth City#德卢斯市
+    Coon Rapids City#库恩拉皮兹市
+    Lakeville City#莱克维尔市
+    Rochester City#罗切斯特市
+    Minneapolis City#明尼阿波利斯市
+    Minnetonka City#明尼通卡市
+    Maple Grove City#梅普尔格罗夫市
+    Plymouth City#普利茅斯市
+    St. Paul City#圣保罗市
+    St. Cloud City#圣克劳德市
+    St. Louis County#圣路易斯县
+    Woodbury City#伍德伯里市
+    Eden Prairie City#伊顿普瑞里市
+    Eagan City#伊根市
+  Missouri#密苏里州
+    O'Fallon City#奥法伦市
+    Independence City#独立市
+    Franklin County#富兰克林县
+    Florissant City#弗洛里森特市
+    Columbia City#哥伦比亚市
+    Greene County#格林县
+    Jefferson County#杰斐逊县
+    Kansas City#堪萨斯市
+    Blue Springs City#蓝泉市
+    Lee'S Summit City#利斯萨米特市
+    Joplin City#乔普林市
+    St. Peters City#圣彼得市
+    St. Charles City#圣查尔斯市
+    St. Charles County#圣查尔斯县
+    St. Louis City#圣路易斯市
+    St. Louis County#圣路易斯县
+    Springfield City#斯普林菲尔德市
+    St. Joseph City#圣约瑟夫市
+  Massachusetts#马萨诸塞州
+    Essex County#埃塞克斯县
+    Barnstable County#巴恩斯特布尔县
+    Berkshire County#柏克夏县
+    Brockton City#布罗克顿市
+    Brookline Town#布鲁克林镇
+    Bristol County#布里斯托尔县
+    Boston City#波士顿市
+    Fall River City#福尔里弗市
+    Franklin County#富兰克林县
+    Framingham Town#弗雷明汉镇
+    Haverhill City#黑弗里尔市
+    Hampden County#汉普登县
+    Hampshire County#汉普县
+    Cambridge City#剑桥市
+    Quincy City#昆西市
+    Lowell City#洛厄尔市
+    Lynn City#林恩市
+    Lawrence City#劳伦斯市
+    Revere City#里维尔市
+    Middlesex County#米德尔塞克斯县
+    Medford City#梅德福市
+    Malden City#莫尔登市
+    Newton City#牛顿市
+    Norfolk County#诺福克县
+    Peabody City#皮博迪市
+    Plymouth County#普利茅斯县
+    Plymouth Town#普利茅斯镇
+    Chicopee City#奇科皮市
+    Somerville City#萨默维尔市
+    Springfield City#斯普林菲尔德市
+    Taunton City#汤顿市
+    Waltham City#沃尔瑟姆市
+    Weymouth Town City#韦茅斯镇市
+    Worcester City#伍斯特市
+    Worcester County#伍斯特县
+    New Bedford City#新贝德福德市
+  Michigan#密歇根州
+    Ann Arbor City#安阿伯市
+    Oakland County#奥克兰县
+    Allegan County#阿勒根县
+    Berrien County#贝林县
+    Battle Creek City#巴特尔克里克市
+    Dearborn Heights City#迪尔伯恩海茨市
+    Dearborn City#迪尔伯恩市
+    Grand Rapids City#大急流市
+    Detroit City#底特律市
+    Van Buren County#范布伦县
+    Flint City#弗林特市
+    Farmington Hills City#法明顿希尔斯市
+    Wyoming City#怀俄明市
+    Bay County#海湾县
+    Jackson County#杰克逊县
+    Genesee County#杰纳西河县
+    Canton Charter Township#坎顿查特小镇
+    Calhoun County#卡尔霍恩县
+    Clinton Charter Township#克林顿查特小镇
+    Clinton County#克林顿县
+    Kalamazoo City#卡拉马祖市
+    Kalamazoo County#卡拉马祖县
+    Kentwood City#肯特伍德市
+    Kent County#肯特县
+    Lenawee County#莱纳维县
+    Lapeer County#拉皮尔县
+    Rochester Hills City#罗切斯特山市
+    Livonia City#利沃尼亚市
+    Livingston County#利文斯通县
+    Lansing City#兰辛市
+    Royal Oak City#罗亚尔奥克市
+    Macomb County#马科姆县
+    Macomb Township#马科姆镇
+    Monroe County#门罗县
+    Muskegon County#马斯基根县
+    Southfield City#南菲尔德市
+    Novi City#诺维市
+    Pontiac City#庞蒂亚克市
+    Saginaw County#萨吉诺县
+    St. Clair Shores City#圣克莱尔海岸市
+    St. Clair County#圣克莱尔县
+    Sterling Heights City#斯特灵海茨市
+    Grand Traverse County#特拉弗斯市
+    Taylor City#泰勒市
+    Troy City#特洛伊市
+    Wayne County#韦恩县
+    Warren City#沃伦市
+    Westland City#韦斯特兰市
+    Washtenaw County#沃什特诺县
+    Waterford Charter Township#沃特福德查特小镇
+    Ottawa County#渥太华县
+    West Bloomfield Charter Township#西布卢姆菲尔德查特小镇
+    Shelby Charter Township#谢尔比查特小镇
+    Eaton County#伊顿县
+    Ingham County#英厄姆县
+    Ypsilanti Charter Township#伊普西兰蒂查特小镇
+  Mississippi#密西西比州
+    Gulfport City#格尔夫波特市
+    Harrison County#哈里森县
+    Jackson City#杰克逊市
+    Jackson County#杰克逊县
+    Rankin County#兰金县
+    Southaven City#南海文市
+  Maine#缅因州
+    Aroostook County#阿鲁斯托克县
+    Portland City#波特兰市
+    Cumberland County#坎伯兰县
+    Kennebec County#肯纳贝克县
+    Penobscot County#佩诺布斯科特县
+    York County#约克县
+  Nebraska#内布拉斯加州
+    Omaha City#奥马哈市
+    Bellevue City#贝尔维尤市
+    Douglas County#道格拉斯县
+    Grand Island City#格兰德岛市
+    Lincoln City#林肯市
+    Sarpy County#萨皮县
+  South Dakota#南达科他州
+    Rapid City#拉皮德市
+    Sioux Falls City#苏福尔斯市
+  Nevada#内华达州
+    North Las Vegas City#北拉斯维加斯市
+    Henderson City#亨德森市
+    Clark County#克拉克县
+    Carson City#卡森市
+    Reno City#里诺市
+    Las Vegas City#拉斯维加斯市
+    Sparks City#斯帕克斯市
+    Washoe County#沃肖县
+  South Carolina#南卡罗来纳州
+    Anderson County#安德森县
+    Oconee County#奥科尼县
+    Aiken County#艾肯县
+    Orangeburg County#奥兰治堡县
+    North Charleston City#北查尔斯顿市
+    Beaufort County#博福特县
+    Berkeley County#伯克利县
+    Charleston City#查尔斯顿市
+    Charleston County#查尔斯顿县
+    Dorchester County#多尔切斯特县
+    Darlington County#达林顿县
+    Florence County#佛罗伦萨县
+    Columbia City#哥伦比亚市
+    Greenville City#格林维尔市
+    Greenville County#格林维尔县
+    Horry County#霍里县
+    Kershaw County#克肖县
+    Lancaster County#兰开斯特县
+    Lexington County#列克星敦县
+    Rock Hill City#罗克希尔市
+    Richland County#里奇兰县
+    Mount Pleasant Town#芒特普莱森特镇
+    Pickens County#皮肯斯县
+    Sumter County#萨姆特县
+    Spartanburg County#斯帕坦堡县
+    York County#约克县
+  New York#纽约州
+    Ontario County#安大略县
+    Albany City#奥尔巴尼市
+    Albany County#奥尔巴尼县
+    Ulster County#阿尔斯特县
+    Orangetown Town#奥兰治敦镇
+    Orange County#奥兰治县
+    Amherst Town#阿默斯特镇
+    Onondaga County#奥农达加县
+    Oneida County#奥奈达县
+    Islip Town#艾斯利普镇
+    Oswego County#奥斯威戈县
+    Babylon Town#巴比伦镇
+    Buffalo City#布法罗市
+    Brookhaven Town#布鲁克黑文镇
+    Broome County#布鲁姆县
+    North Hempstead Town#北斯特德镇
+    Dutchess County#达切斯县
+    Mount Vernon City#弗农山市
+    Greenburgh Town#格林伯格镇
+    Hamburg Town#汉堡市
+    Huntington Town#亨廷顿镇
+    White Plains City#怀特普莱恩斯市
+    Jefferson County#杰斐逊县
+    Clinton County#克林顿县
+    Clarkstown Town#克拉克斯顿镇
+    Colonie Town#科勒尼镇
+    Clay Town#克莱镇
+    Rockland County#罗克兰县
+    Ramapo Town#拉马波镇
+    Rochester City#罗切斯特市
+    Rensselaer County#伦斯勒县
+    Oyster Bay Town#牡蛎湾市
+    Monroe County#门罗县
+    Southampton Town#南安普敦镇
+    Nassau County#纳苏县
+    Niagara County#尼亚加拉县
+    New York City#纽约市
+    Putnam County#普特南县
+    Cheektowaga Town#奇克托瓦加镇
+    Suffolk County#萨福克县
+    Schenectady City#斯克内克塔迪市
+    Schenectady County#斯克内克塔迪县
+    St. Lawrence County#圣劳伦斯县
+    Saratoga County#萨拉托加县
+    Sullivan County#沙利文县
+    Smithtown Town#史密斯敦镇
+    Steuben County#斯托本县
+    Hempstead Village#斯特德村
+    Hempstead Town#斯特德镇
+    Tonawanda Town#托纳旺达镇
+    Tompkins County#汤普金斯县
+    Westchester County#威彻斯特县
+    Wayne County#韦恩县
+    Syracuse City#锡拉丘兹市
+    Greece Town#希腊市
+    New Rochelle City#新罗谢尔市
+    Chautauqua County#肖托夸县
+    Utica City#尤蒂卡市
+    Yonkers City#扬克斯市
+    Irondequoit Town#伊朗德阔伊特镇
+    Erie County#伊利县
+    Union Town#尤宁市
+  Delaware#特拉华州
+    Kent County#肯特县
+    New Castle County#纽卡斯尔县
+    Sussex County#萨塞克斯县
+    Wilmington City#威尔明顿市
+  Tennessee#田纳西州
+    Bradley County#布拉德利县
+    Blount County#布朗特县
+    Bartlett City#巴特利特市
+    Chattanooga City#查塔努加市
+    Franklin City#富兰克林市
+    Hendersonville City#亨德森维尔市
+    Hamilton County#哈密​​尔顿县
+    Washington County#华盛顿县
+    Jackson City#杰克逊市
+    Kingsport City#金斯波特市
+    Clarksville City#克拉克斯维尔市
+    Rutherford County#卢瑟福县
+    Murfreesboro City#默弗里斯伯勒市
+    Memphis City#孟菲斯市
+    Knoxville City#诺克斯维尔市
+    Knox County#诺克斯县
+    Nashville-Davidson Metropolitan Government#纳什维尔-戴维森市政府
+    Sullivan County#沙利文县
+    Sumner County#萨姆纳县
+    Sevier County#塞维尔县
+    Wilson County#威信县
+    Shelby County#谢尔比县
+    Johnson City#约翰逊市
+  Wisconsin#威斯康星州
+    Appleton City#阿普尔顿市
+    Oshkosh City#奥什科什市
+    Outagamie County#奥特加米县
+    Dane County#戴恩县
+    Green Bay City#格林贝市
+    Kenosha City#基诺沙市
+    Janesville City#简斯维尔市
+    La Crosse City#拉克罗斯市
+    Racine City#拉辛市
+    Madison City#麦迪逊市
+    Milwaukee City#密尔沃基市
+    Marathon County#马拉松县
+    Eau Claire City#欧克莱尔市
+    Waukesha County#沃基肖县
+    Waukesha City#瓦克夏市
+    Winnebago County#温纳贝戈县
+    West Allis City#西阿利斯市
+  West Virginia#西弗吉尼亚州
+    Berkeley County#伯克利县
+    Charleston City#查尔斯顿市
+    Kanawha County#卡诺瓦县
+    Raleigh County#罗利县
+    Monongalia County#莫农加利亚县
+  New Hampshire#新罕布什尔州
+    Cheshire County#赤夏县
+    Grafton County#格拉夫顿县
+    Rockingham County#罗金厄姆县
+    Manchester City#曼彻斯特市
+    Merrimack County#梅里马克县
+    Nashua City#纳舒厄市
+    Strafford County#斯特拉福德县
+    Hillsborough County#希尔斯伯勒县
+  New Mexico#新墨西哥州
+    Albuquerque City#阿尔伯克基市
+    Bernalillo County#伯纳利欧县
+    Rio Rancho City#里奥兰珠市
+    Las Cruces City#拉斯克鲁塞斯市
+    Mckinley County#麦金利县
+    Santa Fe City#圣菲市
+    Santa Fe County#圣菲县
+    San Juan County#圣胡安县
+    Dona Ana County#唐娜安娜县
+  Hawaii#夏威夷州
+    Urban Honolulu#檀香山市
+    Honolulu County#檀香山县
+  New Jersey#新泽西州
+    Edison Township#爱迪生小镇
+    Essex County#埃塞克斯县
+    North Bergen Township#北卑尔根小镇
+    Bergen County#卑尔根县
+    Burlington County#伯灵顿县
+    Brick Township#布里克小镇
+    Bayonne City#巴约讷市
+    East Orange City#东奥兰治市
+    Atlantic County#大西洋县
+    Franklin Township#富兰克林小镇
+    Gloucester County#格洛斯特县
+    Gloucester Township#格洛斯特小镇
+    Hoboken City#霍博肯市
+    Hudson County#哈德逊县
+    Hamilton Township#汉密尔顿小镇
+    Hunterdon County#亨特敦县
+    Howell Township#豪威尔小镇
+    Ocean County#海洋县
+    Jackson Township#杰克逊小镇
+    Clifton City#克利夫顿市
+    Camden City#卡姆登市
+    Camden County#卡姆登县
+    Cape May County#开普梅县
+    Lakewood Township#雷克伍德小镇
+    Old Bridge Township#老桥小镇
+    Middletown Township#米德尔敦镇
+    Middlesex County#米德尔塞克斯县
+    Morris County#莫里斯县
+    Monmouth County#蒙默思县
+    Mercer County#默瑟县
+    Newark City#纽华克市
+    Irvington Township#欧文顿小镇
+    Plainfield City#普兰菲尔德市
+    Perth Amboy City#珀斯安博伊市
+    Piscataway Township#皮斯卡塔韦小镇
+    Passaic City#帕塞伊克市
+    Passaic County#帕塞伊克县
+    Paterson City#帕特森市
+    Parsippany-Troy Hills Township#帕西帕尼-特洛伊希尔斯小镇
+    Somerset County#萨默塞特县
+    Sussex County#萨塞克斯县
+    Trenton City#特伦顿市
+    Toms River Township#汤姆斯河小镇
+    Woodbridge Township#伍德布里奇小镇
+    Vineland City#瓦恩兰市
+    Wayne Township#韦恩小镇
+    Warren County#沃伦县
+    New Brunswick City#新不伦瑞克市
+    West New York Town#西纽约镇
+    Elizabeth City#伊丽莎白市
+    Union City#尤宁市
+    Union County#尤宁县
+    Union Township#尤宁小镇
+    Cherry Hill Township#樱桃山小镇
+    Jersey City#泽西市
+  Indiana#印第安纳州
+    Anderson City#安德森市
+    Anderson Township#安德森小镇
+    Elkhart City#埃尔克哈特市
+    Elkhart County#埃尔克哈特县
+    Allen County#艾伦县
+    Evansville City#埃文斯维尔市
+    Portage Township#波蒂奇小镇
+    Bloomington City#布卢明顿市
+    Porter County#波特县
+    Tippecanoe County#蒂珀卡努县
+    Vanderburgh County#范德堡县
+    Fairfield Township#费尔菲尔德小镇
+    Fall Creek Township#福尔克里克小镇
+    Franklin Township#富兰克林小镇
+    Fishers Town#费希尔斯小镇
+    Greenwood City#格林伍德市
+    Hendricks County#亨德里克斯县
+    Harrison Township#哈里逊小镇
+    Hammond City#哈蒙德市
+    Washington Township#华盛顿小镇
+    Jeffersonville Township#杰斐逊维尔小镇
+    Gary City#加里市
+    Concord Township#康科德小镇
+    Kokomo City#科科莫市
+    Calumet Township#卡鲁梅小镇
+    Clay Township#克莱小镇
+    Carmel City#卡梅尔市
+    Lafayette City#拉斐特市
+    Lawrence Township#劳伦斯小镇
+    Monroe County#门罗县
+    Muncie City#曼西市
+    South Bend City#南本德市
+    Noblesville City#诺布尔斯维尔市
+    Noblesville Township#诺布尔斯维尔小镇
+    North Township#诺斯小镇
+    Knight Township#奈特小镇
+    Penn Township#佩恩小镇
+    Pike Township#派克小镇
+    Pleasant Township#普莱曾特小镇
+    Perry Township#佩里小镇
+    St. Joseph Township#圣若瑟小镇
+    Center Township#森特小镇
+    St. John Township#圣约翰小镇
+    St. Joseph County#圣约瑟夫县
+    Terre Haute City#特雷霍特市
+    Wabash Township#沃巴什小镇
+    Fort Wayne City#韦恩堡市
+    Wayne Township#韦恩小镇
+    Warren Township#沃伦小镇
+    Indianapolis City#印第安纳波利斯市
+  Alabama#亚拉巴马州
+    Auburn City#奥本市
+    Baldwin County#鲍德温县
+    Birmingham City#伯明翰市
+    Calhoun County#迪凯特市
+    Decatur City#迪凯特市
+    Dothan City#多森市
+    Huntsville City#亨茨维尔市
+    Hoover City#胡佛市
+    Jefferson County#杰斐逊县
+    Cullman County#卡尔曼县
+    Limestone County#莱姆斯通县
+    Lee County#李县
+    Mobile City#莫比尔市
+    Mobile County#莫比尔县
+    Madison County#麦迪逊县
+    Montgomery City#蒙哥马利市
+    Tuscaloosa City#塔斯卡卢萨市
+    Tuscaloosa County#塔斯卡卢萨县
+    Shelby County#谢尔比县
+  Illinois#伊利诺伊州
+    Addison Township#阿迪森小镇
+    Algonquin Township#阿尔冈琴小镇
+    Elgin City#埃尔金市
+    Elgin Township#埃尔金小镇
+    Elk Grove Township#埃尔克格罗夫小镇
+    Oak Lawn Village#奥克朗村
+    Oak Park Village#奥克帕克村
+    Oak Park Township#奥克帕克小镇
+    Arlington Heights Village#阿灵顿海茨村
+    Orland Park Village#奥兰多帕克村
+    Orland Township#奥兰多小镇
+    Aurora City#奥罗拉市
+    Aurora Township#奥罗拉小镇
+    Oswego Township#奥斯威戈小镇
+    Evanston City#埃文斯顿市
+    Evanston Township#埃文斯顿小镇
+    Avon Township#埃文小镇
+    Bolingbrook Village#波林布鲁克村
+    Bloomingdale Township#布卢明代尔小镇
+    Bloomington City#布卢明顿市
+    Bloomington Township#布卢明顿小镇
+    Bloom Township#布鲁姆小镇
+    Bremen Township#不来梅小镇
+    Berwyn City#伯温市
+    Berwyn Township#伯温小镇
+    Dundee Township#邓迪小镇
+    Decatur City#迪凯特市
+    Decatur Township#迪凯特小镇
+    Dupage County#杜佩奇县
+    Du Page Township#杜佩奇小镇
+    Des Plaines City#德斯普兰斯市
+    Frankfort Township#法兰克福小镇
+    Vernon Township#弗农小镇
+    Grafton Township#格拉夫顿小镇
+    Wheaton City#惠顿市
+    Hoffman Estates Village#霍夫曼伊斯塔特村
+    Hanover Township#汉诺威小镇
+    Wheatland Township#惠特兰小镇
+    Kane County#凯恩县
+    Cook County#库克县
+    Capital Township#卡皮塔尔小镇
+    Lyons Township#里昂小镇
+    Libertyville Township#利伯蒂维尔小镇
+    Leyden Township#莱顿小镇
+    Lisle Township#莱尔小镇
+    Lockport Township#洛克波特小镇
+    Rockford City#罗克福德市
+    Rockford Township#罗克福德小镇
+    Lake County#莱克县
+    Rich Township#里奇小镇
+    Madison County#麦迪逊县
+    Milton Township#米尔顿小镇
+    Mchenry County#麦克亨利县
+    Mount Prospect Village#芒特普罗斯佩克特村
+    Maine Township#缅因小镇
+    Niles Township#奈尔斯小镇
+    Normal Township#诺黙尔小镇
+    Normal Town#诺黙尔镇
+    Naperville City#内珀维尔市
+    Naperville Township#内珀维尔小镇
+    Northfield Township#诺斯菲尔德小镇
+    Downers Grove Township#纳斯格罗夫小镇
+    Peoria City#皮奥里亚市
+    Peoria Township#皮奥里亚小镇
+    Palatine Village#帕拉丁村
+    Palatine Township#帕拉丁小镇
+    Plainfield Township#普兰菲尔德小镇
+    Palos Township#帕洛斯小镇
+    Proviso Township#普瑞威索小镇
+    Joliet City#乔利埃特市
+    Joliet Township#乔利埃特小镇
+    St. Charles Township#圣查尔斯小镇
+    Thornton Township#桑顿小镇
+    Skokie Village#斯科基村
+    St. Clair County#圣克莱尔县
+    Schaumburg Village#绍姆堡村
+    Schaumburg Township#绍姆堡小镇
+    Champaign City#尚佩恩市
+    Champaign Township#尚佩恩小镇
+    Springfield City#斯普林菲尔德市
+    Tinley Park Village#廷利公园村
+    Will County#威尔县
+    Wayne Township#韦恩小镇
+    Waukegan City#沃基根市
+    Waukegan Township#沃基根小镇
+    Wheeling Township#威灵小镇
+    Warren Township#沃伦小镇
+    Winnebago County#温纳贝戈县
+    Worth Township#沃斯小镇
+    Cicero Township#西塞罗小镇
+    Cicero Town#西塞罗镇
+    New Trier Township#新特里尔小镇
+    York Township#约克小镇
+    Chicago City#芝加哥市
+  Arizona#亚利桑那州
+    Apache County#阿帕奇县
+    Avondale City#埃文代尔市
+    Buckeye Town#巴克艾镇
+    Phoenix City#凤凰城
+    Flagstaff City#弗拉格斯塔夫市
+    Goodyear City#古德伊尔市
+    Glendale City#格伦代尔市
+    Lake Havasu City#哈瓦苏湖市
+    Gilbert Town#吉尔伯特镇
+    Coconino County#科科尼诺县
+    Casa Grande City#卡萨格兰德市
+    Mohave County#莫哈维县
+    Maricopa County#马里科帕县
+    Mesa City#梅萨市
+    Navajo County#纳瓦霍县
+    Peoria City#皮奥里亚市
+    Pima County#皮马县
+    Pinal County#皮纳尔县
+    Chandler City#钱德勒市
+    Scottsdale City#斯科茨代尔市
+    Surprise City#瑟普赖斯市
+    Tempe City#坦佩市
+    Tucson City#图森市
+    Yuma City#尤马市
+    Yuma County#尤马县
+    Yavapai County#亚瓦派县
+  Utah#犹他州
+    Ogden City#奥格登市
+    Orem City#奥勒姆市
+    Layton City#莱顿市
+    Lehi City#李海市
+    South Jordan City#南约旦市
+    Provo City#普罗沃市
+    Sandy City#桑迪市
+    St. George City#圣乔治市
+    Taylorsville City#泰勒斯维尔市
+    West Jordan City#西乔丹市
+    West Valley City#西瓦利市
+    Salt Lake City#盐湖市
+    Salt Lake County#盐湖县
+  Georgia#佐治亚州
+    Albany City#奥尔巴尼市
+    Alpharetta City#阿尔法利塔市
+    Augusta-Richmond County Consolidated Government#奥古斯塔-里士满县
+    Paulding County#波尔丁县
+    Brookhaven City#布鲁克黑文市
+    Bartow County#巴托县
+    Chatham County#查塔姆县
+    Douglas County#道格拉斯县
+    Dekalb County#迪卡尔布县
+    Fulton County#富尔顿县
+    Floyd County#弗洛伊德县
+    Forsyth County#福赛斯县
+    Fayette County#费耶特县
+    Columbus City#哥伦布市
+    Columbia County#哥伦比亚县
+    Glynn County#格林县
+    Gwinnett County#格威内特县
+    Hall County#霍尔县
+    Walker County#获嘉县
+    Henry County#亨利县
+    Warner Robins City#华纳罗宾斯市
+    Whitfield County#惠特菲尔德县
+    Cobb County#科布县
+    Clayton County#克莱顿县
+    Carroll County#卡洛尔县
+    Catoosa County#卡图萨县
+    Coweta County#考维塔县
+    Rockdale County#罗克代尔县
+    Roswell City#罗斯威尔市
+    Lowndes County#朗兹县
+    Macon-Bibb County#梅肯-比伯县
+    Marietta City#玛丽埃塔市
+    Newton County#牛顿县
+    Cherokee County#切罗基县
+    Sandy Springs City#桑迪斯普林斯市
+    Savannah City#萨凡纳市
+    Smyrna City#士麦那市
+    Valdosta City#瓦尔多斯塔市
+    Walton County#沃尔顿县
+    Houston County#休斯敦县
+    Athens-Clarke County Unified Government#雅典-克拉克县
+    Johns Creek City#约翰溪市
+    Atlanta City#亚特兰大市
+MN#蒙古
+BD#孟加拉
+MA#摩洛哥
+MU#毛里求斯
+MR#毛里塔尼亚
+MW#马拉维
+MY#马来西亚
+  Perlis#玻璃市
+    Kangar#加央
+  Pulau Pinang#槟榔屿
+    George Town#槟城
+    Butterworth#北海
+    Bukit Mertajam#大山脚
+    Nibong Tebal#高渊
+  Terengganu#丁加奴
+    Kuala Terengganu#瓜拉丁加奴
+    Kemaman#甘马挽
+    Dungun#龙运
+    Marang#马江
+    Setiu#实兆
+    Hulu#乌鲁
+    Besut#勿述
+  Kedah#吉打
+    Padang Terap#巴东得腊
+    Pendang#笨筒
+    Langkawi#浮罗交怡
+    Kubang Pasu#古邦巴素
+    Kota Setar#哥打士打
+    Kuala Muda#瓜拉姆达
+    Baling#华玲
+    Kulim#居林
+    Bandar Baharu#万拉峇鲁
+  Kelantan#吉兰丹
+    Pasir Putih#巴西富地
+    Pasir Mas#巴西马
+    Tumpat#道北
+    Tanah Merah#丹那美拉
+    Bachok#登卓
+    Kota Bharu#哥打巴鲁
+    Kuala Krai#瓜拉吉赖
+    Gua Musang#话望生
+    Machang#马樟
+    Jeli#日里
+  Kuala Lumpur#吉隆坡
+    Kuala Lumpur#吉隆坡
+  Malacca#马六甲
+    Melaka#马六甲市
+    Alor Gajah#亚罗牙也
+    Jasin#野新
+  Labuan#纳闽
+    Labuan#纳闽
+    Victoria#维多利亚
+  Pahang#彭亨
+    Pekan#北根
+    Bera#百乐
+    Temerloh#淡马鲁
+    Jerantut#而连突
+    Kuantan#关丹
+    Cameron Highlands#金马仑高原
+    Kuala Lipis#立卑
+    Raub#劳勿
+    Maran#马兰
+    Bentong#文冬
+    Rompin#云冰
+  Perak#霹雳
+    Teluk Intan#安顺
+    Tanjung Malim#丹绒马
+    Batu Gajah#华都牙也
+    Sungai Siput#和丰
+    Lumut#紅土坎
+    Kuala Kangsar#江沙
+    Taiping#太平
+    Ipoh#怡保
+  Johor#柔佛
+    Pontian#笨珍
+    Mersing#丰盛港
+    Kota Tinggi#哥打丁宜
+    Kluang#居銮
+    Batu Pahat#峇株巴辖
+    Muar#麻坡
+    Segamat#昔加末
+    Johor Bahru#新山
+  Sabah#沙巴
+    Papar#吧巴
+    Pitas#必达士
+    Beaufort#保佛
+    Beluran#比鲁兰
+    Penampang#兵南邦
+    Tambunan#担布南
+    Tawau#斗湖
+    Tenom#丹南
+    Tuaran#斗亚兰
+    Kudat#古达
+    Kota Kinabalu#哥打基纳巴鲁
+    Kota Belud#古打毛律
+    Kota Marudu#哥打马鲁都
+    Keningau#根地咬
+    Kuala Penyu#瓜拉班尤
+    Kunak#古纳
+    Kinabatangan#京那巴登岸
+    Ranau#兰脑
+    Nabawan#纳巴湾
+    Lahad Datu#拿笃
+    Sandakan#山打根
+    Semporna#仙本那
+    Sipitang#西比陶
+  Sarawak#沙捞越
+    Kuching#古晋
+    Kapit#加帛
+    Limbang#林梦
+    Bintulu#民都鲁
+    Mukah#木胶
+    Miri#美里
+    Betong#木中
+    Sri Aman#斯里阿曼
+    Sarikei#泗里街
+    Samarahan#三马拉汉
+    Sibu#泗务
+  Negeri Sembilan#森美兰
+    Port Dickson#波德申
+    Tampin#淡边
+    Seremban#芙蓉
+    Kuala Pilah#瓜拉庇劳
+    Rembau#林茂
+    Jempol#仁保
+    Jelebu#日叻务
+  Selangor#雪兰莪
+    Petaling#八打灵
+    Gombak#鹅麦
+    Kuala Langat#瓜拉冷岳
+    Kuala Selangor#瓜拉雪兰莪
+    Sabak Bernam#沙白安南
+    Hulu Langat#乌鲁冷岳
+    Hulu Selangor#乌鲁雪兰莪
+    Sepang#雪邦
+MC#摩纳哥
+MK#马其顿
+MZ#莫桑比克
+MH#马绍尔群岛
+MX#墨西哥
+  Obregon#奥夫雷贡城
+  Aguascalientes#阿瓜斯卡连斯特
+  Acapulco#阿卡普尔科
+  Orizaba#奥里萨巴
+  Hermosillo#埃莫西约
+  Campeche#埃佩切
+  Valles#巴利城
+  Villahermosa#比利亚埃尔莫萨
+  Benito Juurez#贝尼托·胡亚雷斯
+  Poza Rica de Hidalgo#波萨里卡
+  Puerto Vallarta#巴亚尔塔港
+  Tijuana#蒂华纳
+  Durango#杜兰戈
+  Ensenada#恩塞纳达
+  Guadalajara#瓜达拉哈拉
+  Guanajuato#瓜纳华托
+  Jalapa#哈拉帕
+  Juarez#华雷斯
+  Cuernavaca#库埃纳瓦卡
+  Coatzacoalcos#夸察夸拉克斯
+  Culiacan#库利阿坎
+  Colima#科利马
+  Queretaro#克雷塔罗
+  Carmen#卡门
+  Leon#莱昂
+  La Paz#拉巴斯
+  Reynosa#雷诺萨
+  Los Mochis#洛斯莫奇斯
+  Monclova#蒙克洛瓦
+  Merida#梅里达
+  Morelia#莫雷利亚
+  Mazatlan#马萨特兰
+  Monterrey#蒙特雷
+  Matamoros#马塔莫罗斯
+  Mexico City#墨西哥城
+  Mexicali#墨西卡利
+  Nogales#诺加莱斯
+  Puebla#普埃布拉
+  Pachuca#帕丘卡
+  Chilpancingo#奇尔潘辛戈
+  Cheturnal#切图马尔
+  Chihuahua#奇瓦瓦
+  Saltillo#萨尔蒂约
+  Zacatecas#萨卡特卡斯
+  Celaya#塞拉亚
+  San Luis Potosi#圣路易斯波托亚
+  Toluca#托卢卡
+  Tlaxcala#特拉斯卡拉
+  Torreon#托雷翁
+  Tepic#特皮克
+  Tampico#坦皮科
+  Tapachula#塔帕丘拉
+  Tuxtla Gutierrez#图斯特拉-古铁雷斯
+  Tehuacan#特瓦坎
+  Victoria#维多利亚城
+  Oaxaca#瓦哈卡
+  Uruapan#乌鲁阿潘
+  Veracruz#韦拉克鲁斯
+  Nuevo Laredo#新拉雷多
+  Irapuato#伊拉普阿托
+N#N
+NP#尼泊尔
+ZA#南非
+  Mount Ayliff#艾利弗山
+  Upington#阿平顿
+  Pietermaritzburg#彼德马里茨堡
+  Pietersburg#彼德斯堡
+  Bredasdorp#布雷达斯多普
+  Bloemfontein#布隆方丹
+  Bronkhorstspruit#布隆克斯特斯普利特
+  Pretoria#比勒陀利亚
+  Bisho#比索
+  De Aar#德阿尔
+  Durban#德班
+  Barkley East#东巴克利
+  Dundee#邓迪
+  East London#东伦敦
+  Vryburg#弗雷堡
+  Vereeniging#弗里尼欣
+  Groblersdal#格罗布莱斯达尔
+  Kimberley#金伯利
+  Giyani#基雅尼
+  Klerksdorp#克莱克斯多普
+  Kuruman#库鲁曼
+  Cape Town#开普敦
+  Queenstown#昆士敦
+  Richards Bay#理查兹湾
+  Randfontein#兰德方丹
+  Ladysmith#莱迪史密斯
+  Rustenburg#利斯滕堡
+  Middelburg#米德尔堡
+  Mkuze#姆库泽
+  Moorreesburg#穆里斯堡
+  Nelspruit#内尔斯普雷特
+  Nylstroom#尼尔斯特隆
+  Newcastle#纽卡斯尔
+  George#乔治
+  Secunda#瑟孔达
+  Sasolburg#萨索尔堡
+  Thohoyandou#托霍延杜
+  Ixopo#特克索波
+  Springbok#跳羚
+  Thulamahashe#图拉马哈谢
+  Trompsburg#特隆普斯堡
+  Witsieshoek#韦茨肖克
+  Welkom#韦尔科姆
+  Ulundi#乌伦迪
+  Umtata#乌姆塔塔
+  Worcester#伍斯特
+  Beaufort West#西博福特
+  Port Shepstone#谢普斯通港
+  Johannesburg#约翰内斯堡
+  Port Elizabeth#伊丽莎白港
+NI#尼加拉瓜
+NA#纳米比亚
+NG#尼日利亚
+NO#挪威
+P#P
+PW#帕劳群岛
+PT#葡萄牙
+  Porto#波尔图
+  Alentejo Litoral#滨海阿连特茹
+  Pinhal Litoral#滨海皮尼亚尔
+  Douro#杜罗
+  Entre Douro e Vouga#恩特拉杜罗伏日
+  Faro#法鲁
+  Funchal#丰沙尔
+  Cova da Beira#科瓦贝拉
+  Cavado#卡瓦多
+  Leziria do Tejo#利巴特茹
+  Lisboa#里斯本
+  Medio Tejo#梅地奥特茹
+  Minho-Lima#米尼奥-利马
+  Beira Interior Norte#内贝拉北
+  Beira Interior Sul#内贝拉南
+  Pinhal Interior Norte#内皮尼亚尔北
+  Pinhal Interior Sul#内皮尼亚尔南
+  Ponta Delgada#蓬塔德尔加达
+  Alto Alentejo#上阿连特茹
+  Serra da Estrela#山后
+  Peninsula de Setubal#塞图巴尔半岛
+  Alto Tros-os-Montes#上特拉斯山
+  Tamega#塔梅加
+  Ave#万福
+  Baixo Alentejo#下阿连特茹
+  Oeste#西部
+  Baixo Vouga#下伏日
+  Baixo Mondego#下蒙德古
+  Alentejo Central#中阿连特茹
+Q#Q
+GE#乔治亚
+R#R
+JP#日本
+  Ehime#爱媛
+  Aichi#爱知
+  Hokkaido#北海道
+  Hyogo#兵库
+  Ibaraki#茨城
+  Okinawa#冲绳
+  Osaka#大阪
+  Tokushima#徳岛
+  Oita#大分
+  Shimane#岛根
+  Tokyo#东京
+  Fukushima#福岛
+  Fukuoka#福冈
+  Fukui#福井
+  Toyama#富山
+  Miyagi#宮城
+  Hiroshima#广岛
+  Miyazaki#宫崎
+  Okayama#冈山
+  Kochi#高知
+  Wakayama#和歌山
+  Kyoto#京都
+  Shizuoka#静冈
+  Kagoshima#鹿儿岛
+  Tochigi#枥木
+  Nara#奈良
+  Tottori#鸟取
+  Gifu#岐阜
+  Gunma#群马
+  Aomori#青森
+  Akita#秋田
+  Saitama#埼玉
+  Chiba#千叶
+  Ishikawa#石川
+  Yamaguchi#山口
+  Yamanashi#山梨
+  Kanagawa#神奈川
+  Yamagata#山形
+  Mie#三重
+  Kumamoto#熊本
+  Kagawa#香川
+  Niigata#新潟
+  Iwate#岩手
+  Shiga#滋贺
+  Saga#佐贺
+  Nagasaki#长崎
+  Nagano#长野
+SE#瑞典
+  Norrbottens#北博滕
+  Blekinge#布莱金厄
+  Dalarnas#达拉纳
+  Ustergotland#东约特兰
+  Orebro#厄勒布鲁
+  Gotlands#哥得兰
+  Hallands#哈兰
+  Kalmar#卡尔马
+  Kronobergs#克鲁努贝里
+  Sodermanlands#南曼兰
+  Stockholms#斯德哥尔摩
+  Skane#斯科耐
+  Varmlands#韦姆兰
+  Uppsala#乌普萨拉
+  Vasterbottens#西博滕
+  Vastmanlands#西曼兰
+  Vasternorrlands#西诺尔兰
+  Vastra Gotalands#西约特兰
+  Gavleborgs#耶夫勒堡
+  Jamtlands#耶姆特兰
+  Jonkopings#延雪平
+CH#瑞士
+  Aargau#阿尔高
+  Bern#伯尔尼
+  Basel-stadt#巴塞尔
+  Basel Landschaft#巴塞尔乡村
+  Zug#楚格
+  Freiburg#弗里堡
+  Graubnden#格劳宾登
+  Glarus#格拉鲁斯
+  Lausanne#洛桑
+  Luzern#卢塞恩
+  Appenzell Innerrhodn#内阿彭策尔
+  Neuchatel#纳沙泰尔
+  Jura#汝拉
+  Geneve#日内瓦
+  Schaffhausen#沙夫豪森
+  St.Gallen#圣加仑
+  Zurich#苏黎世
+  Solothurn#索洛图恩
+  Schwyz#施维茨
+  Obwalden#上瓦尔登
+  Thurgau#图尔高
+  Ticino#提契诺
+  Vaud#沃
+  Appenzell Ausserrhon#外阿彭策尔
+  Uri#乌里
+  Wallis#瓦莱
+  Nidwalden#下瓦尔登
+S#S
+SD#苏丹
+RS#塞尔维亚
+KN#圣基茨和尼维斯
+SK#斯洛伐克
+SL#塞拉利昂
+LK#斯里兰卡
+SB#所罗门群岛
+SR#苏里南
+SI#斯洛文尼亚
+SM#圣马力诺
+WS#萨摩亚
+SN#塞内加尔
+SC#塞舌尔
+SA#沙特阿拉伯
+  Abha#艾卜哈
+  Arar#阿尔阿尔
+  Al Hofuf#阿尔胡富夫
+  Al Kharj#阿尔卡里
+  Al Mubarraz#阿尔姆巴拉兹
+  Al Jubail#阿尔朱拜勒
+  Al Bahah#巴哈
+  Buraydah#布赖代
+  Dammam#达曼
+  Hafar al-Batin#哈费尔巴廷
+  Khamis Mushayt#海米斯穆谢特
+  Hail#哈伊勒
+  Jiddah#吉达
+  Jizan#吉赞
+  Riyad#利雅得
+  Medina#麦地那
+  Makkah#麦加
+  Najran#纳季兰
+  Sakaka#塞卡卡
+  Tabuk#塔布克
+  At Tarif#塔伊夫
+  Yanbu al-Bahr#延布
+SZ#斯威士兰
+T#T
+TR#土耳其
+  Aydin#艾登
+  Edirne#埃迪尔内
+  Adana#阿达纳
+  Adiyaman#阿德亚曼
+  Ordu#奥尔杜
+  Ardahan#阿尔达罕
+  Erzincan#埃尔津詹
+  Artvin#阿尔特温
+  Erzurum#埃尔祖鲁姆
+  Afyon#阿菲永
+  Ankara#安卡拉
+  Aksaray#阿克萨赖
+  Agri#阿勒
+  Elazig#埃拉泽
+  Amasya#阿马西亚
+  Eskisehir#埃斯基谢希尔
+  Antalya#安塔利亚
+  Burdur#布尔杜尔
+  Bursa#布尔萨
+  Bartin#巴尔腾
+  Bingol#宾格尔
+  Bolu#博卢
+  Bilecik#比莱吉克
+  Balikesir#巴勒克埃西尔
+  Bitlis#比特利斯
+  Batman#巴特曼
+  Bayburt#巴伊布尔特
+  Cankiri#昌克勒
+  Denizli#代尼兹利
+  Diyarbakir#迪亚巴克尔
+  Van#凡
+  Hakkari#哈卡里
+  Hatay#哈塔伊
+  Gaziantep#加济安泰普
+  Kilis#基利斯
+  Giresun#吉雷松
+  Gumushane#居米什哈内
+  Kars#卡尔斯
+  Kirsehir#克尔谢希尔
+  Kahraman?Maras#卡赫拉曼马拉什
+  Kocaeli#科贾埃利
+  Kirklareli#柯克拉雷利
+  Karabuk#卡拉比克
+  Kirikkale#克勒克卡莱
+  Karaman#卡拉曼
+  Konya#科尼亚
+  Kayseri#开塞利
+  Kastamonu#卡斯塔莫努
+  Urfa#拉飞
+  Rize#里泽
+  Mardin#马尔丁
+  Mugla#穆拉
+  Malatya#马拉蒂亚
+  Manisa#马尼萨
+  Mus#穆什
+  Nigde#尼代
+  Nevsehir#内夫谢希尔
+  Corum#乔鲁姆
+  Canakkale#恰纳卡莱
+  Kutahya#屈塔希亚
+  Sakarya#萨卡里亚
+  Samsun#萨姆松
+  Tekirdag#泰基尔达
+  Tunceli#通杰利
+  Tokat#托卡特
+  Trabzon#特拉布宗
+  Usak#乌萨克
+  Sirnak#锡尔纳克
+  Siirt#锡尔特
+  Sinop#锡诺普
+  Sivas#锡瓦斯
+  Igdir#伊迪尔
+  Icel#伊切尔
+  Isparta#伊斯帕尔塔
+  Istanbul#伊斯坦布尔
+  Yozgat#约兹加特
+  Izmir#伊兹密尔
+  Zonguldak#宗古尔达克
+TH#泰国
+  Amnat Charoen#安纳乍能
+  Saraburi#北标
+  Kanchanaburi#北碧
+  Phetchabun#碧差汶
+  Phatthalung#博达伦
+  Pattani#北大年
+  Samut Prakan#北揽
+  Chachoengsao#北柳
+  Nakhon Sawan#北榄坡
+  Prachuap Khiri Khan#巴蜀
+  Pathum Thani#巴吞他尼
+  Prachin Buri#巴真
+  Chai Nat#猜那
+  Chumphon#春蓬
+  Chon Buri#春武里
+  Uttaradit#程逸
+  Chaiyaphum#猜也奔
+  Tak#达
+  Phra Nakhon Si Ayutthaya#大城
+  Trang#董里
+  Trat#达叻
+  Phetchaburi#佛丕
+  Nakhon Pathom#佛统
+  Kamphaeng Phet#甘烹碧
+  Lop Buri#华富里
+  Ang Thong#红统
+  Kalasin#加拉信
+  Krabi#甲米
+  Chanthaburi#尖竹汶
+  Khon Kaen#孔敬
+  Loei#黎
+  Nakhon Si Thammarat#洛坤
+  Nong Khai#廊开
+  Nong Bua Lamphu#廊莫那浦
+  Rayong#拉农
+  Ratchaburi#叻丕
+  Roi Et#黎逸
+  Ranong#罗勇
+  Samut Sakhon#龙仔厝
+  Mukdahan#莫达汉
+  Bangkok#曼谷
+  Maha Sarakham#玛哈沙拉堪
+  Nan#难
+  Lamphun#南奔
+  Nakhon Nayok#那空那育
+  Nakhon Phanom#那空帕农
+  Nonthaburi#暖武里
+  Phrae#帕
+  Phuket#普吉
+  Phichit#披集
+  Phitsanulok#彭世洛
+  Phayao#帕尧
+  Phangnga#攀牙
+  Chiang Rai#清莱
+  Chiang Mai#清迈
+  Satun#沙敦
+  Sa Kaeo#沙缴
+  Sakon Nakhon#色军
+  Songkhla#宋卡
+  Sukhothai#素可泰
+  Surat Thani#素叻
+  Surin#素林
+  Suphan Buri#素攀武里
+  Si sa ket#四色菊
+  Narathiwat#陶公
+  Udon Thani#乌隆
+  Buri Ram#武里南
+  Uthai Thani#乌泰他尼
+  Ubon Ratchathani#乌汶
+  Sing Buri#信武里
+  Mae Hong Son#夜丰颂
+  Samut Songkhram#夜功
+  Yala#也拉
+  Yasothon#耶梭通
+TO#汤加
+TJ#塔吉克斯坦
+TT#特立尼达和多巴哥
+TZ#坦桑尼亚
+W#W
+GT#危地马拉
+UG#乌干达
+UA#乌克兰
+  Odessa#敖德萨
+  Poltava#波尔塔瓦
+  Dnipropetrovsk#第聂伯罗波得罗夫斯克
+  Donetsk#顿涅茨克
+  Kharkiv#哈尔科夫
+  Khersonsrka#赫尔松州
+  Khmelnytsky#赫梅利尼茨基
+  Ternopil#捷尔诺波尔
+  Kyiv#基辅
+  Kirovohrad#基洛夫格勒
+  Respublika Krym#克里米亚自治共和国
+  Rivne#罗夫诺
+  Luhansk#卢甘斯克
+  Lviv#利沃夫
+  Mykolayiv#尼古拉耶夫
+  Cherkasy#切尔卡瑟
+  Chernivtsi#切尔诺夫策
+  Chernihiv#切尔尼戈夫
+  Zhytomyr#日托米尔
+  Sumy#苏梅
+  Zakarpatska#外喀尔巴阡
+  Volyn#沃伦
+  Vinnytsya#文尼察
+  Ivano-Frankivsk#伊万－弗兰科夫州
+  Zaporizhzhya#扎波罗热
+BN#文莱
+UY#乌拉圭
+VU#瓦努阿图
+VE#委内瑞拉
+  Aragua#阿拉瓜
+  Delta Amacuro#阿马库罗三角洲
+  Apure#阿普雷
+  Anzoategui#安索阿特吉
+  Barinas#巴里纳斯
+  Bolivar#玻利瓦尔
+  Portuguesa#波图格萨
+  Falcon#法尔孔
+  Guarico#瓜里科
+  Caracas#加拉加斯
+  Cojedes#科赫德斯
+  Carabobo#卡拉沃沃
+  Dependencias Federales#联邦属地
+  Lara#拉腊
+  Miranda#米兰达
+  Merida#梅里达
+  Monagas#莫纳加斯
+  Sucre#苏克雷
+  Zulia#苏利亚
+  Trujillo#特鲁希略
+  Tachira#塔奇拉
+  Estado Nueva Esparta#新埃斯帕塔
+  Yaracuy#亚拉奎
+  Amazonas#亚马孙
+UZ#乌兹别克斯坦
+X#X
+ES#西班牙
+  Almeria#阿尔梅里亚
+  Albacete#阿尔瓦塞特
+  Alicante#阿利坎特
+  Orense#奥伦塞
+  Alava#阿拉瓦
+  Asturias#阿斯图利亚斯
+  Avila#阿维拉
+  Badajoz#巴达霍斯
+  Burgos#布尔戈斯
+  Baleares#巴利阿里
+  Valencia#巴伦西亚
+  Valladolid#巴利亚多利德
+  Vizcaya#比斯开
+  Barcelona#巴塞罗那
+  Guadalajara#瓜达拉哈拉
+  Granada#格拉纳达
+  Jaen#哈恩
+  Gerona#赫罗纳
+  Cadiz#加的斯
+  Guipuzcoa#吉普斯夸
+  Cordoba#科尔多瓦
+  Cuenca#昆卡
+  Caceres#卡塞雷斯
+  Castellon#卡斯特利翁
+  Leon#莱昂
+  Ciudad Real#雷阿尔城
+  Provincia de Lugo#卢戈
+  La Coruna#拉科鲁尼亚
+  La Rioja#拉里奥哈
+  Lleida#莱里达
+  Las Palmas#拉斯帕尔马斯
+  Madrid#马德里
+  Murcia#穆尔西亚
+  Malaga#马拉加
+  Navarra#纳瓦拉
+  Palencia#帕伦西亚
+  Provincia de Pontevedra#蓬特韦德拉
+  Segovia#塞哥维亚
+  Santa Cruz de Tenerife#圣克鲁斯-德特内里费
+  Zaragoza#萨拉戈萨
+  Salamanca#萨拉曼卡
+  Soria#索里亚
+  Zamora#萨莫拉
+  Santander#桑坦德
+  Sevilla#塞维利亚
+  Teruel#特鲁埃尔
+  Toledo#托莱多
+  Tarragona#塔拉戈纳
+  Huelva#韦尔瓦
+  Huesca#韦斯卡
+SG#新加坡
+NC#新喀里多尼亚
+GR#希腊
+NZ#新西兰
+  Auckland#奥克兰
+  North Shore#北岸
+  Blenheim#布莱尼姆
+  Palmerston North#北帕默斯顿
+  Far North#北远
+  Dunedin#达尼丁
+  Greymouth#格雷茅斯
+  Wellington#惠灵顿
+  Hamilton#哈密尔顿
+  Hastings#黑斯廷斯
+  Waitakere#怀塔科拉
+  Gisborne#吉斯伯恩
+  Christchurch#克赖斯特彻奇
+  Kaipara#凯帕拉
+  Richmond#里士满
+  Manukau#马努考
+  Nelson#纳尔逊
+  Napier#内皮尔
+  Stratford#斯特拉特福德
+  Taumarunui#陶马鲁努伊
+  Whangarei#旺阿雷
+  Wanganui#旺格努伊
+  Whakatane#瓦卡塔尼
+  New Plymouth#新普利茅斯
+  Invercargill#因弗卡吉尔
+HU#匈牙利
+  Budapest#布达佩斯
+  Borsod-Abauj-Zemplen#包尔绍德-奥包乌伊-曾普伦
+  Bekes#贝凯什
+  Baranya#巴兰尼亚
+  Bacs-Kiskun#巴奇-基什孔
+  Fejer#费耶尔
+  Heves#赫维什
+  Hajdu-Bihar#豪伊杜-比豪尔
+  Gyor-Moson-Sopron#杰尔-莫松-肖普朗
+  Jasz-Nagykun-Szolnok#加兹-纳杰孔-索尔诺克
+  Komarom-Esztergom#科马罗姆
+  Nograd#诺格拉德
+  Pest#佩斯
+  Csongrad#琼格拉德
+  Szabolcs-Szatmar-Bereg#索博尔奇-索特马尔-贝拉格
+  Somogy#绍莫吉
+  Tolna#托尔瑙
+  Vas#沃什
+  Veszprem#维斯普雷姆
+  Zala#佐洛
+Y#Y
+IN#印度
+  Agra#阿格拉
+  Ahmedabad#艾哈迈达巴德
+  Agartala#阿加尔塔拉
+  Aligarh#阿里格尔
+  Allahabad#阿拉哈巴德
+  Aurangabad#奥兰加巴德
+  Amritsar#阿姆利则
+  Aizawl#艾藻尔
+  Bhubaneswar#布巴内斯瓦尔
+  Pondicherry#本地治里
+  Bangalore#班加罗尔
+  Bokaro#波卡罗
+  Baroda#巴罗达
+  Nasik#邦纳西克
+  Bhopal#博帕尔
+  Patna#巴特那
+  Chandigarh#昌迪加尔
+  Jammu#查谟
+  Durgapur#杜加浦
+  Dehradun#德拉敦
+  Tiruchirappalli#蒂鲁吉拉伯利
+  Dimapur#迪马普尔
+  Faridabad#法里达巴德
+  Goa#果阿
+  Gandhinagar#甘地讷格尔
+  Kolhapur#戈尔
+  Gurgaon#古尔加翁
+  Gwalior#瓜廖尔
+  Guwahati#古瓦哈提
+  Coimbatore#哥印拜陀
+  Hyderabad#海德拉巴
+  Jabalpur#贾巴尔普尔
+  Kolkata#加尔各答
+  Ghaziabad#加济阿巴德
+  Jullundhar#贾朗达尔
+  Jamnagar#贾姆纳格尔
+  Chennai#金奈
+  Jodhpur#焦特布尔
+  Kanpur#坎普尔
+  Cochin#科钦
+  Cuttack#克塔克
+  Raipur#赖布尔
+  Ludhiana#卢迪亚纳
+  Rourkela#鲁尔克拉
+  Rajkot#拉杰果德
+  Lucknow#勒克瑙
+  Ranchi#兰契
+  Madurai#马杜赖
+  Margao#马尔高
+  Mangalore#芒格洛尔
+  Mumbai#孟买
+  Mysore#迈索尔
+  Nagpur#那格浦尔
+  Noida#诺伊达
+  Panjim#潘吉姆
+  Pune#浦那
+  Secunderabad#塞康德拉巴德
+  Sura#苏拉
+  Salem#塞勒姆
+  Srinagar#斯利那加
+  Thiruvananthapuram#特里凡得琅
+  Thane#塔那
+  Udaipur#乌代布尔
+  Vijayawada#维杰亚瓦达
+  Vellore#韦洛尔
+  Varanasi#瓦拉纳西
+  Visakhapatnam#維沙哈巴南
+  New Delhi#新德里
+  Shillong#西隆
+  Siliguri#西里古里
+  Indore#印多尔
+  Imphal#因帕尔
+  Jaipur#斋普尔
+  Jamshedpur#詹谢普尔
+JO#约旦
+IT#意大利
+  Olbia-Tempio#奥尔比亚
+  Agrigento#阿格里真托
+  Ancona#安科纳
+  Oristano#奥里斯塔诺
+  Arezzo#阿雷佐
+  Asti#阿斯蒂
+  Ascoli Piceno#阿斯科利皮切诺
+  Aosta#奥斯塔
+  Pordenone#波代诺内
+  Bolzano#博尔扎诺
+  Bergamo#贝加莫
+  Bari#巴里
+  Biella#布拉
+  Brindisi#布林迪西
+  Palermo#巴勒莫
+  Belluno#贝卢诺
+  Bologna#博洛尼亚
+  Barletta-Andria-Trani#巴列塔-安德里亚-特拉尼
+  Brescia#布雷西亚
+  Benevento#贝内文托
+  Pisa#比萨
+  Potenza#波坦察
+  Turin#都灵
+  Trieste#的里雅斯特
+  Enna#恩纳
+  Fermo#费尔莫
+  Foggia#福贾
+  Ferrara#费拉拉
+  Firenze#佛罗伦萨
+  Forlì- Cesena#弗利-切塞纳
+  Frosinone#费辛隆尼
+  Gorizia#戈里齐亚
+  Grosseto#格罗塞托
+  Chieti#基耶蒂
+  Campobasso#坎波巴索
+  Carbonia-Iglesias#卡博尼亚-伊格莱西亚斯
+  Crotone#克罗托内
+  Cagliari#卡利亚里
+  Como#科摩
+  Cuneo#库内奥
+  Caserta#卡塞塔
+  Cosenza#科森扎
+  Catania#卡塔尼亚
+  Catanzaro#卡坦扎罗
+  Lodi#洛迪
+  Rieti#列蒂
+  Latina#拉丁
+  Vibo-valentia#伦蒂亚
+  Ragusa#拉古萨
+  Reggio Emilia#雷焦艾米利亚
+  Reggio Calabria#雷焦卡拉布里亚
+  Lecco#莱科
+  Lucca#卢卡
+  L'Aquila#拉奎拉
+  Roma#罗马
+  Rimini#里米尼
+  Lecce#莱切
+  La Spezia#拉斯佩齐亚
+  Rovigo#罗维戈
+  Ravenna#拉文纳
+  Livorno#里窝那
+  Modena#摩德纳
+  Milano#米兰
+  Macerata#马切拉塔
+  Massa-Carrara#马萨
+  Matera#马泰拉
+  Mantova#曼图亚
+  Messina#墨西拿
+  Monza e Brianza#蒙扎
+  Nuoro#努奥罗
+  Naples#那不勒斯
+  Novara#诺瓦拉
+  Padova#帕多瓦
+  Parma#帕尔马
+  Perugia#佩鲁贾
+  Prato#普拉托
+  Pescara#佩斯卡拉
+  Pesaro#佩萨罗
+  Pistoia#皮斯托亚
+  Pavia#帕维亚
+  Piacenza#皮亚琴察
+  Genova#热那亚
+  Sondrio#松德里奥
+  Salerno#萨莱诺
+  Sassari#萨萨里
+  Savona#萨沃纳
+  Terni#特尔尼
+  Teramo#泰拉莫
+  Trapani#特拉帕尼
+  Trento#特伦托
+  Taranto#塔兰托
+  Treviso#特雷维索
+  Verbano-Cusio-Ossola#韦巴诺-库西奥-奥索拉
+  Udine#乌迪内
+  Vercelli#韦尔切利
+  Verona#维罗纳
+  Varese#瓦雷泽
+  Venice#威尼斯
+  Vicenza#维琴察
+  Viterbo#维泰博
+  Syracuse#锡拉库扎
+  Siena#锡耶纳
+  Alessandria#亚历山德里亚
+  Imperia#因佩里亚
+  Isernia#伊塞尔尼亚
+ID#印度尼西亚
+  Kepulauan Bangka Belitung#邦加－勿里洞群岛
+  Bali#巴厘
+  Sulawesi Utara#北苏拉威西
+  Sumatera Utara#北苏门答腊
+  Kalimantan Timur#东加里曼丹
+  Nusa Tenggara Timur#东努沙登加拉
+  Sulawesi Tenggara#东南苏拉威西
+  Daerah Tingkat I Kalimantan Barat#大雅加达首都特区
+  Java Timur#东爪哇
+  Riau#廖内
+  Bengkulu#明古鲁
+  Maluku#马鲁古
+  Lampung#楠榜
+  Kalimantan Selatan#南加里曼丹
+  Sulawesi Selatan#南苏拉威西
+  Sumatera Selatan#南苏门答腊
+  Daerah Istimewa Yogyakarta#日惹特区
+  Banten#万丹
+  Nusa Tenggara Barat#西努沙登加拉
+  Sumatera Barat#西苏门答腊
+  Java Barat#西爪哇
+  Jakarta Raya#雅加达
+  Irian Jaya#伊里安查亚
+  Aceh#亚齐
+  Jambi#占碑
+  Kalimantan Tengah#中加里曼丹
+  Sulawesi Tengah#中苏拉威西
+  Java Tengah#中爪哇
+GB#英国
+  Northern Ireland#北爱尔兰
+    Belfast#贝尔法斯特
+    Derry#德里
+    Lisburn#利斯本
+    Newry#纽里
+  Scotland#苏格兰
+    Aberdeen#阿伯丁
+    Edinburgh#爱丁堡
+    Dundee#丹迪
+    Glasgow#格拉斯哥
+    Stirling#斯特灵
+    Inverness#因弗内斯
+  Wales#威尔士
+    Bangor#班戈
+    Cardiff#卡迪夫
+    Newport#纽波特
+    Swansea#斯旺西
+  England#英格兰
+    Exeter#爱塞特
+    Peterborough#彼得伯勒
+    Bradford#布拉德福德
+    Brighton & Hove#布莱顿霍夫
+    Bristol#布里斯托尔
+    Birmingham#伯明翰
+    Bath#巴斯
+    Derby#德比
+    Durham#德罕
+    Gloucester#格洛斯特
+    Kingston upon Hull#赫尔河畔京斯敦
+    Hereford#赫里福德
+    Cambridge#剑桥
+    Carlisle#卡莱尔
+    Canterbury#坎特伯雷
+    Coventry#考文垂
+    London#伦敦
+    Lincoln#林肯
+    Lancaster#兰开斯特
+    Ripon#里彭
+    Lichfield#利奇菲尔德
+    Leicester#列斯特
+    Liverpool#利物浦
+    Leeds#利茲
+    Manchester#曼彻斯特
+    Southampton#南安普敦
+    Nottingham#诺丁汉
+    Oxford#牛津
+    Newcastle#纽卡斯尔
+    Norwich#诺里奇
+    Portsmouth#朴茨茅斯
+    Plymouth#普利茅斯
+    Preston#普雷斯顿
+    Chichester#奇切斯特
+    Chester#切斯特
+    Saint Albans#圣阿本斯
+    Sunderland#桑德兰
+    Salisbury#索尔斯堡
+    Salford#索福特
+    Truro#特鲁罗
+    Stoke-on-Trent#特伦特河畔斯多克
+    Winchester#温彻斯特
+    Wolverhampton#伍尔弗汉普顿
+    Wells#威尔斯
+    Wakefield#韦克菲尔德
+    Worcester#伍斯特
+    Sheffield#谢菲尔德
+    York#约克
+    Ely#伊利
+IR#伊朗
+IQ#伊拉克
+YE#也门
+JM#牙买加
+AM#亚美尼亚
+VN#越南
+  Haiphong#海防
+  Hanoi#河内
+  Ho Chi Minh City#胡志明市
+IL#以色列
+Z#Z
+GI#直布罗陀
+ZM#赞比亚
+CF#中非共和国
+CL#智利
+JE#泽西岛

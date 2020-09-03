@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/dmg"
+    android:layout_height="match_parent">
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <View
+        android:layout_gravity="bottom"
+        android:background="@drawable/seekbar_hide_line"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/qb_px_130"
+        android:layout_height="@dimen/qb_px_100"/>
+</FrameLayout>

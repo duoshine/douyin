@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:cardBackgroundColor="@color/colorPrimary"-->
+<!--        app:cardCornerRadius="@dimen/qb_px_200">-->
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:resize_mode="fill"
+            app:surface_type="surface_view"
+            app:use_controller="true" />
+
+        <TextView
+            android:id="@+id/time_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/qb_px_240"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:padding="@dimen/qb_px_30"
+            android:text="00:14 / 00:34"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qb_px_100"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/qb_px_130"
+            android:background="@drawable/seekbar_progress_default"
+            android:thumb="@drawable/seekbar_thumb_transparent"
+            android:visibility="gone" />
+        <!--        android:progressBackgroundTint="#CDC9C9"-->
+        <!--        android:progressTint="#FFF"-->
+        <!--    progressBackgroundTint  seekbar的背景颜色-->
+        <!--    progressTint  seekbar目前已显示进度的颜色-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+        <ImageView
+            android:layout_gravity="right"
+            android:layout_width="@dimen/qb_px_30"
+            android:background="@mipmap/c0j"
+            android:layout_height="@dimen/qb_px_30" />
+
+        <ImageView
+            android:layout_width="@dimen/qb_px_30"
+            android:background="@mipmap/c0i"
+            android:layout_height="@dimen/qb_px_30" />
+</FrameLayout>

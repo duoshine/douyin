@@ -1,0 +1,14 @@
+{
+  "adaptive_gear_group": {
+    "bitrate_range": [200000, 2500000],
+    "default_bitrate": 1000000,
+  },
+  "auto_bitrate_params": {
+    "min_bitrate": 200000,
+    "param_a": 0,
+    "param_b": 4.04330129e-9,
+    "param_c": 0.0164405979,
+    "param_d": 225511.28
+  },
+  "default_gear_group": "adaptive_gear_group"
+}

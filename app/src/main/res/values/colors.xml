@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+<!--    tab文本默认的颜色-->
+    <color name="main_tab">#B8B8B8</color>
+<!--    tab被选中的文本颜色-->
+    <color name="main_tab_selected">#FFFFFF</color>
+<!--    tab文本默认的颜色-->
+    <color name="player_top_tab">#B7C0C9</color>
+    <color name="player_top_tab_selected">#FFFFFF</color>
+</resources>
