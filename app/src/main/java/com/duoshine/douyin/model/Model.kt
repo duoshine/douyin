@@ -14,7 +14,8 @@ data class Comments(
     val name: String,//评论人
     val content: String, //评论内容
     val date: String, //评论时间
-    val replySize:Int, //评论回复数量
+    val replyCount:Int, //评论回复数量
+    val starCount:Int, //赞的数量
     val reply: MutableList<CommentReplyModel> //回复实体
 )
 

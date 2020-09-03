@@ -10,4 +10,7 @@
 <!--    tab文本默认的颜色-->
     <color name="player_top_tab">#B7C0C9</color>
     <color name="player_top_tab_selected">#FFFFFF</color>
+    <color name="comment_date">#9c9c9c</color>
+    <color name="comment_content">#000000</color>
+    <color name="comment_star">#9EA8B2</color>
 </resources>
