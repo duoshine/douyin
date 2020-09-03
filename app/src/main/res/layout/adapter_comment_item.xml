@@ -1,80 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_marginTop="@dimen/qb_px_50"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
-
-    <ImageView
-        android:id="@+id/comment_avatar"
-        android:layout_width="@dimen/qb_px_100"
-        android:layout_height="@dimen/qb_px_100"
-        android:layout_marginLeft="@dimen/qb_px_30" />
+    android:layout_marginTop="@dimen/qb_px_50"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="0px"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/qb_px_30"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/comment_user"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="萌萌哒" />
+        <ImageView
+            android:id="@+id/comment_avatar"
+            android:layout_width="@dimen/qb_px_80"
+            android:layout_height="@dimen/qb_px_100"
+            android:layout_marginLeft="@dimen/qb_px_80" />
 
-        <TextView
-            android:id="@+id/comment_content"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="0px"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/qb_px_4"
-            android:text="没看到这个衣服，喜欢这个鞋子"
-            android:textColor="@color/comment_content" />
+            android:layout_marginLeft="@dimen/qb_px_30"
+            android:layout_marginRight="@dimen/qb_px_30"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/comment_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="萌萌哒" />
+
+            <TextView
+                android:id="@+id/comment_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_4"
+                android:text="没看到这个衣服，喜欢这个鞋子,喜欢这个鞋子,喜欢这个鞋子,喜欢这个鞋子,喜欢这个鞋子"
+                android:textColor="@color/comment_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_8"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/comment_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="08-27"
+                    android:textColor="@color/comment_date" />
+
+                <TextView
+                    android:id="@+id/comment_reply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/qb_px_30"
+                    android:text="回复" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/comment_reply_expanded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qb_px_10"
+                android:drawableEnd="@mipmap/comment_expanded"
+                android:drawablePadding="@dimen/qb_px_10"
+                android:text="展开400条回复" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/qb_px_8"
-            android:orientation="horizontal">
+            android:layout_marginTop="@dimen/qb_px_10"
+            android:layout_marginRight="@dimen/qb_px_30"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/comment_star_icon"
+                android:layout_width="@dimen/qb_px_60"
+                android:layout_height="@dimen/qb_px_60"
+                android:layout_gravity="center"
+                android:background="@mipmap/comment_star" />
 
             <TextView
-                android:id="@+id/comment_date"
+                android:id="@+id/comment_star_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="08-27"
-                android:textColor="@color/comment_date" />
-
-            <TextView
-                android:id="@+id/comment_reply"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/qb_px_30"
-                android:text="回复" />
+                android:layout_gravity="center"
+                android:text="1"
+                android:textColor="@color/comment_star" />
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_marginTop="@dimen/qb_px_10"
-        android:layout_marginRight="@dimen/qb_px_30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ImageView
-            android:id="@+id/comment_star_icon"
-            android:layout_gravity="center"
-            android:layout_width="@dimen/qb_px_60"
-            android:layout_height="@dimen/qb_px_60"
-            android:background="@mipmap/comment_star" />
-
-        <TextView
-            android:id="@+id/comment_star_count"
-            android:textColor="@color/comment_star"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1" />
-
-    </LinearLayout>
+    <com.duoshine.douyin.widget.CommentReplyRecyclerView
+        android:id="@+id/reply_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>

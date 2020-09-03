@@ -3,12 +3,14 @@ package com.duoshine.douyin.test
 
 import android.os.Bundle
 import android.util.DisplayMetrics
+import android.util.Log
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.CommentAdapter
+import com.duoshine.douyin.adapter.CommentReplyAdapter
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import kotlinx.android.synthetic.main.activity_recycler_test.*
 
@@ -47,6 +49,14 @@ class RecyclerActivity : AppCompatActivity() {
         //添加适配器
         val bottomSheetCommentList = view.findViewById<RecyclerView>(R.id.bottom_sheet_comment_list)
         bottomSheetCommentList.layoutManager = LinearLayoutManager(this)
-        bottomSheetCommentList.adapter = CommentAdapter(this)
+        val adapter = CommentAdapter(this)
+        bottomSheetCommentList.adapter = adapter
+
+        adapter.setExpandedReplyListener(object : CommentAdapter.ExpandedReplyListener {
+            override fun onClick(position: Int, recyclerView: RecyclerView) {
+                recyclerView.layoutManager = LinearLayoutManager(this@RecyclerActivity)
+                recyclerView.adapter = CommentReplyAdapter(this@RecyclerActivity)
+            }
+        })
     }
 }

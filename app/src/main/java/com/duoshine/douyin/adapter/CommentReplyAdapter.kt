@@ -15,10 +15,10 @@ import com.duoshine.douyin.model.CommentReplyModel
 import com.duoshine.douyin.model.Comments
 
 
-class CommentAdapter(private val context: Context) :
-    RecyclerView.Adapter<CommentAdapter.MyViewHolder>() {
+class CommentReplyAdapter(private val context: Context) :
+    RecyclerView.Adapter<CommentReplyAdapter.MyViewHolder>() {
     private var layoutInflater: LayoutInflater? = null
-    private val TAG = "CommentAdapter"
+    private val TAG = "CommentReplyAdapter"
 
     private val comments = ArrayList<Comments>().apply {
         val comment = Comments(
@@ -43,8 +43,8 @@ class CommentAdapter(private val context: Context) :
         layoutInflater = LayoutInflater.from(context)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CommentAdapter.MyViewHolder {
-        val view = layoutInflater?.inflate(R.layout.adapter_comment_item, parent, false)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CommentReplyAdapter.MyViewHolder {
+        val view = layoutInflater?.inflate(R.layout.adapter_comment_reply_item, parent, false)
         return MyViewHolder(view!!)
     }
 
@@ -63,10 +63,9 @@ class CommentAdapter(private val context: Context) :
                 .load(R.mipmap.ic_launcher)
                 .circleCrop()
                 .into(holder.commentAvatar!!)
-
-            holder.commentReplyExpanded?.setOnClickListener {
-                expandedReplyListener?.onClick(position,holder.replyList!!)
-            }
+        }
+        holder.itemView.setOnClickListener {
+            Log.d(TAG, "我被点击啦$position")
         }
     }
 
@@ -78,8 +77,6 @@ class CommentAdapter(private val context: Context) :
         var commentReply: TextView? = null
         var commentStarIcon: ImageView? = null
         var commentStarCount: TextView? = null
-        var commentReplyExpanded: TextView? = null
-        var replyList: RecyclerView? = null
 
         init {
             commentAvatar = itemView.findViewById(R.id.comment_avatar)
@@ -89,8 +86,6 @@ class CommentAdapter(private val context: Context) :
             commentReply = itemView.findViewById(R.id.comment_reply)
             commentStarIcon = itemView.findViewById(R.id.comment_star_icon)
             commentStarCount = itemView.findViewById(R.id.comment_star_count)
-            commentReplyExpanded = itemView.findViewById(R.id.comment_reply_expanded)
-            replyList = itemView.findViewById(R.id.reply_list)
         }
     }
 
