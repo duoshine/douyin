@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingTop="@dimen/qb_px_50"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/qb_px_130"
+    android:paddingTop="@dimen/qb_px_50">
+
 
     <ImageView
         android:id="@+id/comment_avatar"
         android:layout_width="@dimen/qb_px_80"
-        android:layout_height="@dimen/qb_px_80"
-        android:layout_marginLeft="@dimen/qb_px_30" />
+        android:layout_height="@dimen/qb_px_80" />
 
     <LinearLayout
         android:layout_width="0px"
@@ -78,4 +80,5 @@
             android:text="1"
             android:textColor="@color/comment_star" />
     </LinearLayout>
+
 </LinearLayout>

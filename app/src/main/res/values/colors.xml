@@ -13,4 +13,6 @@
     <color name="comment_date">#9c9c9c</color>
     <color name="comment_content">#000000</color>
     <color name="comment_star">#9EA8B2</color>
+
+    <color name="comment_list_dialog">#EAE5E5</color>
 </resources>

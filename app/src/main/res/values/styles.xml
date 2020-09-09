@@ -8,18 +8,29 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-<!--    修改TabLayout的文本代销-->
+    <!--    修改TabLayout的文本代销-->
     <style name="TabLayout">
         <item name="android:textSize">16sp</item>
     </style>
 
-<!--    修改SeekBar显示为全屏 默认取消圆点显示-->
+    <!--    修改SeekBar显示为全屏 默认取消圆点显示-->
     <style name="SeekBar">
         <item name="android:progressDrawable">@drawable/seekbar_progress_default</item>
         <item name="android:paddingEnd">0dp</item>
         <item name="android:paddingStart">0dp</item>
     </style>
 
+    <!--   backgroundDimAmount   -->
+    <style name="commentList" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <!--        如果有EditText 那么dialog 不会上移-->
+        <item name="android:windowSoftInputMode">adjustNothing</item>
+        <!--        dialog弹出时 背景颜色不变-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
 
+    <style name="commentReply" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="android:backgroundDimAmount">0.2</item>
+        <item name="android:windowSoftInputMode">stateAlwaysVisible|adjustNothing</item>
+    </style>
 
 </resources>
