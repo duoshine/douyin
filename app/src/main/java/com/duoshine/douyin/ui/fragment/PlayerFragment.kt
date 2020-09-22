@@ -75,7 +75,7 @@ class PlayerFragment : BaseFragment(), View.OnClickListener {
     //    评论输入的控件 它用来接收用户的输入并在软键盘关闭时将结果传递 commentListInput
     private var commentInput: EditText? = null
 
-    //    表情和软件切换的按钮
+    //    表情和软件切换的按钮 
     private var emojiKeyboardToggle: ImageButton? = null
 
     //    显示表情列表的父层容器 它仅用于显示和隐藏

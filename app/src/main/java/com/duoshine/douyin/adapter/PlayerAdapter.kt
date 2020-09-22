@@ -422,8 +422,9 @@ class PlayerAdapter(
         holder.videoCopywritingView?.highlightColor = Color.TRANSPARENT
         //设置超链接可点击
         holder.videoCopywritingView?.movementMethod = LinkMovementMethod.getInstance()
-        //设置音乐名字 它支持跑马灯
+        //设置音乐名字 它支持跑马灯  默认不开启跑马灯效果
         holder.videoMusicNameView?.text = videoModel.music
+        holder.videoMusicNameView?.isSelected = false
     }
 
     /**
