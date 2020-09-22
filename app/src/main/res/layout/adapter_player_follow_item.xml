@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="@dimen/qb_px_600"
+        android:layout_gravity="center|center_vertical"
+        android:layout_width="@dimen/qb_px_700"
+        android:background="@mipmap/dj4"
+        android:layout_height="@dimen/qb_px_500" />
+
+    <TextView
+        android:layout_marginTop="@dimen/qb_px_30"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:text="@string/home_follow_hint1"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="@dimen/qb_px_15"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:text="@string/home_follow_hint2"
+        android:layout_height="wrap_content" />
+
+    <Button
+        style="@style/AddressBook"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/qb_px_70"
+        android:text="通讯录同步好友"
+        android:padding="@dimen/qb_px_20"
+        android:layout_width="@dimen/qb_px_700"
+        android:layout_height="wrap_content" />
+</LinearLayout>
