@@ -10,13 +10,12 @@ import org.w3c.dom.Comment
 
 class ReplyService {
 
-    private var count = 0
 
     suspend fun loadComment(parentId: String): CommentModel {
         return withContext(Dispatchers.IO) {
-            delay(3000)
+            delay(1500)
             val data = ArrayList<Comments>()
-            for (id in count until count + 20) {
+            for (id in 1 until 10) {
                 data.add(
                     Comments(
                         (id + parentId.toInt() + 5).toString(),
@@ -33,12 +32,7 @@ class ReplyService {
                     )
                 )
             }
-            count += 20
-            var next = true
-            if (count > 50) {
-                next = false
-            }
-            CommentModel("988", 100, 10, next, data)
+            CommentModel("988", 100, 10, false, data)
         }
     }
 }	

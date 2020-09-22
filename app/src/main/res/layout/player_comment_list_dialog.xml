@@ -27,13 +27,13 @@
     </FrameLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:overScrollMode="never"
         android:id="@+id/bottom_sheet_comment_list"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1" />
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -53,6 +53,7 @@
             android:padding="@dimen/qb_px_50" />
 
         <ImageButton
+            android:id="@+id/comment_list_emoji"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -61,6 +62,7 @@
             android:src="@mipmap/bxy" />
 
         <ImageButton
+            android:id="@+id/comment_list_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"

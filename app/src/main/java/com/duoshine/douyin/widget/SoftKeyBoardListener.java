@@ -2,6 +2,7 @@ package com.duoshine.douyin.widget;
 
 import android.app.Activity;
 import android.graphics.Rect;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
@@ -45,7 +46,9 @@ public class SoftKeyBoardListener {
                 //根视图显示高度变大超过200，可以看作软键盘隐藏了
                 if (visibleHeight - rootViewVisibleHeight > 200) {
                     if (onSoftKeyBoardChangeListener != null) {
-                        onSoftKeyBoardChangeListener.keyBoardHide(visibleHeight - rootViewVisibleHeight);
+                        Log.d("duo_shine", "visibleHeight:$" + visibleHeight);
+                        Log.d("duo_shine", "rootViewVisibleHeight:$" + rootViewVisibleHeight);
+                        onSoftKeyBoardChangeListener.keyBoardHide(visibleHeight);
                     }
                     rootViewVisibleHeight = visibleHeight;
                     return;

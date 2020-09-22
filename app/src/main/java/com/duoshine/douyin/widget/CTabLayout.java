@@ -3179,10 +3179,7 @@ public class CTabLayout extends HorizontalScrollView {
         default:
           break;
       }
-      Log.d("duo_shine", "indicatorLeft:" + indicatorLeft);
-      Log.d("duo_shine", "indicatorRight:" + indicatorRight);
-      Log.d("duo_shine", "indicatorTop:" + indicatorTop);
-      Log.d("duo_shine", "indicatorBottom:" + indicatorBottom);
+
       // Draw the selection indicator on top of tab item backgrounds
       if (indicatorLeft >= 0 && indicatorRight > indicatorLeft) {
         Drawable selectedIndicator;

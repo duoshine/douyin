@@ -4,28 +4,20 @@ import android.animation.Animator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
 import android.os.Bundle
-import android.os.Looper
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.animation.LinearInterpolator
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.duoshine.douyin.ui.fragment.*
 import com.google.android.material.tabs.TabLayout
 import kotlinx.android.synthetic.main.activity_main.tabLayout
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import java.util.*
-import kotlin.concurrent.timerTask
 
 
 class MainActivity : AppCompatActivity() {
-    private var homeFragment: Fragment? = null
+    private var homeFragment: HomeFragment? = null
     private var cityFragment: Fragment? = null
     private var videoFragment: Fragment? = null
     private var messageFragment: Fragment? = null
@@ -59,7 +51,23 @@ class MainActivity : AppCompatActivity() {
                     animator?.end()
                 }
             })
-        homeRefresh()
+
+        //监听关注的刷新事件
+        mainViewModel!!.getFollowRefreshState().observe(this,
+            Observer<MainViewModel.RefreshState> {
+                if (it == MainViewModel.RefreshState.START) {
+
+                } else if (it == MainViewModel.RefreshState.COMPLETE) {//错误或成功都需要结束动画
+                    animator?.end()
+                }
+            })
+    }
+
+    /**
+     * 通过点击底部的Tab触发的刷新  todo 模拟数据加载
+     */
+    private fun homeRefresh() {
+        mainViewModel!!.startRefresh(homeFragment?.getPageIndex())
     }
 
     private fun initFragment() {
@@ -168,13 +176,6 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction().apply {
             hide(fragment).commit()
         }
-    }
-
-    /**
-     * 通过点击底部的Tab触发的刷新  todo 模拟数据加载
-     */
-    private fun homeRefresh() {
-        mainViewModel!!.startRefresh()
     }
 
     /**

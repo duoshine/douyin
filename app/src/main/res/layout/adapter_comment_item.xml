@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/comment_avatar"
-        android:layout_width="@dimen/qb_px_80"
-        android:layout_height="@dimen/qb_px_80"
+        android:layout_width="@dimen/qb_px_120"
+        android:layout_height="@dimen/qb_px_120"
         android:layout_marginLeft="@dimen/qb_px_30" />
 
     <LinearLayout
@@ -25,13 +25,16 @@
             android:layout_height="wrap_content"
             android:text="萌萌哒" />
 
-        <TextView
+
+        <EditText
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"
+            android:background="@null"
             android:id="@+id/comment_content"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/qb_px_4"
-            android:text="没看到这个衣服，喜欢这个鞋子,喜欢这个鞋子,喜欢这个鞋子,喜欢这个鞋子,喜欢这个鞋子"
-            android:textColor="@color/comment_content" />
+            android:hint="留下你的精彩评论吧" />
 
         <LinearLayout
             android:layout_width="wrap_content"

@@ -1,63 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.duoshine.douyin.widget.LikeView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<!--    <androidx.cardview.widget.CardView-->
-<!--        android:id="@+id/card_view"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:cardBackgroundColor="@color/colorPrimary"-->
-<!--        app:cardCornerRadius="@dimen/qb_px_200">-->
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:resize_mode="fill"
+        app:surface_type="surface_view"
+        app:use_controller="false" />
 
-        <com.google.android.exoplayer2.ui.PlayerView
-            android:id="@+id/player_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            app:resize_mode="fill"
-            app:surface_type="surface_view"
-            app:use_controller="true" />
+    <TextView
+        android:id="@+id/time_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/qb_px_240"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/qb_px_30"
+        android:text="00:14 / 00:34"
+        android:textColor="#fff"
+        android:textSize="19sp"
+        android:visibility="gone" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/SeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qb_px_100"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/qb_px_130"
+        android:background="@drawable/seekbar_progress_default"
+        android:thumb="@drawable/seekbar_thumb_transparent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="@dimen/qb_px_30"
+        android:layout_height="@dimen/qb_px_30"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/c0j" />
+
+    <ImageView
+        android:layout_width="@dimen/qb_px_30"
+        android:layout_height="@dimen/qb_px_30"
+        android:background="@mipmap/c0i" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/qb_px_30"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/qb_px_80"
+            android:background="@mipmap/col" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="-120px"
+            android:layout_marginBottom="@dimen/qb_px_80"
+            android:background="@mipmap/dep" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/star_like"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:visibility="invisible"
+                app:lottie_autoPlay="false"
+                app:lottie_fileName="digg_heart/data.json"
+                app:lottie_loop="false" />
+
+            <ImageButton
+                android:id="@+id/default_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:background="@null"
+                android:src="@mipmap/cnp" />
+        </FrameLayout>
 
         <TextView
-            android:id="@+id/time_bar"
-            android:layout_width="match_parent"
+            android:id="@+id/star_count"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="@dimen/qb_px_240"
-            android:background="@android:color/transparent"
-            android:gravity="center"
-            android:padding="@dimen/qb_px_30"
-            android:text="00:14 / 00:34"
-            android:textColor="#fff"
-            android:textSize="19sp"
-            android:visibility="gone" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/qb_px_70"
+            android:text="9859"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
 
-        <SeekBar
-            android:id="@+id/seekBar"
-            style="@style/SeekBar"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/qb_px_100"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="@dimen/qb_px_130"
-            android:background="@drawable/seekbar_progress_default"
-            android:thumb="@drawable/seekbar_thumb_transparent"
-            android:visibility="gone" />
-        <!--        android:progressBackgroundTint="#CDC9C9"-->
-        <!--        android:progressTint="#FFF"-->
-        <!--    progressBackgroundTint  seekbar的背景颜色-->
-        <!--    progressTint  seekbar目前已显示进度的颜色-->
-<!--    </androidx.cardview.widget.CardView>-->
+        <ImageButton
+            android:id="@+id/comment_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/cnn" />
 
-        <ImageView
-            android:layout_gravity="right"
-            android:layout_width="@dimen/qb_px_30"
-            android:background="@mipmap/c0j"
-            android:layout_height="@dimen/qb_px_30" />
+        <TextView
+            android:id="@+id/comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/qb_px_70"
+            android:gravity="center_horizontal"
+            android:text="9859"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
 
-        <ImageView
-            android:layout_width="@dimen/qb_px_30"
-            android:background="@mipmap/c0i"
-            android:layout_height="@dimen/qb_px_30" />
-</FrameLayout>
+        <ImageButton
+            android:id="@+id/share_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/dlp" />
+
+        <TextView
+            android:id="@+id/share_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/qb_px_120"
+            android:gravity="center_horizontal"
+            android:text="9859"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+        <FrameLayout
+            android:id="@+id/music_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/qb_px_250">
+
+            <ImageButton
+                android:id="@+id/music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/col" />
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/music_bg"
+                android:layout_width="@dimen/qb_px_70"
+                android:layout_height="@dimen/qb_px_70" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/qb_px_30"
+        android:layout_marginBottom="@dimen/qb_px_250"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/author_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@维维啊"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_30"
+            android:id="@+id/video_copywriting_view"
+            android:layout_width="@dimen/qb_px_700"
+            android:layout_height="wrap_content"
+            android:text="兄弟嘛，就是字啊你需要时两肋插刀法发顺丰撒发放散阀沙发阿富阿富阿萨德sad"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:drawableLeft="@mipmap/status_icon_l"
+            android:drawablePadding="@dimen/qb_px_13"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_marginTop="@dimen/qb_px_30"
+            android:id="@+id/video_music_name_view"
+            android:layout_width="@dimen/qb_px_400"
+            android:layout_height="wrap_content"
+            android:text="来自duo_shine的原创音乐"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ImageButton
+        android:clickable="false"
+        android:visibility="invisible"
+        android:id="@+id/pause_view"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:src="@mipmap/crm"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</com.duoshine.douyin.widget.LikeView>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@mipmap/dmg"
     android:layout_height="match_parent">
 
@@ -18,4 +18,5 @@
         android:layout_width="match_parent"
         android:layout_marginBottom="@dimen/qb_px_130"
         android:layout_height="@dimen/qb_px_100"/>
+
 </FrameLayout>

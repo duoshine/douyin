@@ -10,4 +10,6 @@
     <string name="home_pull_hint_text">下拉刷新内容</string>
     <string name="home_tab_concern">关注</string>
     <string name="home_tab_recommend">推荐</string>
+    <string name="home_follow_hint1">暂无关注人动态</string>
+    <string name="home_follow_hint2">查看通讯录好友，关注他们的抖音动态</string>
 </resources>

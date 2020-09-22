@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/comment_reply_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <EditText
-            android:maxLines="2"
             android:id="@+id/comment_input"
             android:layout_width="0px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
             android:hint="留下你的精彩评论吧"
+            android:maxLines="2"
             android:padding="@dimen/qb_px_30" />
 
         <ImageButton
-            android:padding="@dimen/qb_px_30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:background="@null"
+            android:padding="@dimen/qb_px_30"
             android:src="@mipmap/d9" />
 
         <ImageButton
-            android:padding="@dimen/qb_px_30"
+            android:id="@+id/emoji_keyboard_toggle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:background="@null"
+            android:padding="@dimen/qb_px_30"
             android:src="@mipmap/bxy" />
 
         <ImageButton
-            android:padding="@dimen/qb_px_30"
+            android:id="@+id/comment_submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="@dimen/qb_px_30"
             android:background="@null"
+            android:padding="@dimen/qb_px_30"
             android:src="@mipmap/dd3" />
-    </LinearLayout>
+    </LinearLayout
+>
 
     <RadioButton
         android:layout_width="wrap_content"
@@ -54,68 +59,141 @@
         android:text="评论并转发"
         android:textColor="#9c9c9c" />
 
+    <GridLayout
+        android:columnCount="8"
+        android:rowCount="1"
+        android:orientation="horizontal"
+        android:id="@+id/default_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/default_list_0"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db_" />
+
+        <ImageButton
+            android:id="@+id/default_list_1"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db0" />
+
+        <ImageButton
+            android:id="@+id/default_list_2"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db1" />
+
+        <ImageButton
+            android:id="@+id/default_list_3"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db2" />
+
+        <ImageButton
+            android:id="@+id/default_list_4"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db3" />
+
+        <ImageButton
+            android:id="@+id/default_list_5"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db4" />
+
+        <ImageButton
+            android:id="@+id/default_list_6"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db5" />
+
+        <ImageButton
+            android:id="@+id/default_list_7"
+            android:layout_width="0px"
+            android:layout_columnWeight="1"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/db6" />
+    </GridLayout>
+
     <LinearLayout
+        android:id="@+id/emoji_list_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/qb_px_30"
-        android:orientation="horizontal"
-        android:paddingBottom="@dimen/qb_px_30">
+        android:orientation="vertical"
+        android:visibility="gone">
 
-        <ImageButton
-            android:layout_width="0dp"
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/emoji_list"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_9" />
+            app:tabRippleColor="@android:color/transparent" />
 
-        <ImageButton
-            android:layout_width="0dp"
+        <com.duoshine.douyin.widget.EmojiTabLayout
+            android:id="@+id/pager_tab_layout"
+            style="@style/Widget.Design.TabLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_g" />
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_c" />
+            app:tabIndicatorHeight="0px"
+            app:tabMinWidth="@dimen/qb_px_30">
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_e" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_d" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_9" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_a" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
 
-        <ImageButton
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@null"
-            android:src="@mipmap/d_b" />
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/emoji_pager_dot_selector" />
+        </com.duoshine.douyin.widget.EmojiTabLayout>
     </LinearLayout>
 
 </LinearLayout>

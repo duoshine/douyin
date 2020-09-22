@@ -13,12 +13,13 @@
         android:id="@+id/btn_show_dialog"
         android:layout_height="wrap_content" />
 
-<!--    <com.airbnb.lottie.LottieAnimationView
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="200dp"
         android:id="@+id/animation_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150px"
+        android:layout_height="150px"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="digg_heart_bubbles/data.json"
-        app:lottie_loop="true" />-->
+        app:lottie_fileName="combo/ttlive_gift_combo_effect_level2.json"
+        app:lottie_loop="true" />
 
 </FrameLayout>

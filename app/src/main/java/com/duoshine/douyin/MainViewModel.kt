@@ -7,9 +7,7 @@ import com.duoshine.douyin.data.CommentService
 import com.duoshine.douyin.data.CommentSource
 import com.duoshine.douyin.data.ReplyService
 import com.duoshine.douyin.data.ReplySource
-import com.duoshine.douyin.model.CommentModel
 import com.duoshine.douyin.model.Comments
-import com.google.gson.Gson
 import kotlinx.coroutines.delay
 import java.util.ArrayList
 
@@ -19,6 +17,7 @@ class MainViewModel : ViewModel() {
 
     //刷新状态
     private var refreshState: MutableLiveData<RefreshState>? = null
+    private var followRefreshState: MutableLiveData<RefreshState>? = null
     private var comments: MutableLiveData<MutableList<Comments>>? = null
 
     private val commentSource: CommentSource? by lazy {
@@ -60,12 +59,23 @@ class MainViewModel : ViewModel() {
      */
     suspend fun getComments(oldList: ArrayList<Comments>): MutableLiveData<MutableList<Comments>> {
         val commentModel = commentSource!!.load()
-        val oldModel = CommentModel("", 1, 1, true, null)
-        oldModel.comment = oldList
         oldList.addAll(commentModel.comment!!)
         //  加载评论
         comments?.value = oldList
         return comments!!
+    }
+
+    /**
+     * 追加评论
+     */
+    fun addComment(
+        oldList: ArrayList<Comments>,
+        comments: Comments
+    ): MutableLiveData<MutableList<Comments>> {
+        oldList.add(0, comments)
+        //  加载评论
+        this.comments?.value = oldList
+        return this.comments!!
     }
 
     /**
@@ -107,58 +117,75 @@ class MainViewModel : ViewModel() {
 
     init {
         refreshState = MutableLiveData()
+        followRefreshState = MutableLiveData()
         comments = MutableLiveData()
     }
 
     private val defaultUrls = listOf(
-        "http://192.168.1.154:8080/douyin1.mp4",
-        "http://192.168.1.154:8080/douyin.mp4",
-        "http://192.168.1.154:8080/douyin2.mp4",
-        "http://192.168.1.154:8080/douyin3.mp4",
-        "http://192.168.1.154:8080/douyin4.mp4",
-        "http://192.168.1.154:8080/douyin5.mp4",
-        "http://192.168.1.154:8080/douyin6.mp4",
-        "http://192.168.1.154:8080/douyin7.mp4",
-        "http://192.168.1.154:8080/douyin8.mp4",
-        "http://192.168.1.154:8080/douyin9.mp4",
-        "http://192.168.1.154:8080/douyin10.mp4"
+        "http://192.168.1.109:8080/douyin1.mp4",
+        "http://192.168.1.109:8080/douyin.mp4",
+        "http://192.168.1.109:8080/douyin2.mp4",
+        "http://192.168.1.109:8080/douyin3.mp4",
+        "http://192.168.1.109:8080/douyin4.mp4",
+        "http://192.168.1.109:8080/douyin5.mp4",
+        "http://192.168.1.109:8080/douyin6.mp4",
+        "http://192.168.1.109:8080/douyin7.mp4",
+        "http://192.168.1.109:8080/douyin8.mp4",
+        "http://192.168.1.109:8080/douyin9.mp4",
+        "http://192.168.1.109:8080/douyin10.mp4"
     )
 
     private val newUrls = listOf(
-        "http://192.168.1.154:8080/douyin7.mp4",
-        "http://192.168.1.154:8080/douyin1.mp4",
-        "http://192.168.1.154:8080/douyin.mp4",
-        "http://192.168.1.154:8080/douyin2.mp4",
-        "http://192.168.1.154:8080/douyin3.mp4",
-        "http://192.168.1.154:8080/douyin4.mp4",
-        "http://192.168.1.154:8080/douyin5.mp4",
-        "http://192.168.1.154:8080/douyin6.mp4",
-        "http://192.168.1.154:8080/douyin8.mp4",
-        "http://192.168.1.154:8080/douyin9.mp4",
-        "http://192.168.1.154:8080/douyin10.mp4"
+        "http://192.168.1.109:8080/douyin7.mp4",
+        "http://192.168.1.109:8080/douyin1.mp4",
+        "http://192.168.1.109:8080/douyin.mp4",
+        "http://192.168.1.109:8080/douyin2.mp4",
+        "http://192.168.1.109:8080/douyin3.mp4",
+        "http://192.168.1.109:8080/douyin4.mp4",
+        "http://192.168.1.109:8080/douyin5.mp4",
+        "http://192.168.1.109:8080/douyin6.mp4",
+        "http://192.168.1.109:8080/douyin8.mp4",
+        "http://192.168.1.109:8080/douyin9.mp4",
+        "http://192.168.1.109:8080/douyin10.mp4"
     )
+
 
     private val urls: MutableLiveData<List<String>> by lazy {
         MutableLiveData<List<String>>()
     }
 
-    fun urlsLiveData() = urls
+    private val followUrls: MutableLiveData<List<String>> by lazy {
+        MutableLiveData<List<String>>()
+    }
+
+    fun urlsLiveData(videoType: Int) = if (videoType == 0) followUrls else urls
 
     suspend fun requestUrls() {
         delay(1200)
         toggle = !toggle
         refreshState?.value = RefreshState.COMPLETE //先结束刷新
-        delay(100)
         if (toggle) urls.value = newUrls else urls.value = defaultUrls
     }
 
-    fun startRefresh() {
-        refreshState?.value = RefreshState.START
+    fun startRefresh(pageIndex: Int?) {
+        if (pageIndex == 0) {
+            followRefreshState?.value = RefreshState.START
+        }else if (pageIndex == 1) {
+            refreshState?.value = RefreshState.START
+        }
     }
 
     fun getRefreshState(): MutableLiveData<RefreshState> {
         return refreshState!!
     }
 
+    fun getFollowRefreshState(): MutableLiveData<RefreshState> {
+        return followRefreshState!!
+    }
 
+    suspend fun requestFollowUrls() {
+        delay(1200)
+        followRefreshState?.value = RefreshState.COMPLETE //先结束刷新
+        followUrls.value = listOf()
+    }
 }

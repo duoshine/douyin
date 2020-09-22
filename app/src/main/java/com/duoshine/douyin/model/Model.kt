@@ -7,6 +7,7 @@ data class CommentModel(
     val next: Boolean,//是否有下一页
     var comment: ArrayList<Comments>?//评论列表
 )
+
 fun ArrayList<Comments>.clone(): Any {
     return this.clone()
 }
@@ -41,3 +42,15 @@ data class CommentReply(
     val content: String,//回复内容
     val date: String//回复时间
 )
+
+//video信息 不应该分开编写这个实体
+data class VideoModel(
+    var star: Boolean, //是否点赞
+    var starCount: Int,//赞总数
+    var CommentCount: Int,//评论总数
+    var shareCount: Int,//分享总数
+    var copywriting:String, //文案
+    var author:String, //作者
+    var music:String //视频bgm
+)
+

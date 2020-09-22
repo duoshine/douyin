@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.viewpager.widget.ViewPager
 import com.duoshine.douyin.MainActivity
 import com.duoshine.douyin.MainViewModel
 import com.duoshine.douyin.R
@@ -24,14 +25,18 @@ import kotlin.collections.ArrayList
 class HomeFragment : BaseFragment() {
 
     private val TAG = "HomeFragment"
-    private var playerFragment: PlayerFragment? = null
+    private var followFragment: PlayerFragment? = null
+    private var recommendFragment: PlayerFragment? = null
     private var mainViewModel: MainViewModel? = null
+
+    private var currentPosition = 1
 
     private val fragments: ArrayList<Fragment> by lazy {
         ArrayList<Fragment>().apply {
-            playerFragment = PlayerFragment()
-            add(playerFragment!!)
-//            add(playerFragment!!)
+            followFragment = PlayerFragment.getPlayerFragment(0)
+            recommendFragment = PlayerFragment.getPlayerFragment(1)
+            add(followFragment!!)
+            add(recommendFragment!!)
             add(UserInfoFragment())
         }
     }
@@ -40,18 +45,11 @@ class HomeFragment : BaseFragment() {
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
-    override fun onHiddenChanged(hidden: Boolean) {
-        playerFragment?.playWhenReady(hidden)
-        super.onHiddenChanged(hidden)
-    }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         //设置加载的json文件所用到的资源目录
         animation_view.imageAssetsFolder = "images/"
         initView()
-        homeViewPager.adapter =
-            HomeAdapter(childFragmentManager, fragments)
         initViewModel()
     }
 
@@ -65,7 +63,7 @@ class HomeFragment : BaseFragment() {
      */
     private fun addRefreshListener() {
         /**
-         * 监听下拉刷新的状态变化，对动画执行显示和隐藏操作
+         * 推荐刷新事件
          */
         mainViewModel!!.getRefreshState().observe(context as MainActivity,
             Observer<MainViewModel.RefreshState> {
@@ -75,9 +73,25 @@ class HomeFragment : BaseFragment() {
                     tabLoadingEnd()
                 }
             })
+
+//        关注刷新事件
+        mainViewModel!!.getFollowRefreshState().observe(context as MainActivity,
+            Observer<MainViewModel.RefreshState> {
+                if (it == MainViewModel.RefreshState.START) {
+                    tabLoadingStart()
+                } else if (it == MainViewModel.RefreshState.COMPLETE) {
+                    tabLoadingEnd()
+                }
+            })
     }
 
+    //获取当前ViewPage显示索引
+    fun getPageIndex() = currentPosition
+
     private fun initView() {
+        //设置隐藏的页面不销毁
+        homeViewPager.offscreenPageLimit = 3
+//        监听下拉刷新
         homeViewPager.setRefreshListener(object : CViewPager.RefreshListener {
             override fun refreshPrepare(offsetY: Float) {
                 pullLoadingStart(offsetY)
@@ -88,7 +102,11 @@ class HomeFragment : BaseFragment() {
             }
         })
 
-        homeViewPager.addOnPageChangeListener(object : OnPageChangeAbstract() {
+        homeViewPager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
+            override fun onPageScrollStateChanged(state: Int) {
+
+            }
+
             override fun onPageScrolled(
                 position: Int,
                 positionOffset: Float,
@@ -100,7 +118,35 @@ class HomeFragment : BaseFragment() {
                     animation(positionOffsetPixels.toFloat())
                 }
             }
+
+            override fun onPageSelected(position: Int) {
+                currentPosition = position
+            }
         })
+        homeViewPager.adapter =
+            HomeAdapter(childFragmentManager, fragments)
+        homeViewPager.currentItem = 1
+    }
+
+    /**
+     * 当home显示或隐藏时 视频的播放处理
+     */
+    override fun onHiddenChanged(hidden: Boolean) {
+        super.onHiddenChanged(hidden)
+        //true隐藏 false显示 传递给子View实现切换时停止恢复视频播放
+        if (getPageIndex() == 0) {
+            if (hidden) {
+                followFragment?.playWhenUnready()
+            } else {
+                followFragment?.playWhenReady()
+            }
+        } else if (getPageIndex() == 1) {
+            if (hidden) {
+                recommendFragment?.playWhenUnready()
+            } else {
+                recommendFragment?.playWhenReady()
+            }
+        }
     }
 
     /**
@@ -192,7 +238,7 @@ class HomeFragment : BaseFragment() {
         if (offsetY > 150) {
             //开启刷新之前上一次刷新必须处于完成状态
             Log.d(TAG, "可以开启刷新")
-            mainViewModel?.startRefresh()
+            mainViewModel?.startRefresh(getPageIndex())
         } else {
             //不满足下拉刷新的条件 显示默认界面
             tabLoadingEnd()

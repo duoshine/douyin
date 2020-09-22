@@ -79,4 +79,10 @@ class CViewPager : ViewPager {
     fun setRefreshListener(listener: RefreshListener) {
         refreshListener = listener
     }
+
+    override fun setOffscreenPageLimit(limit: Int) {
+        super.setOffscreenPageLimit(limit)
+
+
+    }
 }
