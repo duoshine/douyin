@@ -22,6 +22,10 @@ class CViewPager : ViewPager {
 
 
     override fun onInterceptTouchEvent(ev: MotionEvent): Boolean {
+        //注意第三页是用户信息页面 不参与下拉刷新  不传递任何事件
+        if (this.currentItem == 2) {
+            return super.onInterceptTouchEvent(ev)
+        }
         when (ev.action) {
             MotionEvent.ACTION_DOWN -> {
                 startX = ev.x
@@ -41,6 +45,10 @@ class CViewPager : ViewPager {
     }
 
     override fun onTouchEvent(ev: MotionEvent): Boolean {
+        //注意第三页是用户信息页面 不参与下拉刷新  不传递任何事件
+        if (this.currentItem == 2) {
+            return super.onTouchEvent(ev)
+        }
         when (ev.action) {
             MotionEvent.ACTION_MOVE -> {
                 endX = ev.x
@@ -78,11 +86,5 @@ class CViewPager : ViewPager {
 
     fun setRefreshListener(listener: RefreshListener) {
         refreshListener = listener
-    }
-
-    override fun setOffscreenPageLimit(limit: Int) {
-        super.setOffscreenPageLimit(limit)
-
-
     }
 }

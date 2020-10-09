@@ -15,6 +15,7 @@ import com.duoshine.douyin.MainActivity
 import com.duoshine.douyin.MainViewModel
 import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.HomeAdapter
+import com.duoshine.douyin.constants.UserConstants
 import com.duoshine.douyin.widget.CViewPager
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlin.collections.ArrayList
@@ -37,7 +38,7 @@ class HomeFragment : BaseFragment() {
             recommendFragment = PlayerFragment.getPlayerFragment(1)
             add(followFragment!!)
             add(recommendFragment!!)
-            add(UserInfoFragment())
+            add(UserInfoFragment.getUserInfoFragment(UserConstants.userId))
         }
     }
 
@@ -89,7 +90,7 @@ class HomeFragment : BaseFragment() {
     fun getPageIndex() = currentPosition
 
     private fun initView() {
-        //设置隐藏的页面不销毁
+        //设置隐藏的页面不销毁  因为他只管理三个页面可以避免重复重建
         homeViewPager.offscreenPageLimit = 3
 //        监听下拉刷新
         homeViewPager.setRefreshListener(object : CViewPager.RefreshListener {
@@ -121,6 +122,12 @@ class HomeFragment : BaseFragment() {
 
             override fun onPageSelected(position: Int) {
                 currentPosition = position
+                //第三页不需要显示直播和tabLayout等内容
+                if (position == 2) {
+                    header_tab_layout.visibility = View.GONE
+                } else {
+                    header_tab_layout.visibility = View.VISIBLE
+                }
             }
         })
         homeViewPager.adapter =
@@ -129,7 +136,7 @@ class HomeFragment : BaseFragment() {
     }
 
     /**
-     * 当home显示或隐藏时 视频的播放处理
+     * 当home显示或隐藏时 视频的播放暂停处理
      */
     override fun onHiddenChanged(hidden: Boolean) {
         super.onHiddenChanged(hidden)

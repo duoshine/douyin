@@ -41,7 +41,8 @@ import kotlin.math.abs
 class PlayerAdapter(
     private val viewPager: ViewPager2,
     private val context: Context,
-    private val urls: MutableList<String>
+    private val urls: MutableList<String>,
+    private val videoType:Int
 ) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
@@ -254,7 +255,7 @@ class PlayerAdapter(
     }
 
     override fun getItemViewType(position: Int): Int {
-        return if (urls.size == 0) {
+        return if (videoType== 0) {
             1
         } else {
             2
@@ -281,7 +282,7 @@ class PlayerAdapter(
     }
 
     override fun getItemCount(): Int {
-        return if (urls.size == 0) 1 else urls.size
+        return if (videoType == 0) 1 else urls.size
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
@@ -424,7 +425,6 @@ class PlayerAdapter(
         holder.videoCopywritingView?.movementMethod = LinkMovementMethod.getInstance()
         //设置音乐名字 它支持跑马灯  默认不开启跑马灯效果
         holder.videoMusicNameView?.text = videoModel.music
-        holder.videoMusicNameView?.isSelected = false
     }
 
     /**

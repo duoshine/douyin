@@ -35,7 +35,7 @@
         android:textColor="@android:color/white"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/qb_px_70"
-        android:text="通讯录同步好友"
+        android:text="@string/home_follow_add"
         android:padding="@dimen/qb_px_20"
         android:layout_width="@dimen/qb_px_700"
         android:layout_height="wrap_content" />

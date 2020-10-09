@@ -36,20 +36,11 @@ import kotlinx.coroutines.launch
 
 
 class RecyclerActivity : AppCompatActivity(){
-    private val TAG = "RecyclerActivity"
-
-    private var bottomSheetDialog: BottomSheetDialog? = null
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_test)
-/*
-        val  bottomSheetDialog = BottomSheetDialog(this, R.style.test)
-        bottomSheetDialog.setContentView(R.layout.bottom_test)
-        btn_show_dialog.setOnClickListener {
-            bottomSheetDialog.show()
-        }*/
+
     }
 }

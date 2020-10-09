@@ -110,7 +110,6 @@ class PlayerFragment : BaseFragment(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(TAG, "onCreate: ")
 //        shareSDK 在调用分享之前调用即可
         MobSDK.submitPolicyGrantResult(true, null);
         //获取当前页面你加载视频的类型 推荐还是关注
@@ -199,8 +198,8 @@ class PlayerFragment : BaseFragment(), View.OnClickListener {
     }
 
     private fun initView() {
-        view_pager.offscreenPageLimit = 2
-        adapter = PlayerAdapter(view_pager, context!!, urls!!)
+        view_pager.offscreenPageLimit = 2 //预加载数量
+        adapter = PlayerAdapter(view_pager, context!!, urls!!,videoType)
         view_pager.adapter = adapter
 //        构建显示评论列表的底部弹窗
         initCommentListDialog()

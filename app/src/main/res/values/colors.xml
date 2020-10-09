@@ -15,4 +15,7 @@
     <color name="comment_star">#9EA8B2</color>
 
     <color name="comment_list_dialog">#EAE5E5</color>
+
+<!--    用户信息 编辑资料-->
+    <color name="home_user_edit">#393C45</color>
 </resources>
