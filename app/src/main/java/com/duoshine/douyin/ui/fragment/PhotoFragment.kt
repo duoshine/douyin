@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.ContentAdapter
+import com.duoshine.douyin.adapter.PhotoAdapter
 import kotlinx.android.synthetic.main.photo_fragment.*
 import kotlinx.android.synthetic.main.photo_fragment.recycler_view
 import kotlinx.android.synthetic.main.works_fragment.*
@@ -31,7 +32,7 @@ class PhotoFragment : Fragment() {
     private fun initView() {
         val layoutManager = LinearLayoutManager(context)
         recycler_view.layoutManager = layoutManager
-        val adapter = ContentAdapter()
+        val adapter = PhotoAdapter()
         recycler_view.adapter = adapter
 
         val parent = parentFragment as? UserInfoFragment

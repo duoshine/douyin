@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avatar_container_layout"
+        android:background="#171A23"
+        android:gravity="center"
+        android:padding="@dimen/qb_px_30"
+        android:text="查看手机相册"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/add_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/qb_px_50"
+        android:layout_marginTop="@dimen/qb_px_40"
+        android:layout_marginRight="@dimen/qb_px_50"
+        android:text="快速编辑和分享手机相册中的内容。抖音不会上传和备份你的手机相册，相册内容仅对你可见。"
+        android:textColor="#91949D" />
+
+    <Button
+        android:layout_marginTop="@dimen/qb_px_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/user_btn_selector"
+        android:text="@string/home_photo_text"
+        android:textColor="@drawable/user_text_color_selector" />
+</LinearLayout>

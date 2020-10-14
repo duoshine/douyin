@@ -1,99 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <com.duoshine.douyin.widget.CViewPager
-        android:id="@+id/homeViewPager"
+    <com.duoshine.douyin.widget.StatusBarView
+        android:id="@+id/placeholder"
+        android:background="#000"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <!-- 默认是隐藏的 执行平移动画-->
-    <TextView
-        android:id="@+id/pull_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/qb_px_150"
-        android:layout_gravity="center_horizontal"
-        android:alpha="0"
-        android:gravity="center_vertical"
-        android:text="@string/home_pull_hint_text"
-        android:textColor="#fff" />
-
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animation_view"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/qb_px_150"
-        android:layout_gravity="right"
-        android:layout_marginRight="@dimen/qb_px_50"
-        android:alpha="0"
-        android:gravity="center_vertical"
-        app:lottie_autoPlay="true"
-        app:lottie_fileName="ttlive_pull_loading.json"
-        app:lottie_loop="true" />
+        android:layout_height="wrap_content" />
 
     <FrameLayout
-        android:id="@+id/header_tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/qb_px_150"
-        android:orientation="horizontal">
+        android:layout_height="match_parent">
 
-        <ImageButton
+        <com.duoshine.douyin.widget.CViewPager
+            android:id="@+id/homeViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- 默认是隐藏的 执行平移动画-->
+        <TextView
+            android:id="@+id/pull_text_view"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="@dimen/qb_px_50"
-            android:background="@null"
-            android:src="@mipmap/home_left_live" />
+            android:layout_height="@dimen/qb_px_150"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0"
+            android:gravity="center_vertical"
+            android:text="@string/home_pull_hint_text"
+            android:textColor="#fff" />
 
-        <!--    它和TabLayout的区别仅仅是修改了下划线的宽度 这让他比文本宽度小一些-->
-        <com.duoshine.douyin.widget.CTabLayout
-            android:id="@+id/tabLayout"
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|center_vertical"
-            android:background="@android:color/transparent"
-            app:tabIndicatorColor="@android:color/white"
-            app:tabIndicatorFullWidth="false"
-            app:tabIndicatorHeight="@dimen/qb_px_5"
-            app:tabMode="auto"
-            app:tabPaddingTop="@dimen/qb_px_20"
-            app:tabRippleColor="@android:color/transparent"
-            app:tabSelectedTextColor="@color/player_top_tab_selected"
-            app:tabTextAppearance="@style/TabLayout"
-            app:tabTextColor="@color/player_top_tab">
-
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/home_tab_concern" />
-
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/home_tab_recommend" />
-        </com.duoshine.douyin.widget.CTabLayout>
-
-        <ImageButton
-            android:id="@+id/search_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|right"
+            android:layout_height="@dimen/qb_px_150"
+            android:layout_gravity="right"
             android:layout_marginRight="@dimen/qb_px_50"
-            android:background="@null"
-            android:src="@mipmap/home_search" />
+            android:alpha="0"
+            android:gravity="center_vertical"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="ttlive_pull_loading.json"
+            app:lottie_loop="true" />
+
+        <FrameLayout
+            android:id="@+id/header_tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qb_px_150"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/qb_px_50"
+                android:background="@null"
+                android:src="@mipmap/home_left_live" />
+
+            <!--    它和TabLayout的区别仅仅是修改了下划线的宽度 这让他比文本宽度小一些-->
+            <com.duoshine.douyin.widget.CTabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@android:color/transparent"
+                app:tabIndicatorColor="@android:color/white"
+                app:tabIndicatorFullWidth="false"
+                app:tabIndicatorHeight="@dimen/qb_px_5"
+                app:tabMode="auto"
+                app:tabPaddingTop="@dimen/qb_px_20"
+                app:tabRippleColor="@android:color/transparent"
+                app:tabSelectedTextColor="@color/player_top_tab_selected"
+                app:tabTextAppearance="@style/TabLayout"
+                app:tabTextColor="@color/player_top_tab">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_tab_concern" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_tab_recommend" />
+            </com.duoshine.douyin.widget.CTabLayout>
+
+            <ImageButton
+                android:id="@+id/search_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginRight="@dimen/qb_px_50"
+                android:background="@null"
+                android:src="@mipmap/home_search" />
+        </FrameLayout>
+
+        <!--    下面这两货仅仅做一个圆角的效果-->
+        <ImageView
+            android:layout_width="@dimen/qb_px_30"
+            android:layout_height="@dimen/qb_px_30"
+            android:layout_gravity="right|bottom"
+            android:background="@mipmap/c0l" />
+
+        <ImageView
+            android:layout_width="@dimen/qb_px_30"
+            android:layout_height="@dimen/qb_px_30"
+            android:layout_gravity="left|bottom"
+            android:background="@mipmap/c0k" />
     </FrameLayout>
-
-    <!--    下面这两货仅仅做一个圆角的效果-->
-    <ImageView
-        android:layout_width="@dimen/qb_px_30"
-        android:layout_height="@dimen/qb_px_30"
-        android:layout_gravity="right|bottom"
-        android:background="@mipmap/c0l" />
-
-    <ImageView
-        android:layout_width="@dimen/qb_px_30"
-        android:layout_height="@dimen/qb_px_30"
-        android:layout_gravity="left|bottom"
-        android:background="@mipmap/c0k" />
-</FrameLayout>
+</LinearLayout>

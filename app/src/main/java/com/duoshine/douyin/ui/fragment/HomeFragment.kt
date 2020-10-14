@@ -32,13 +32,14 @@ class HomeFragment : BaseFragment() {
 
     private var currentPosition = 1
 
+
+
     private val fragments: ArrayList<Fragment> by lazy {
         ArrayList<Fragment>().apply {
             followFragment = PlayerFragment.getPlayerFragment(0)
             recommendFragment = PlayerFragment.getPlayerFragment(1)
             add(followFragment!!)
             add(recommendFragment!!)
-            add(UserInfoFragment.getUserInfoFragment(UserConstants.userId))
         }
     }
 
@@ -91,7 +92,7 @@ class HomeFragment : BaseFragment() {
 
     private fun initView() {
         //设置隐藏的页面不销毁  因为他只管理三个页面可以避免重复重建
-        homeViewPager.offscreenPageLimit = 3
+        homeViewPager.offscreenPageLimit = 2
 //        监听下拉刷新
         homeViewPager.setRefreshListener(object : CViewPager.RefreshListener {
             override fun refreshPrepare(offsetY: Float) {
@@ -115,19 +116,10 @@ class HomeFragment : BaseFragment() {
             ) {
                 //TabLayout不通过适配器关联 因为Tab只有两个
                 tabLayout.setScrollPosition(position, positionOffset, false)
-                if (position == 1) {
-                    animation(positionOffsetPixels.toFloat())
-                }
             }
 
             override fun onPageSelected(position: Int) {
                 currentPosition = position
-                //第三页不需要显示直播和tabLayout等内容
-                if (position == 2) {
-                    header_tab_layout.visibility = View.GONE
-                } else {
-                    header_tab_layout.visibility = View.VISIBLE
-                }
             }
         })
         homeViewPager.adapter =
@@ -154,15 +146,6 @@ class HomeFragment : BaseFragment() {
                 recommendFragment?.playWhenReady()
             }
         }
-    }
-
-    /**
-     * 向个人信息页面滑动时 TabLayout应该执行平移动画
-     */
-    private fun animation(to: Float) {
-        val a = ObjectAnimator.ofFloat(tabLayout, "translationX", -to)
-        a.duration = 0
-        a.start()
     }
 
     private fun tabLoadingStart() {

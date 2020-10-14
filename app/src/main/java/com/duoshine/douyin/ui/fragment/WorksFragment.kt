@@ -1,21 +1,19 @@
 package com.duoshine.douyin.ui.fragment
 
 import android.os.Bundle
-import android.util.Log
-import android.view.LayoutInflater
-import android.view.VelocityTracker
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import cn.jzvd.Jzvd
 import com.duoshine.douyin.R
-import com.duoshine.douyin.adapter.ContentAdapter
-import com.duoshine.douyin.widget.CRecyclerView
+import com.duoshine.douyin.adapter.WorkAdapter
 import kotlinx.android.synthetic.main.works_fragment.*
 
 //作品
 class WorksFragment : Fragment() {
     private val TAG = "WorksFragment"
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -27,21 +25,33 @@ class WorksFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initView()
-    }
-
-    private fun initView() {
-        val layoutManager = LinearLayoutManager(context)
-        recycler_view.layoutManager = layoutManager
-        val adapter = ContentAdapter()
-        recycler_view.adapter = adapter
-
-        val parent = parentFragment as? UserInfoFragment
-        parent?.addRecyclerViewScrollListener(recycler_view)
+        initJzvd()
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
-       recycler_view.clearOnScrollListeners()
+        recyclerView.clearOnScrollListeners()
+    }
+
+    private fun initJzvd() {
+        recyclerView.layoutManager = GridLayoutManager(context, 3)
+        val adapterVideoList = WorkAdapter(context,0)
+        recyclerView.adapter = adapterVideoList
+        val parent = parentFragment as? UserInfoFragment
+        parent?.addRecyclerViewScrollListener(recyclerView)
+        recyclerView.addOnChildAttachStateChangeListener(object :
+            RecyclerView.OnChildAttachStateChangeListener {
+            override fun onChildViewAttachedToWindow(view: View) {}
+            override fun onChildViewDetachedFromWindow(view: View) {
+                val jzvd: Jzvd = view.findViewById(R.id.videoplayer)
+                if (jzvd != null && Jzvd.CURRENT_JZVD != null &&
+                    jzvd.jzDataSource.containsTheUrl(Jzvd.CURRENT_JZVD.jzDataSource.currentUrl)
+                ) {
+                    if (Jzvd.CURRENT_JZVD != null && Jzvd.CURRENT_JZVD.screen != Jzvd.SCREEN_FULLSCREEN) {
+                        Jzvd.releaseAllVideos()
+                    }
+                }
+            }
+        })
     }
 }

@@ -13,10 +13,11 @@
     <string name="home_follow_hint1">暂无关注人动态</string>
     <string name="home_follow_hint2">查看通讯录好友，关注他们的抖音动态</string>
     <string name="home_user_works">作品</string>
-    <string name="home_user_dynamic">动态</string>
+    <string name="home_user_dynamic">转发</string>
     <string name="home_user_like">喜欢</string>
     <string name="home_user_photo">相册</string>
     <string name="home_user_edit">编辑资料</string>
     <string name="home_user_add">熟人</string>
     <string name="home_follow_add">通讯录同步好友</string>
+    <string name="home_photo_text">查看相册</string>
 </resources>

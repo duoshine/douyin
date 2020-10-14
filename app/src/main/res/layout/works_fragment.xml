@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.duoshine.douyin.widget.CRecyclerView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:overScrollMode="never"
-    android:id="@+id/recycler_view"
-    android:layout_height="wrap_content"/>
+    android:layout_height="wrap_content">
+
+    <com.duoshine.douyin.widget.CRecyclerView
+        android:layout_above="@+id/placeholder"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never" />
+
+    <View
+        android:layout_width="match_parent"
+        android:id="@+id/placeholder"
+        android:layout_alignParentBottom="true"
+        android:layout_height="@dimen/qb_px_170" />
+
+</RelativeLayout>

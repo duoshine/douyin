@@ -1,46 +1,66 @@
 package com.duoshine.douyin.test
 
 
-import android.content.Context
-import android.graphics.BitmapFactory
 import android.os.Bundle
-import android.text.Spannable
-import android.text.SpannableString
-import android.text.TextUtils
-import android.util.DisplayMetrics
-import android.util.Log
+import android.view.MenuItem
 import android.view.View
-import android.view.ViewGroup
-import android.view.inputmethod.InputMethodManager
-import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import androidx.viewpager2.widget.ViewPager2
-import com.duoshine.douyin.MainViewModel
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView.OnChildAttachStateChangeListener
+import cn.jzvd.Jzvd
 import com.duoshine.douyin.R
-import com.duoshine.douyin.adapter.CommentAdapter
-import com.duoshine.douyin.adapter.EmojiAdapter
-import com.duoshine.douyin.constants.EmojiConstants
-import com.duoshine.douyin.model.Comments
-import com.duoshine.douyin.widget.EmojiTabLayout
-import com.duoshine.douyin.widget.FullHeightSpan
-import com.duoshine.douyin.widget.SoftKeyBoardListener
-import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.google.android.material.bottomsheet.BottomSheetDialog
+import com.duoshine.douyin.adapter.WorkAdapter
 import kotlinx.android.synthetic.main.activity_recycler_test.*
-import kotlinx.coroutines.launch
 
 
-class RecyclerActivity : AppCompatActivity(){
-
+class RecyclerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+//        supportActionBar?.setDisplayShowHomeEnabled(true)
+//        supportActionBar?.setDisplayShowTitleEnabled(true)
+//        supportActionBar?.setDisplayUseLogoEnabled(false)
+//        supportActionBar?.title = "列表视频"
         setContentView(R.layout.activity_recycler_test)
+        init()
+    }
 
+    private fun init() {
+        recyclerView.layoutManager = GridLayoutManager(this, 3)
+        val adapterVideoList = WorkAdapter(this,0)
+        recyclerView.adapter = adapterVideoList
+        recyclerView.addOnChildAttachStateChangeListener(object : OnChildAttachStateChangeListener {
+            override fun onChildViewAttachedToWindow(view: View) {}
+            override fun onChildViewDetachedFromWindow(view: View) {
+                val jzvd: Jzvd = view.findViewById(R.id.videoplayer)
+                if (jzvd != null && Jzvd.CURRENT_JZVD != null &&
+                    jzvd.jzDataSource.containsTheUrl(Jzvd.CURRENT_JZVD.jzDataSource.currentUrl)
+                ) {
+                    if (Jzvd.CURRENT_JZVD != null && Jzvd.CURRENT_JZVD.screen != Jzvd.SCREEN_FULLSCREEN) {
+                        Jzvd.releaseAllVideos()
+                    }
+                }
+            }
+        })
+    }
+
+    override fun onBackPressed() {
+        if (Jzvd.backPress()) {
+            return
+        }
+        super.onBackPressed()
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Jzvd.releaseAllVideos()
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> finish()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

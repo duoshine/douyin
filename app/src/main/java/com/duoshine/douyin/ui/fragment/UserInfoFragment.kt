@@ -2,6 +2,7 @@ package com.duoshine.douyin.ui.fragment
 
 import android.animation.ObjectAnimator
 import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
@@ -11,6 +12,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.duoshine.douyin.MainActivity
 import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.UserInfoTabAdapter
 import com.duoshine.douyin.constants.UserConstants
@@ -69,7 +71,7 @@ class UserInfoFragment : BaseFragment() {
     private val fragments: MutableList<Fragment> by lazy {
         ArrayList<Fragment>().apply {
             add(WorksFragment())
-            add(DynamicFragment())
+            add(WorksFragment())
             add(WorksFragment())
             add(PhotoFragment())
         }
@@ -90,6 +92,20 @@ class UserInfoFragment : BaseFragment() {
         userId = arguments?.getString(UserConstants.TO_USER_FRAGMENT_KEY, "-1")
         //速度追踪
         velocityTracker = VelocityTracker.obtain()
+
+        //沉浸式
+        val activity = activity as? MainActivity
+        activity?.let {
+            val window: Window = it.window
+            val decorView: View = window.decorView
+            val option = (View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    or View.SYSTEM_UI_FLAG_LAYOUT_STABLE)
+            decorView.systemUiVisibility = option
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+                window.setStatusBarColor(Color.TRANSPARENT)
+            }
+        }
     }
 
     override fun createView(inflater: LayoutInflater, container: ViewGroup?): View {
@@ -105,7 +121,6 @@ class UserInfoFragment : BaseFragment() {
         tab_layout.setupWithViewPager(view_pager)
         view_pager.offscreenPageLimit = 4
         view_pager.adapter = UserInfoTabAdapter(childFragmentManager, fragments, titles)
-
 //        添加AppBarLayout的偏移事件监听 目的是在达到阈值时显示和隐藏ToolBar的背景颜色 记录偏移值 在弹性滑动时作为一个条件,当AppBarLayout达到顶部时 偏移值为0
         appbarLayout.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, verticalOffset ->
             this.verticalOffset = verticalOffset
@@ -258,8 +273,8 @@ class UserInfoFragment : BaseFragment() {
     private fun replyView(view: ImageView) {
         val distance: Float = view.measuredWidth - zoomViewWidth.toFloat()
         // 设置动画
-        val anim = ObjectAnimator.ofFloat(distance, 0.0f)
-            .setDuration((distance * mReplyRatio).toLong())
+        val anim =
+            ObjectAnimator.ofFloat(distance, 0.0f).setDuration((distance * mReplyRatio).toLong())
         anim.addUpdateListener { animation -> setZoom(animation.animatedValue as Float, view) }
         anim.start()
     }

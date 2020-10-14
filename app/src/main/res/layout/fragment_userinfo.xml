@@ -14,8 +14,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorAccent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior">
-            &lt;!&ndash;app:layout_behavior="@string/appbar_scrolling_view_behavior">&ndash;&gt;-->
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
@@ -187,9 +187,9 @@
                 <!--                不华丽的分割线-->
                 <FrameLayout
                     android:id="@+id/line_layout"
-                    android:layout_below="@+id/user_id_layout"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/user_id_layout"
                     android:background="#171A23">
 
                     <View
@@ -327,17 +327,29 @@
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/tool_bar"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
+                android:layout_height="wrap_content"
                 app:layout_collapseMode="pin">
 
-                <ImageView
-                    android:layout_width="@dimen/qb_px_90"
-                    android:layout_height="@dimen/qb_px_90"
-                    android:layout_gravity="right"
-                    android:layout_marginRight="@dimen/qb_px_30"
-                    android:background="@mipmap/ic_launcher" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
+                    <com.duoshine.douyin.widget.StatusBarView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:layout_marginBottom="@dimen/qb_px_15"
+                        android:layout_marginTop="@dimen/qb_px_15"
+                        android:layout_width="@dimen/qb_px_90"
+                        android:layout_height="@dimen/qb_px_90"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="@dimen/qb_px_30"
+                        android:background="@mipmap/cos" />
+                </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
+
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -348,7 +360,6 @@
             app:tabIndicatorColor="#F2CA24"
             app:tabSelectedTextColor="#fff"
             app:tabTextColor="#80838C" />
-
 
     </com.google.android.material.appbar.AppBarLayout>
 
