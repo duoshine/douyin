@@ -1,20 +1,21 @@
 package com.duoshine.douyin.ui.fragment
 
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
-import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import cn.jzvd.Jzvd
+import androidx.recyclerview.widget.GridLayoutManager.SpanSizeLookup
 import com.duoshine.douyin.R
-import com.duoshine.douyin.adapter.WorkAdapter
+import com.duoshine.douyin.adapter.CityAdapter
+import com.duoshine.douyin.adapter.LoadStateAdapter
+import com.duoshine.douyin.ui.viewmodel.CityViewModel
 import kotlinx.android.synthetic.main.fragment_city.*
-import kotlinx.android.synthetic.main.fragment_city.recyclerView
-import kotlinx.android.synthetic.main.works_fragment.*
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
 
 /**
  *Created by chen on 2020 同城
@@ -33,24 +34,48 @@ class CityFragment : BaseFragment() {
     }
 
     private fun initJzvd() {
-        recyclerView.layoutManager = GridLayoutManager(context, 2)
-        val adapterVideoList = WorkAdapter(context,1)
-        recyclerView.adapter = adapterVideoList
+        val viewModel = ViewModelProvider(this).get(CityViewModel::class.java)
+        val gridLayoutManager = GridLayoutManager(context, 2)
+
+        /**
+         * 使用RecyclerView的网格布局加多条目展示
+         */
+        gridLayoutManager.spanSizeLookup = object : SpanSizeLookup() {
+            override fun getSpanSize(position: Int): Int {
+                val itemCount = recyclerView.adapter?.itemCount ?: -1
+                if (itemCount == -1) {
+                    return 1
+                }
+                //最后一个item占用全部
+                if (position == itemCount - 1) {
+                    return gridLayoutManager.spanCount
+                }
+                return 1
+            }
+        }
+        recyclerView.layoutManager = gridLayoutManager
+
+
+        val adapterVideoList = CityAdapter(CityAdapter.UserComparator)
+
         val parent = parentFragment as? UserInfoFragment
         parent?.addRecyclerViewScrollListener(recyclerView)
-        recyclerView.addOnChildAttachStateChangeListener(object :
-            RecyclerView.OnChildAttachStateChangeListener {
-            override fun onChildViewAttachedToWindow(view: View) {}
-            override fun onChildViewDetachedFromWindow(view: View) {
-                val jzvd: Jzvd = view.findViewById(R.id.videoplayer)
-                if (jzvd != null && Jzvd.CURRENT_JZVD != null &&
-                    jzvd.jzDataSource.containsTheUrl(Jzvd.CURRENT_JZVD.jzDataSource.currentUrl)
-                ) {
-                    if (Jzvd.CURRENT_JZVD != null && Jzvd.CURRENT_JZVD.screen != Jzvd.SCREEN_FULLSCREEN) {
-                        Jzvd.releaseAllVideos()
-                    }
-                }
+
+        lifecycleScope.launch {
+            viewModel.flow.collectLatest { pagingData ->
+                adapterVideoList.submitData(pagingData)
             }
-        })
+        }
+
+        /**
+         *添加footer
+         */
+        val withLoadStateFooter =
+            adapterVideoList.withLoadStateFooter(footer = LoadStateAdapter {
+                //请求出错后重试
+                Log.d("duo_shine", "retry")
+            })
+
+        recyclerView.adapter = withLoadStateFooter
     }
 }

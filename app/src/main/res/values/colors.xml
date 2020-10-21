@@ -18,4 +18,10 @@
 
 <!--    用户信息 编辑资料-->
     <color name="home_user_edit">#393C45</color>
+    <color name="btn_login_pressed">#46678d</color>
+    <color name="btn_login_default">#00acff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="btn_register_default">#ffffff</color>
+    <color name="add_friend_input">#3A3A44</color>
+    <color name="add_friend_input_hint">#7D7E83</color>
 </resources>

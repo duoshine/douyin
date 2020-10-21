@@ -1,5 +1,7 @@
 package com.duoshine.douyin.model
 
+import com.hyphenate.chat.EMConversation
+
 data class CommentModel(
     val videoId: String, //视频唯一id
     val count: Int, //总评论数
@@ -7,10 +9,6 @@ data class CommentModel(
     val next: Boolean,//是否有下一页
     var comment: ArrayList<Comments>?//评论列表
 )
-
-fun ArrayList<Comments>.clone(): Any {
-    return this.clone()
-}
 
 data class Comments(
     val commentId: String, //当前评论id
@@ -49,8 +47,35 @@ data class VideoModel(
     var starCount: Int,//赞总数
     var CommentCount: Int,//评论总数
     var shareCount: Int,//分享总数
-    var copywriting:String, //文案
-    var author:String, //作者
-    var music:String //视频bgm
+    var copywriting: String, //文案
+    var author: String, //作者
+    var music: String //视频bgm
 )
 
+//同城
+data class CityModel(
+    var videoUrl: String, //视频的url
+    var placeholderUrl: String, //视频封面占位符图片url
+    var videoStar: Int, //视频点赞数
+    var flag: Int//视频flag 用于diffutil 这里模拟的数据可能url都是一致的
+)
+
+//会话
+data class ConversationModel(
+    var username: String, //会话人
+    var EMConversation: EMConversation  //代表和一个用户的对话，包含发送和接收的消息 下面的示例会取得对话中未读的消息数：
+)
+
+//聊天消息的类型
+enum class Chat {
+    //发送 接收
+    SEND, RECEIVER
+}
+
+//聊天消息
+data class ChatMessageModel(
+    var id: Int, //消息id
+    var msg: String, //消息内容
+    var type: Chat, //消息类型
+    var time: String //发送消息的时间
+)

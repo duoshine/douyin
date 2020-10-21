@@ -29,13 +29,13 @@
     </style>
 
     <style name="commentReply" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
-<!--        亮度-->
+        <!--        亮度-->
         <item name="android:backgroundDimAmount">0.2</item>
-<!--        可见时使软键盘可见 -->
+        <!--        可见时使软键盘可见 -->
         <item name="android:windowSoftInputMode">stateAlwaysVisible|adjustNothing</item>
     </style>
 
-<!--    首页 查看通讯录-->
+    <!--    首页 查看通讯录-->
     <style name="AddressBook" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/address_book_default</item>
     </style>
@@ -44,4 +44,5 @@
         <!--        亮度-->
         <item name="android:backgroundDimAmount">0.6</item>
     </style>
+
 </resources>

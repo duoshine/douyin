@@ -17,6 +17,8 @@ import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.HomeAdapter
 import com.duoshine.douyin.constants.UserConstants
 import com.google.android.material.tabs.TabLayout
+import com.hyphenate.EMContactListener
+import com.hyphenate.chat.EMClient
 import kotlinx.android.synthetic.main.fragment_home_parent.*
 
 /**
@@ -36,7 +38,6 @@ class LeftGroupFragment : BaseFragment() {
     private var animator: ObjectAnimator? = null
 
     private var currentPosition = 0
-
 
     override fun createView(inflater: LayoutInflater, container: ViewGroup?): View {
         return inflater.inflate(R.layout.fragment_home_parent, container, false)
