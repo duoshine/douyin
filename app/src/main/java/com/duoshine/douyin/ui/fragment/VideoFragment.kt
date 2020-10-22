@@ -12,6 +12,4 @@ class VideoFragment : BaseFragment() {
     override fun createView(inflater: LayoutInflater, container: ViewGroup?): View {
         return inflater.inflate(R.layout.fragment_video, container, false)
     }
-
-
 }
