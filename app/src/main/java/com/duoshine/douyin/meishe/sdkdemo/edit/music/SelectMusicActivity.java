@@ -55,7 +55,7 @@ public class SelectMusicActivity extends BaseActivity {
     }
 
     @Override
-    protected void initViews() {
+    protected void initViews() {       //
         mTabLayout = (RelativeLayout) findViewById(R.id.tab_layout);
         mTitleBar = (CustomTitleBar) findViewById(R.id.title_bar);
         mMyMusicBtn = (TextView) findViewById(R.id.my_music_text);
