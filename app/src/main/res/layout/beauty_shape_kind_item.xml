@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/shape_icon_layout"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:background="@drawable/shape_border_shape_default">
+
+        <com.duoshine.douyin.meishe.sdkdemo.edit.view.RoundImageView
+            android:id="@+id/shape_icon"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/cheek_thinning" />
+        <ImageView
+            android:id="@+id/shape_icon_mask"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dp13"
+            android:src="@mipmap/beauty_facetype_kind_edit"
+            android:background="@drawable/shape_beauty_menu_select"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/shape_txt"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shape_icon_layout"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/filter"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+</RelativeLayout>

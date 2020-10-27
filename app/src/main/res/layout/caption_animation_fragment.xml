@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_animation"
+        style="@style/CustomTabLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        app:tabTextColor="@color/white"
+        app:tabTextAppearance="@style/tab_text_11"
+        app:tabBackground="@null"
+        app:tabIndicatorHeight="0dp" />
+
+    <ImageView
+        android:id="@+id/iv_load_more"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/tab_animation"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/download_more"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tv_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_load_more"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/more"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_animation"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/iv_load_more" />
+
+</RelativeLayout>

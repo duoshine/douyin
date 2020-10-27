@@ -1,4 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -44,5 +44,135 @@
         <!--        亮度-->
         <item name="android:backgroundDimAmount">0.6</item>
     </style>
+    <!-- Base application theme.  不加动画 -->
+    <style name="LuncherActivityTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ff000000</item>
+        <item name="colorPrimaryDark">@color/ff000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
+    </style>
+
+
+    <!-- 这里是使用动画的 -->
+    <style name="BaseAnimationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ff000000</item>
+        <item name="colorPrimaryDark">@color/ff000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--activity的动画-->
+        <item name="android:windowAnimationStyle">@style/HoloThemeActivityAnimation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+
+    </style>
+
+    <!--Activity入场与退出动画-->
+    <style name="HoloThemeActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left</item>
+        <!--<item name="android:activityOpenExitAnimation">@anim/slide_right</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/slide_left</item>-->
+        <item name="android:activityCloseExitAnimation">@anim/slide_right</item>
+    </style>
+
+
+    <!--主页的模块样式-->
+
+    <!--主页CardView样式-->
+
+
+    <!--参数设置checkbox样式-->
+    <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/parameter_checkbox_style</item>
+    </style>
+
+
+    <style name="TranslucentFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/colorTranslucent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="dialogTransparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <style name="fx_dlg_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="fx_dlg_fading_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/fading_in</item>
+        <item name="android:windowExitAnimation">@anim/fading_out</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+
+    </style>
+
+    <style name="speedSeekBar" parent="Base.Widget.AppCompat.SeekBar">
+        <item name="tickMarkFixed">@drawable/custom_voice_seekbar_ball</item>
+    </style>
+
+    <style name="feedback_editText" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textCursorDrawable">@drawable/activity_feedback_cursor</item>
+        <item name="android:textColorHighlight">@color/ms994a90e2</item>
+        <item name="android:textSelectHandle">@drawable/activity_feedback_handle</item>
+        <item name="android:textSelectHandleLeft">@drawable/activity_feedback_handle</item>
+        <item name="android:textSelectHandleRight">@drawable/activity_feedback_handle</item>
+    </style>
+
+    <style name="tabLayoutTextStyle">
+        <item name="android:textSize">@dimen/tablayout_text_size</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
+        <item name="android:textSize">16sp</item>   
+        <item name="android:textColor">#00000000</item> 
+        <item name="tabSelectedTextColor">#4A90E2</item> 
+    </style>
+      
+
+    <style name="CustomTabLayout2" parent="Widget.Design.TabLayout">
+        <item name="tabPaddingStart">10dp</item>
+        <item name="tabPaddingEnd">10dp</item>  
+        <item name="tabTextColor">@color/white</item> 
+        <item name="tabSelectedTextColor">@color/red_ff64</item> 
+    </style>
+
+    <style name="tab_text_11">
+        <item name="android:textSize">11sp</item>
+    </style>
 </resources>

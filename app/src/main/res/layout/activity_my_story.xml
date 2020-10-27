@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/story_activity_back_color">
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.CustomTitleBar
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_titleBar_height"/>
+    <RelativeLayout
+        android:layout_below="@+id/title"
+        android:id="@+id/videoLayout"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="@dimen/video_layout_height"></RelativeLayout>
+    <RelativeLayout
+        android:paddingLeft="@dimen/my_story_bottom_layout_padding_left"
+        android:paddingRight="@dimen/my_story_bottom_layout_padding_right"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_layout"
+        android:layout_marginBottom="@dimen/my_story_bottom_layout_height">
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:layout_below="@+id/title">
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/progress_eight_petal_xml" />
+    </RelativeLayout>
+</RelativeLayout>

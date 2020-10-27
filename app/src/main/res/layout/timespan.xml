@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <View
+        android:id="@+id/timeSpanShadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#805db5ff" />
+
+    <ImageView
+        android:id="@+id/leftHandle"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/trimline" />
+
+    <ImageView
+        android:id="@+id/rightHandle"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/trimline" />
+</RelativeLayout>

@@ -1,6 +1,7 @@
 package com.duoshine.douyin.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ProgressBar
@@ -11,42 +12,43 @@ import androidx.paging.LoadStateAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.duoshine.douyin.R
 import com.duoshine.douyin.data.NoMoreException
-import com.duoshine.douyin.databinding.LoadStateItemBinding
 
 class LoadStateViewHolder(
-    parent: ViewGroup,
-    retry: () -> Unit
-) : RecyclerView.ViewHolder(
-    LayoutInflater.from(parent.context)
-        .inflate(R.layout.load_state_item, parent, false)
-) {
-    private val binding = LoadStateItemBinding.bind(itemView)
-    private val progressBar: ProgressBar = binding.progressBar
-    private val errorMsg: TextView = binding.errorMsg
-    private val noData: TextView = binding.noData
-    private val retry: Button = binding.retryButton
-        .also {
-            it.setOnClickListener { retry() }
-        }
+    private val retry: () -> Unit,
+    itemView: View
+) : RecyclerView.ViewHolder(itemView) {
+    private var progressBar: ProgressBar? = null
+    private var errorMsg: TextView? = null
+    private var noData: TextView? = null
+    private var retryBtn: Button? = null
+
+    init {
+        progressBar = itemView.findViewById(R.id.progress_bar)
+        errorMsg = itemView.findViewById(R.id.error_msg)
+        noData = itemView.findViewById(R.id.no_data)
+        retryBtn = itemView.findViewById(R.id.retry_button)
+    }
 
     fun bind(loadState: LoadState) {
+        retryBtn?.setOnClickListener { retry() }
+
         if (loadState is LoadState.Error) {
             val error = loadState.error
 
             //当收到指定异常时表示数据已加载完毕 给用户一些提示
             if (error is NoMoreException) {
-                progressBar.isVisible = loadState is LoadState.Loading
-                noData.isVisible = true
-                retry.isVisible = false
-                errorMsg.isVisible = loadState is LoadState.Error
+                progressBar?.isVisible = loadState is LoadState.Loading
+                noData?.isVisible = true
+                retryBtn?.isVisible = false
+                errorMsg?.isVisible = loadState is LoadState.Error
                 return
             }
-            errorMsg.text = error.localizedMessage
+            errorMsg?.text = error.localizedMessage
         }
-        progressBar.isVisible = loadState is LoadState.Loading
-        noData.isVisible = false
-        retry.isVisible = loadState is LoadState.Error
-        errorMsg.isVisible = loadState is LoadState.Error
+        progressBar?.isVisible = loadState is LoadState.Loading
+        noData?.isVisible = false
+        retryBtn?.isVisible = loadState is LoadState.Error
+        errorMsg?.isVisible = loadState is LoadState.Error
     }
 }
 
@@ -60,7 +62,10 @@ class LoadStateAdapter(
     override fun onCreateViewHolder(
         parent: ViewGroup,
         loadState: LoadState
-    ) = LoadStateViewHolder(parent, retry)
+    ) = LoadStateViewHolder(
+        retry, LayoutInflater.from(parent.context)
+            .inflate(R.layout.load_state_item, parent, false)
+    )
 
     override fun onBindViewHolder(
         holder: LoadStateViewHolder,

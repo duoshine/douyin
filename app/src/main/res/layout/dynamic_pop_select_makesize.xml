@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pop_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6c000000"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_corn_select_ratio"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/select_production_proportion"
+                android:textColor="#ffffffff"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="240dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#1AFFFFFF" />
+
+        <GridView
+            android:id="@+id/grid_view"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:background="#1AFFFFFF"
+            android:scrollbars="none"
+            android:fadingEdge="none"
+            android:overScrollMode="never" />
+    </LinearLayout>
+
+</LinearLayout>

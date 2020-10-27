@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seekLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/seek_text_layout"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/seek_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp10" />
+    </LinearLayout>
+
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.VerticalSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="18dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15dp" />
+</LinearLayout>

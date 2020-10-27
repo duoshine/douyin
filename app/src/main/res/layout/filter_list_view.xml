@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/intensityLayout"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+
+        <View
+            android:layout_width="13dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/intensityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/intensity"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/sp12"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/intensitySeekBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:progressDrawable="@drawable/caption_size_seekbar"
+            android:thumb="@drawable/custom_voice_seekbar_ball" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/filterTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/intensityLayout"
+        android:background="#ffffff">
+
+        <View
+            android:id="@+id/base_line"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/base_line"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/cartoonFilterTab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/cartoon_filter"
+                android:textColor="@color/ms_blue"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/v_cartoon_line"
+                android:layout_width="20dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@color/blue_63" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/base_line"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/commonFilterTab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/filter"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/v_filter_line"
+                android:layout_width="20dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/filterFxList"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/filterTabLayout"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/moreFilterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/moreFilerImage"
+                android:layout_width="37dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="13dp"
+                android:background="@mipmap/icon_download_more" />
+
+            <TextView
+                android:id="@+id/moreFilerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"
+                android:text="@string/more"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/filterRecyclerList"
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:fadingEdgeLength="30dp"
+            android:requiresFadingEdge="horizontal" />
+
+
+    </LinearLayout>
+</RelativeLayout>

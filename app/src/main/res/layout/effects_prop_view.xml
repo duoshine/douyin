@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_load_more"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@null"
+        android:src="@mipmap/icon_download_more"
+    />
+
+    <ImageView
+        android:id="@+id/iv_clear"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="8.5dp"
+        android:contentDescription="@null"
+        android:src="@mipmap/effect_clear"
+        android:layout_toRightOf="@+id/iv_load_more" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_layout"
+        style="@style/CustomTabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_toRightOf="@+id/iv_clear"
+        app:tabMode="scrollable"
+        app:tabBackground="@null"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+        app:tabMinWidth="32dp"
+        android:layout_toEndOf="@+id/iv_clear" />
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.25dp"
+        android:layout_marginTop="1dp"
+        android:background="#ff545454"
+        android:layout_below="@+id/iv_load_more" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_props_list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/v_line" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/rv_props_list" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+{
+  "jsonList": [
+    {
+      "jsonPath": "lip"
+    },
+    {
+      "jsonPath": "eyeshadow"
+    },
+    {
+      "jsonPath": "eyebrow"
+    },
+    {
+      "jsonPath": "eyelash"
+    },
+    {
+      "jsonPath": "eyeliner"
+    },
+    {
+      "jsonPath": "shadow"
+    },
+    {
+      "jsonPath": "brighten"
+    },
+    {
+      "jsonPath": "blusher"
+    }
+  ]
+}

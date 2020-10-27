@@ -1,0 +1,20 @@
+{
+  "fxInfoList": [
+    {
+      "name_Zh": "小猫咪",
+      "name": "Cat",
+      "fxFileName": "26F5DDF5-FB95-4F36-B027-05EFF0562059.3.captioncontext",
+      "fxPackageId": "26F5DDF5-FB95-4F36-B027-05EFF0562059",
+      "fxLicFileName": "26F5DDF5-FB95-4F36-B027-05EFF0562059.lic",
+      "imageName": "26F5DDF5-FB95-4F36-B027-05EFF0562059.png"
+    },
+    {
+      "name_Zh": "橘色方框",
+      "name": "Orange Box",
+      "fxFileName": "33C8A32B-CC07-4B62-95BA-14A8365B75F1.1.captioncontext",
+      "fxPackageId": "33C8A32B-CC07-4B62-95BA-14A8365B75F1",
+      "fxLicFileName": "33C8A32B-CC07-4B62-95BA-14A8365B75F1.lic",
+      "imageName": "33C8A32B-CC07-4B62-95BA-14A8365B75F1.png"
+    }
+  ]
+}

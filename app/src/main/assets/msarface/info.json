@@ -1,0 +1,53 @@
+{
+  "propsList": [
+    {
+      "zh_name": "花瓣",
+      "name": "petal",
+      "uuid": "63833FB8-95F7-4A92-A852-A048BA223F5E",
+      "categoryId": 3,
+      "cover": "file:///android_asset/msarface/63833FB8-95F7-4A92-A852-A048BA223F5E.png"
+    },
+    {
+      "zh_name": "鹿角",
+      "name": "Antlers",
+      "uuid": "A4811CC0-1CBF-4FE3-8FD2-A983D03B7F36",
+      "categoryId": 7,
+      "cover": "file:///android_asset/msarface/A4811CC0-1CBF-4FE3-8FD2-A983D03B7F36.png"
+    },
+    {
+      "zh_name": "哭泣小熊",
+      "name": "Cub crying",
+      "uuid": "D5A96F18-63E0-4C80-A54A-394C0D4AC53F",
+      "categoryId": 5,
+      "cover": "file:///android_asset/msarface/D5A96F18-63E0-4C80-A54A-394C0D4AC53F.png"
+    },
+    {
+      "zh_name": "跳动音符",
+      "name": "dancing note",
+      "uuid": "EDF352FC-701B-4C05-86CE-B0E293469341",
+      "categoryId": 6,
+      "cover": "file:///android_asset/msarface/EDF352FC-701B-4C05-86CE-B0E293469341.png"
+    },
+    {
+      "zh_name": "猫猫",
+      "name": "Cat",
+      "uuid": "BB846CCA-DE9F-4064-AD88-D9F4DEEB9558",
+      "categoryId": 1,
+      "cover": "file:///android_asset/msarface/BB846CCA-DE9F-4064-AD88-D9F4DEEB9558.png"
+    },
+    {
+      "zh_name": "挂坠眼镜",
+      "name": "Physical glasses",
+      "uuid": "1E076E55-C257-41DB-810C-0F60DCA421D1",
+      "categoryId": 2,
+      "cover": "file:///android_asset/msarface/1E076E55-C257-41DB-810C-0F60DCA421D1.png"
+    },
+    {
+      "zh_name": "蜘蛛",
+      "name": "spider",
+      "uuid": "9201BF10-0DF3-4DB7-BC28-E1117DD8BE1E",
+      "categoryId": 2,
+      "cover": "file:///android_asset/msarface/9201BF10-0DF3-4DB7-BC28-E1117DD8BE1E.png"
+    }
+  ]
+}

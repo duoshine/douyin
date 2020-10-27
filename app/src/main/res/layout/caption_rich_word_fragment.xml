@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp">
+
+    <ImageView
+        android:id="@+id/iv_load_more"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/download_more" />
+
+    <TextView
+        android:id="@+id/tv_load_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_load_more"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/more"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/iv_load_more" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.CustomTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_titleBar_height"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/captionInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:focusable="true"
+        android:gravity="center"
+        android:background="@color/caption_edit_edit_text_bg"
+        android:textColor="@color/white"
+        android:textColorHint="@color/caption_edit_edit_text_hint_color" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/caption_edit_bottom_menu_layout_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/caption_edit_bottom_menu_layout_bg">
+        <ImageView
+            android:id="@+id/cancel"
+            android:paddingLeft="@dimen/caption_edit_bottom_menu_left_button_padding_left"
+            android:paddingRight="@dimen/caption_edit_bottom_menu_left_button_padding_right"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/caption_edit_bottom_menu_left_button_width"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/caption_edit_bottom_menu_left_button_padding_top"
+            android:paddingBottom="@dimen/caption_edit_bottom_menu_left_button_padding_bottom"
+            android:src="@mipmap/close"/>
+        <ImageView
+            android:id="@+id/confirm"
+            android:paddingRight="@dimen/caption_edit_bottom_menu_right_button_padding_right"
+            android:paddingLeft="@dimen/caption_edit_bottom_menu_right_button_padding_left"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/caption_edit_bottom_menu_right_button_width"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/caption_edit_bottom_menu_right_button_padding_top"
+            android:paddingBottom="@dimen/caption_edit_bottom_menu_right_button_padding_bottom"
+            android:src="@mipmap/confirm"/>
+    </RelativeLayout>
+</LinearLayout>

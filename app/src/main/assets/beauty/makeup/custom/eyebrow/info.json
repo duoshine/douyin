@@ -1,0 +1,187 @@
+{
+    "className": "eyebrowstick",
+    "cover": "cover.png",
+
+    "translation": [
+        {
+            "originalText": "eyebrowstick",
+            "targetLanguage": "zh_CN",
+            "targetText": "眉毛"
+        }
+    ],
+    "effectList": [
+        {
+            "name": "eyebrow1",
+            "cover": "cover0.png",
+            "translation": [
+                {
+                    "originalText": "eyebrow1",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眉毛1"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyebrow",
+                        "makeupId": "eyebrow",
+                        "intensity": 0.5,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 0.8,
+                                "texFilePath": "eyebrow.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eyebrow2",
+            "cover": "cover1.png",
+            "translation": [
+                {
+                    "originalText": "eyebrow2",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眉毛2"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyebrow",
+                        "makeupId": "eyebrow",
+                        "intensity": 0.5,
+                        "color": "0,0,0,0",
+                        "makeupLayers": [                            
+                            {
+                                "layer": 1,
+                                "layerId": "1",
+                                "isLUT": 0,
+                                "intensity": 0.8,
+                                "texFilePath": "eyebrow1.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eyebrow3",
+            "cover": "cover2.png",
+            "translation": [
+                {
+                    "originalText": "eyebrow3",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眉毛3"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyebrow",
+                        "makeupId": "eyebrow",
+                        "intensity": 0.5,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 0.7,
+                                "texFilePath": "eyebrow2.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eyebrow4",
+            "cover": "cover3.png",
+            "translation": [
+                {
+                    "originalText": "eyebrow4",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眉毛4"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyebrow",
+                        "makeupId": "eyebrow",
+                        "intensity": 0.5,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 0.8,
+                                "texFilePath": "eyebrow3.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

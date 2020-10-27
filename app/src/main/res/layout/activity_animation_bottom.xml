@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ff242728">
+    <LinearLayout
+        android:id="@+id/ll_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="11sp"
+            android:text="动画时长"
+            android:layout_marginRight="10dp"
+            />
+       <!-- <com.warkiz.widget.IndicatorSeekBar
+            android:id="@+id/animation_seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:isb_min="0.1"
+            app:isb_progress="0.5"
+            app:isb_progress_value_float="true"
+            app:isb_show_tick_texts="true"
+            app:isb_max="4.0"
+            app:isb_indicator_color="#00ffffff"
+            app:isb_indicator_text_color="@color/white"
+            app:isb_thumb_drawable="@drawable/nv_animation_seekbar"
+            app:isb_track_progress_color="@color/white"
+
+            />-->
+        <com.duoshine.douyin.meishe.sdkdemo.edit.anim.view.MagicSeekBar
+            android:id="@+id/animation_seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:progressDrawable="@drawable/seekbar"
+            android:thumb="@drawable/nv_animation_seekbar"
+            app:textSizeMagic="12sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_animation_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/download_more_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp">
+
+            <ImageView
+                android:id="@+id/dowanloadImage"
+                android:layout_width="35dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/download_more" />
+
+            <TextView
+                android:id="@+id/dowanloadMoreText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dowanloadImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"
+                android:text="@string/more"
+                android:textColor="@color/ccffffff"
+                android:textSize="@dimen/sp12" />
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/animation_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:fadingEdgeLength="30dp"
+            android:requiresFadingEdge="horizontal" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1AFFFFFF"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/animationAssetFinish"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:src="@mipmap/finish"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

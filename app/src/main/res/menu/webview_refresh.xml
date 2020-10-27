@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/webView_refresh"
+        android:enabled="true"
+        android:icon="@mipmap/main_webview_refresh_icon"
+        android:orderInCategory="80"
+        android:title="refresh"
+        app:showAsAction="ifRoom" />
+
+</menu>

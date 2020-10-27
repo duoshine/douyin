@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.duoshine.douyin.meishe.sdkdemo.view.ColorSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="249dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <com.duoshine.douyin.meishe.sdkdemo.view.RoundColorView
+        android:id="@+id/custom_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9.5dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:selectStrokeWidth="1dp"
+        app:selectRoundStrokeColor="@color/white"
+        app:roundTextSize="7dp"/>
+
+    <ListView
+        android:layout_alignParentRight="true"
+        android:divider="@null"
+        android:id="@+id/color_list"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="9.5dp"
+        android:listSelector="@android:color/transparent"
+        android:layout_above="@+id/custom_btn"
+        android:layout_marginBottom="@dimen/dp10">
+    </ListView>
+</RelativeLayout>

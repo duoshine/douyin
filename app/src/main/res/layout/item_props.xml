@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <View
+        android:id="@+id/v_background"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/default_filter"
+        android:background="@drawable/bg_item_props"
+        />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="54dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp12" />
+</FrameLayout>

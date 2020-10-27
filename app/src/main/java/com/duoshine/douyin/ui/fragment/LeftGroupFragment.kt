@@ -3,6 +3,7 @@ package com.duoshine.douyin.ui.fragment
 import android.animation.Animator
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -16,6 +17,7 @@ import com.duoshine.douyin.MainViewModel
 import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.HomeAdapter
 import com.duoshine.douyin.constants.UserConstants
+import com.duoshine.douyin.meishe.sdkdemo.capture.CaptureActivity
 import com.google.android.material.tabs.TabLayout
 import com.hyphenate.EMContactListener
 import com.hyphenate.chat.EMClient
@@ -29,7 +31,6 @@ class LeftGroupFragment : BaseFragment() {
 
     private var homeFragment: HomeFragment? = null
     private var cityFragment: Fragment? = null
-    private var videoFragment: Fragment? = null
     private var messageFragment: Fragment? = null
     private var meFragment: Fragment? = null
 
@@ -37,7 +38,16 @@ class LeftGroupFragment : BaseFragment() {
 
     private var animator: ObjectAnimator? = null
 
+    /**
+     * 当前显示的Tab
+     */
     private var currentPosition = 0
+
+    /**
+     * 上一个显示的TAB
+     */
+    private var oldPosition = 0
+
 
     override fun createView(inflater: LayoutInflater, container: ViewGroup?): View {
         return inflater.inflate(R.layout.fragment_home_parent, container, false)
@@ -67,58 +77,60 @@ class LeftGroupFragment : BaseFragment() {
         tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
             override fun onTabReselected(tab: TabLayout.Tab) {
                 val position = tab.position
-                if (position == 0 || position == 1) {
+                if (position == 0) {
                     tabReselected(tab)
                 }
             }
 
             override fun onTabUnselected(tab: TabLayout.Tab) {
-                val tabView = tab.view
                 /**
                  * 它的回调发生在onTabSelected之前
                  */
-                when (tab.position) {
-                    0 -> hideUnSelectedFragment(homeFragment!!, tabView)
-                    1 -> hideUnSelectedFragment(cityFragment!!, tabView)
-                    2 -> hideUnSelectedFragment(videoFragment!!, tabView)
-                    3 -> hideUnSelectedFragment(messageFragment!!, tabView)
-                    4 -> hideUnSelectedFragment(meFragment!!, tabView)
-                }
+                val position = tab.position
+                oldPosition = position
             }
 
             override fun onTabSelected(tab: TabLayout.Tab) {
                 val tabView = tab.view
+                val position = tab.position
                 currentPosition = tab.position
-                when (tab.position) {
-                    0 -> {
-                        showSelectedFragment(homeFragment!!, tabView)
-                        tabLayout.background.alpha = 0
-                    }
-                    1 -> {
-                        showSelectedFragment(cityFragment!!, tabView)
-                        tabLayout.background.alpha = 200
-                    }
-                    2 -> {
-                        showSelectedFragment(videoFragment!!, tabView)
-                        tabLayout.background.alpha = 200
-                    }
-                    3 -> {
-                        showSelectedFragment(messageFragment!!, tabView)
-                        tabLayout.background.alpha = 200
-                    }
-                    4 -> {
-                        showSelectedFragment(meFragment!!, tabView)
-                        tabLayout.background.alpha = 200
-                    }
-                }
+                show(position, tabView)
             }
         })
+    }
+
+    private fun show(
+        position: Int,
+        tabView: TabLayout.TabView
+    ) {
+        when (position) {
+            0 -> {
+                showSelectedFragment(homeFragment!!, tabView)
+                tabLayout.background.alpha = 0
+            }
+            1 -> {
+                showSelectedFragment(cityFragment!!, tabView)
+                tabLayout.background.alpha = 200
+            }
+            2 -> {
+                //选中之前的Tab 不然会因为点击2导致的状态切换
+                tabLayout.selectTab(tabLayout.getTabAt(oldPosition))
+                startActivity(Intent(context, CaptureActivity::class.java))
+            }
+            3 -> {
+                showSelectedFragment(messageFragment!!, tabView)
+                tabLayout.background.alpha = 200
+            }
+            4 -> {
+                showSelectedFragment(meFragment!!, tabView)
+                tabLayout.background.alpha = 200
+            }
+        }
     }
 
     private fun initFragment() {
         homeFragment = HomeFragment()
         cityFragment = CityFragment()
-        videoFragment = VideoFragment()
         messageFragment = MessageFragment()
         meFragment = UserInfoFragment.getUserInfoFragment(UserConstants.userId)
 
@@ -155,6 +167,20 @@ class LeftGroupFragment : BaseFragment() {
      * 显示点击的fragment页面
      */
     private fun showSelectedFragment(fragment: Fragment, tab: TabLayout.TabView) {
+        Log.d(TAG, "1111")
+        hideUnSelectedFragment(tabLayout.getTabAt(oldPosition)!!.view)
+        fragmentManager!!.beginTransaction().apply {
+            hide(homeFragment!!)
+            hide(cityFragment!!)
+            hide(messageFragment!!)
+            hide(meFragment!!)
+
+            if (!fragment.isAdded) {
+                add(R.id.frameLayout, fragment)
+            }
+            show(fragment)
+            commit()
+        }
         /**
          * 对显示的TabView执行放大动作
          */
@@ -166,24 +192,15 @@ class LeftGroupFragment : BaseFragment() {
             animatorSet.duration = 150
             animatorSet.start()
         }
-
-        fragmentManager!!.beginTransaction().apply {
-            if (!fragment.isAdded) {
-                add(R.id.frameLayout, fragment)
-            } else {
-                show(fragment)
-            }
-            commit()
-        }
     }
 
     /**
      * 隐藏当前正在显示的fragment页面
      */
     private fun hideUnSelectedFragment(
-        fragment: Fragment,
         tab: TabLayout.TabView
     ) {
+        Log.d(TAG, "2222")
         /**
          * 对隐藏的TabView执行缩小动画
          */
@@ -193,10 +210,6 @@ class LeftGroupFragment : BaseFragment() {
         animatorSet.playTogether(x, y)
         animatorSet.duration = 150
         animatorSet.start()
-
-        fragmentManager!!.beginTransaction().apply {
-            hide(fragment).commit()
-        }
     }
 
     /**

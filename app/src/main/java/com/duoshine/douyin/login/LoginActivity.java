@@ -58,6 +58,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         if (AppHelper.Companion.isLoggedIn()) {
             autoLogin = true;
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            finish();
             return;
         }
         setContentView(R.layout.activity_login);

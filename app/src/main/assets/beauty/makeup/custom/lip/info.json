@@ -1,0 +1,160 @@
+{
+    "className": "lipstick",
+    "cover": "cover.png",
+
+    "translation": [
+        {
+            "originalText": "lipstick",
+            "targetLanguage": "zh_CN",
+            "targetText": "口红"
+        }
+    ],
+    "effectList": [
+        {
+            "name": "matte",
+            "cover": "cover0.png",
+            "translation": [
+                {
+                    "originalText": "matte",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "雾面哑光"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_lip",
+                        "makeupId": "lip",
+                        "intensity": 0.65,
+                        "color": "0.75294117,0.1372549,0.1372549,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 0.8,
+                                "texFilePath": "lip.png",
+                                "texColor": "0.75294117,0.1372549,0.1372549,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.44313825,0.1490196,0.1960784313,1"
+                            },
+                            {
+                                "makeupColor": "0.7490196,0.1490196,0.4470588,1"
+                            },
+                            {
+                                "makeupColor": "0.80784313,0.388235294,0.133333,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "satin",
+            "cover": "cover1.png",
+            "translation": [
+                {
+                    "originalText": "satin",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "质感缎面"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_lip",
+                        "makeupId": "lip",
+                        "intensity": 0.65,
+                        "color": "0,0,0,0",
+                        "makeupLayers": [   
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 1,
+                                "intensity": 1,
+                                "lutFilePath": "lip.mslut"
+                            },                         
+                            {
+                                "layer": 1,
+                                "layerId": "1",
+                                "isLUT": 0,
+                                "intensity": 0.8,
+                                "texFilePath": "lip.png",
+                                "texColor": "0.75294117,0.1372549,0.1372549,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.44313825,0.1490196,0.1960784313,1"
+                            },
+                            {
+                                "makeupColor": "0.7490196,0.1490196,0.4470588,1"
+                            },
+                            {
+                                "makeupColor": "0.80784313,0.388235294,0.133333,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "glossy",
+            "cover": "cover2.png",
+            "translation": [
+                {
+                    "originalText": "glossy",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "水光唇釉"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_lip",
+                        "makeupId": "lip",
+                        "intensity": 0.75,
+                        "color": "0,0,0,0",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "lip1.png",
+                                "texColor": "0.75294117,0.1372549,0.1372549,1",
+                                "blendingMode": "multiply"
+                            },
+                            {
+                                "layer": 1,
+                                "layerId": "1",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "lip2.png",
+                                "texColor": "0,0,0,0",
+                                "blendingMode": "add"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.44313825,0.1490196,0.1960784313,1"
+                            },
+                            {
+                                "makeupColor": "0.7490196,0.1490196,0.4470588,1"
+                            },
+                            {
+                                "makeupColor": "0.80784313,0.388235294,0.133333,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

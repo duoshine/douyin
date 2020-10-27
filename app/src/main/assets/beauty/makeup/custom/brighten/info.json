@@ -1,0 +1,144 @@
+{
+    "className": "brightenstick",
+    "cover": "cover.png",
+
+    "translation": [
+        {
+            "originalText": "brightenstick",
+            "targetLanguage": "zh_CN",
+            "targetText": "提亮"
+        }
+    ],
+    "effectList": [
+        {
+            "name": "brighten1",
+            "cover": "cover0.png",
+            "translation": [
+                {
+                    "originalText": "brighten1",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "提亮1"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_brighten",
+                        "makeupId": "brighten",
+                        "intensity": 0.7,
+                        "color": "1,1,1,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "brighten.png",
+                                "texColor": "1,1,1,1",
+                                "blendingMode": "add"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "1,0.972549,0.9333333,1"
+                            },
+                            {
+                                "makeupColor": "1,0.99607843,0.9333333,1"
+                            },
+                            {
+                                "makeupColor": "1,0.945098039,0.9333333,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "brighten2",
+            "cover": "cover1.png",
+            "translation": [
+                {
+                    "originalText": "brighten2",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "提亮2"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_brighten",
+                        "makeupId": "brighten",
+                        "intensity": 0.7,
+                        "color": "1,1,1,1",
+                        "makeupLayers": [                            
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "brighten1.png",
+                                "texColor": "1,1,1,1",
+                                "blendingMode": "add"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "1,0.972549,0.9333333,1"
+                            },
+                            {
+                                "makeupColor": "1,0.99607843,0.9333333,1"
+                            },
+                            {
+                                "makeupColor": "1,0.945098039,0.9333333,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "brighten3",
+            "cover": "cover2.png",
+            "translation": [
+                {
+                    "originalText": "brighten3",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "提亮3"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_brighten",
+                        "makeupId": "brighten",
+                        "intensity": 0.7,
+                        "color": "1,1,1,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "brighten2.png",
+                                "texColor": "1,1,1,1",
+                                "blendingMode": "add"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "1,0.972549,0.9333333,1"
+                            },
+                            {
+                                "makeupColor": "1,0.99607843,0.9333333,1"
+                            },
+                            {
+                                "makeupColor": "1,0.945098039,0.9333333,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

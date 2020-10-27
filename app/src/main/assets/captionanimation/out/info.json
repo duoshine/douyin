@@ -1,0 +1,28 @@
+{
+  "fxInfoList": [
+    {
+      "name_Zh": "闭幕",
+      "name": "closing",
+      "fxFileName": "387D91E7-79B1-44E5-9A81-5C2F695C586D.2.captionoutanimation",
+      "fxPackageId": "387D91E7-79B1-44E5-9A81-5C2F695C586D",
+      "fxLicFileName": "387D91E7-79B1-44E5-9A81-5C2F695C586D.lic",
+      "imageName": "387D91E7-79B1-44E5-9A81-5C2F695C586D.webp"
+    },
+    {
+      "name_Zh": "渐隐",
+      "name": "Fade Out",
+      "fxFileName": "E7806454-9C5E-49E3-8AE6-EE22BD22BD09.2.captionoutanimation",
+      "fxPackageId": "E7806454-9C5E-49E3-8AE6-EE22BD22BD09",
+      "fxLicFileName": "E7806454-9C5E-49E3-8AE6-EE22BD22BD09.lic",
+      "imageName": "E7806454-9C5E-49E3-8AE6-EE22BD22BD09.webp"
+    },
+    {
+      "name_Zh": "打字机1",
+      "name": "Typewriter1",
+      "fxFileName": "36486C78-EC5F-471E-A5B0-1F41A7E60BBB.2.captioninanimation",
+      "fxPackageId": "36486C78-EC5F-471E-A5B0-1F41A7E60BBB",
+      "fxLicFileName": "36486C78-EC5F-471E-A5B0-1F41A7E60BBB.lic",
+      "imageName": "36486C78-EC5F-471E-A5B0-1F41A7E60BBB.webp"
+    }
+  ]
+}

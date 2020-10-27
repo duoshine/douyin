@@ -1,0 +1,154 @@
+{
+  "name": "ziran",
+  "cover": "cover.png",
+  "translation": [
+    {
+      "originalText": "ziran",
+      "targetLanguage": "zh_CN",
+      "targetText": "自然"
+    }
+  ],
+  "effectContent": {
+    "beauty":[
+      {
+        "fxName":"Beauty Strength",
+        "value":0.5
+      },
+      {
+        "fxName":"Beauty Whitening B",
+        "value":0.5
+      },
+      {
+        "fxName":"Beauty Reddening",
+        "value":0.5
+      },
+      {
+        "fxName":"Default Beauty Enabled",
+        "value":1
+      },
+      {
+        "fxName":"Default Sharpen Enabled",
+        "value":1
+      }
+    ],
+    "shape":[
+      {
+        "fxName":"Face Size Warp Degree",
+        "value":0.6
+      },
+      {
+        "fxName":"Eye Size Warp Degree",
+        "value":0.7
+      },
+      {
+        "fxName":"Nose Width Warp Degree",
+        "value":0.5
+      }
+    ],
+    "makeupArgs": [
+      {
+        "makeupValueStr": "makeup_shadow",
+        "makeupId": "shadow",
+        "intensity": 0.8,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 1,
+            "texFilePath": "shadow.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "multiply"
+          }
+        ]
+      },
+      {
+        "makeupValueStr": "makeup_brighten",
+        "makeupId": "brighten",
+        "intensity": 0.8,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 1,
+            "texFilePath": "brighten.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "add"
+          }
+        ]
+      },
+      {
+        "makeupValueStr": "makeup_lip",
+        "makeupId": "lip",
+        "intensity": 0.4,
+        "color": "0.76470588,0.16862745,0.1490196,1",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 0.8,
+            "texFilePath": "lip.png",
+            "texColor": "0.76470588,0.16862745,0.1490196,1",
+            "blendingMode": "multiply"
+          }
+        ]
+      },
+      {
+        "makeupValueStr": "makeup_blusher",
+        "makeupId": "blusher",
+        "intensity": 0.75,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 1,
+            "texFilePath": "blusher.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "normal"
+          }
+        ]
+      },
+      {
+        "makeupValueStr": "makeup_eyebrow",
+        "makeupId": "eyebrow",
+        "intensity": 0.4,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 1,
+            "texFilePath": "eyebrow.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "multiply"
+          }
+        ]
+      },
+      {
+        "makeupValueStr": "makeup_eyeshadow",
+        "makeupId": "eyeshadow",
+        "intensity": 0.8,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 0.8,
+            "texFilePath": "eyeshadow.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "multiply"
+          }
+        ]
+      }
+    ]
+  }
+}
+

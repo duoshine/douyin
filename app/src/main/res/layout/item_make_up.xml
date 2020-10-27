@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/makeup_item_layout"
+    android:layout_width="57.5dp"
+    android:layout_height="@dimen/dp64"
+    android:layout_marginTop="@dimen/dp10"
+    android:layout_marginRight="5dp">
+
+    <ImageView
+        android:id="@+id/makeup_imageAsset"
+        android:layout_width="57.5dp"
+        android:layout_height="57.5dp"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/makeup_text"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/makeup_null"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/makeup_icon_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+{
+  "name": "liti",
+  "cover": "cover.png",
+  "translation": [
+    {
+      "originalText": "liti",
+      "targetLanguage": "zh_CN",
+      "targetText": "立体"
+    }
+  ],
+  "effectContent": {
+    "makeupArgs": [
+      {
+        "makeupValueStr": "makeup_shadow",
+        "makeupId": "shadow",
+        "intensity": 1,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 1,
+            "texFilePath": "shadow.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "multiply"
+          }
+        ]
+      },
+      {
+        "makeupValueStr": "makeup_brighten",
+        "makeupId": "brighten",
+        "intensity": 1,
+        "color": "0,0,0,0",
+        "makeupLayers": [
+          {
+            "layer": 0,
+            "layerId": "0",
+            "isLUT": 0,
+            "intensity": 1,
+            "texFilePath": "brighten.png",
+            "texColor": "0,0,0,0",
+            "blendingMode": "add"
+          }
+        ]
+      }
+    ]
+  }
+}
+

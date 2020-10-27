@@ -1,0 +1,54 @@
+{
+  "propsList": [
+    {
+      "zh_name": "变妆02",
+      "name": "Change makeup02",
+      "uuid": "084A6EC1-43AB-40EF-BBD5-D83F692B011B",
+      "categoryId": 1,
+      "cover": "file:///android_asset/arface/084A6EC1-43AB-40EF-BBD5-D83F692B011B.png"
+    },
+    {
+      "zh_name": "狐狸",
+      "name": "TAKE ME TO FOX",
+      "uuid": "7242B80E-A804-4CB5-B7DD-DFACC1B6BF6F",
+      "categoryId": 2,
+      "cover": "file:///android_asset/arface/7242B80E-A804-4CB5-B7DD-DFACC1B6BF6F.png"
+    },
+    {
+      "zh_name": "京剧",
+      "name": "Peking Opera",
+      "uuid": "11526CF9-BFA0-4A19-B7B2-1A879CF58FF1",
+      "categoryId": 2,
+      "cover": "file:///android_asset/arface/11526CF9-BFA0-4A19-B7B2-1A879CF58FF1.png"
+    },
+    {
+      "zh_name": "花瓣",
+      "name": "petal",
+      "uuid": "63833FB8-95F7-4A92-A852-A048BA223F5E",
+      "categoryId": 3,
+      "cover": "file:///android_asset/arface/63833FB8-95F7-4A92-A852-A048BA223F5E.png"
+    },
+    {
+      "zh_name": "鹿角",
+      "name": "Antlers",
+      "uuid": "A4811CC0-1CBF-4FE3-8FD2-A983D03B7F36",
+      "categoryId": 7,
+      "cover": "file:///android_asset/arface/A4811CC0-1CBF-4FE3-8FD2-A983D03B7F36.png"
+    },
+    {
+      "zh_name": "哭泣小熊",
+      "name": "Cub crying",
+      "uuid": "D5A96F18-63E0-4C80-A54A-394C0D4AC53F",
+      "categoryId": 5,
+      "cover": "file:///android_asset/arface/D5A96F18-63E0-4C80-A54A-394C0D4AC53F.png"
+    },
+    {
+      "zh_name": "跳动音符",
+      "name": "dancing note",
+      "uuid": "EDF352FC-701B-4C05-86CE-B0E293469341",
+      "categoryId": 6,
+      "cover": "file:///android_asset/arface/EDF352FC-701B-4C05-86CE-B0E293469341.png"
+    }
+
+  ]
+}

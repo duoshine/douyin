@@ -1,0 +1,187 @@
+{
+    "className": "eyelinerstick",
+    "cover": "cover.png",
+
+    "translation": [
+        {
+            "originalText": "eyelinerstick",
+            "targetLanguage": "zh_CN",
+            "targetText": "眼线"
+        }
+    ],
+    "effectList": [
+        {
+            "name": "eyeliner1",
+            "cover": "cover0.png",
+            "translation": [
+                {
+                    "originalText": "eyeliner1",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眼线1"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeliner",
+                        "makeupId": "eyeliner",
+                        "intensity": 0.6,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "eyeliner.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eyeliner2",
+            "cover": "cover1.png",
+            "translation": [
+                {
+                    "originalText": "eyeliner2",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眼线2"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeliner",
+                        "makeupId": "eyeliner",
+                        "intensity": 0.6,
+                        "color": "0,0,0,0",
+                        "makeupLayers": [                            
+                            {
+                                "layer": 1,
+                                "layerId": "1",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "eyeliner1.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eyeliner3",
+            "cover": "cover2.png",
+            "translation": [
+                {
+                    "originalText": "eyeliner3",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眼线3"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeliner",
+                        "makeupId": "eyeliner",
+                        "intensity": 0.6,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "eyeliner2.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "eyeliner4",
+            "cover": "cover3.png",
+            "translation": [
+                {
+                    "originalText": "eyeliner4",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "眼线4"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeliner",
+                        "makeupId": "eyeliner",
+                        "intensity": 0.6,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "eyeliner3.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

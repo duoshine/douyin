@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--占位调试-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#242728"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        >
+
+        <SeekBar
+            android:id="@+id/key_frame_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="72dp"
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginRight="72dp"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:progressDrawable="@drawable/caption_size_seekbar"
+            android:thumb="@drawable/custom_voice_seekbar_ball" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="@dimen/dp10"
+            android:clipChildren="false"
+            >
+
+            <com.meicam.sdk.NvsMultiThumbnailSequenceView
+                android:id="@+id/key_frame_sequence_view"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_centerVertical="true" />
+
+            <!--android:layout_width="match_parent" 代码动态设置宽-->
+            <RelativeLayout
+                android:id="@+id/key_frame_wrapper_view"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_centerVertical="true"
+                android:clipChildren="false"
+                >
+
+                <View
+                    android:id="@+id/key_frame_left_padding_view"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent" />
+
+                <com.duoshine.douyin.meishe.sdkdemo.edit.filter.KeyFramePointView
+                    android:id="@+id/key_frame_points_view"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/key_frame_left_padding_view" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@mipmap/span" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/dp25"
+            android:layout_marginBottom="@dimen/dp9">
+
+            <TextView
+                android:id="@+id/zoom_in_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@drawable/key_frame_zoom_in_selector"
+                android:drawablePadding="@dimen/dp4.5"
+                android:gravity="center"
+                android:text="@string/key_frame_zoom_in_text"
+                android:textColor="@color/key_frame_text_bg_selector"
+                android:textSize="@dimen/sp8" />
+
+            <TextView
+                android:id="@+id/before_key_frame_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@drawable/key_frame_before_frame_selector"
+                android:drawablePadding="@dimen/dp4.5"
+                android:gravity="center"
+                android:text="@string/key_frame_before_frame_text"
+                android:textColor="@color/key_frame_text_bg_selector"
+                android:textSize="@dimen/sp8" />
+
+            <TextView
+                android:id="@+id/add_delete_frame_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@drawable/key_frame_add_frame_selector"
+                android:drawablePadding="@dimen/dp4.5"
+                android:gravity="center"
+                android:text="@string/key_frame_add_frame_text"
+                android:textColor="@color/key_frame_text_bg_selector"
+                android:textSize="@dimen/sp8" />
+
+            <TextView
+                android:id="@+id/next_key_frame_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@drawable/key_frame_next_frame_selector"
+                android:drawablePadding="@dimen/dp4.5"
+                android:gravity="center"
+                android:text="@string/key_frame_next_frame_text"
+                android:textColor="@color/key_frame_text_bg_selector"
+                android:textSize="@dimen/sp8" />
+
+            <TextView
+                android:id="@+id/zoom_out_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@drawable/key_frame_zoom_out_selector"
+                android:drawablePadding="@dimen/dp4.5"
+                android:gravity="center"
+                android:text="@string/key_frame_zoom_out_text"
+                android:textColor="@color/key_frame_text_bg_selector"
+                android:textSize="@dimen/sp8" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

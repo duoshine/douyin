@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="77dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.RoundImageView
+        android:id="@+id/captionStyleAssetCover"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:scaleType="centerCrop"
+        app:x_radius="6dp"
+        app:y_radius="6dp" />
+
+    <View
+        android:id="@+id/selectedItem"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/shape_border_animatesticker_selected" />
+
+    <TextView
+        android:id="@+id/captionStyleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/captionStyleAssetCover"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp10"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textSize="@dimen/sp12" />
+</RelativeLayout>

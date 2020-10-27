@@ -1,0 +1,28 @@
+{
+  "fxInfoList": [
+    {
+      "name_Zh": "跳动",
+      "name": "Jump",
+      "fxFileName": "84C83050-2D7C-4CE2-998D-87E93910B2CF.2.captionanimation",
+      "fxPackageId": "84C83050-2D7C-4CE2-998D-87E93910B2CF",
+      "fxLicFileName": "84C83050-2D7C-4CE2-998D-87E93910B2CF.lic",
+      "imageName": "84C83050-2D7C-4CE2-998D-87E93910B2CF.webp"
+    },
+    {
+      "name_Zh": "心跳",
+      "name": "Heart beat",
+      "fxFileName": "63629AF7-C487-4687-9214-1F20A9AC1450.2.captionanimation",
+      "fxPackageId": "63629AF7-C487-4687-9214-1F20A9AC1450",
+      "fxLicFileName": "63629AF7-C487-4687-9214-1F20A9AC1450.lic",
+      "imageName": "63629AF7-C487-4687-9214-1F20A9AC1450.webp"
+    },
+    {
+      "name_Zh": "摇晃",
+      "name": "Shake",
+      "fxFileName": "0DC345B0-A396-4818-A27D-F1BC3D89DEF3.2.captionanimation",
+      "fxPackageId": "0DC345B0-A396-4818-A27D-F1BC3D89DEF3",
+      "fxLicFileName": "0DC345B0-A396-4818-A27D-F1BC3D89DEF3.lic",
+      "imageName": "0DC345B0-A396-4818-A27D-F1BC3D89DEF3.webp"
+    }
+  ]
+}

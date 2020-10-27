@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/assetItem"
+    android:layout_width="78dp"
+    android:layout_height="50dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/activity_animation_clip_selected">
+
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.RoundImageView
+        android:id="@+id/imageAsset"
+        android:layout_width="77dp"
+        android:layout_height="49dp"
+        android:src="@mipmap/default_theme"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        app:x_radius="4dp"
+        app:y_radius="4dp"
+        />
+    <TextView
+        android:id="@+id/nameAsset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="3dp"
+        android:textColor="@color/white"
+        />
+    <View
+        android:id="@+id/view_frame"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/activity_animation_clip_selected_animation"
+        />
+</FrameLayout>

@@ -1,0 +1,144 @@
+{
+    "className": "shadowstick",
+    "cover": "cover.png",
+
+    "translation": [
+        {
+            "originalText": "shadowstick",
+            "targetLanguage": "zh_CN",
+            "targetText": "阴影"
+        }
+    ],
+    "effectList": [
+        {
+            "name": "shadow1",
+            "cover": "cover0.png",
+            "translation": [
+                {
+                    "originalText": "shadow1",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "阴影1"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_shadow",
+                        "makeupId": "shadow",
+                        "intensity": 0.7,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "shadow.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "shadow2",
+            "cover": "cover1.png",
+            "translation": [
+                {
+                    "originalText": "shadow2",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "阴影2"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_shadow",
+                        "makeupId": "shadow",
+                        "intensity": 0.7,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [                            
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "shadow1.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "shadow3",
+            "cover": "cover2.png",
+            "translation": [
+                {
+                    "originalText": "shadow3",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "阴影3"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_shadow",
+                        "makeupId": "shadow",
+                        "intensity": 0.7,
+                        "color": "0.392156827,0.24313725,0.1490196078,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "shadow2.png",
+                                "texColor": "0.392156827,0.24313725,0.1490196078,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.607843137,0.447058823,0.3372549,1"
+                            },
+                            {
+                                "makeupColor": "0.419607843,0.243137254,0.243137254,1"
+                            },
+                            {
+                                "makeupColor": "0.30588235,0.231372549,0.219607843,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

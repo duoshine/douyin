@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="5dp">
+
+    <RelativeLayout
+        android:id="@+id/filter_item_layout"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_width="57.5dp"
+        android:layout_height="@dimen/dp64">
+
+        <ImageView
+            android:id="@+id/imageAsset"
+            android:layout_width="match_parent"
+            android:layout_height="57.5dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bank_thumbnail_local" />
+
+        <View
+            android:id="@+id/assetShadow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5" />
+
+        <ImageView
+            android:id="@+id/prop_3d_image"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/prop_3d"
+            android:layout_alignBottom="@+id/imageAsset"/>
+
+        <TextView
+            android:id="@+id/nameAsset"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/ccffffff"
+            android:textSize="11sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

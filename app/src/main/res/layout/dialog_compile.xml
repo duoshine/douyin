@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/shape_compile_dialog_bg"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.CircleProgressBar2
+        android:id="@+id/circleProgressBar"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="21dp"
+        app:ringBgColor="@color/douyin_speed_select_color"
+        app:ringColor="@color/ms_blue"
+        app:textColor="@color/ms_blue"
+        app:strokeWidth="2dp"
+        app:textSize="12sp"
+        app:radius2="17dp"/>
+
+    <TextView
+        android:id="@+id/tipsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/compiling"
+        android:textSize="18sp"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/cancelCompileBtn"
+        android:layout_width="63dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_gray_roundcorner_button"
+        android:text="@string/cancel"
+        android:textSize="15sp"
+        android:textColor="#666666"/>
+</LinearLayout>

@@ -3,11 +3,11 @@
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#FF4081</color>
-<!--    tab文本默认的颜色-->
+    <!--    tab文本默认的颜色-->
     <color name="main_tab">#B8B8B8</color>
-<!--    tab被选中的文本颜色-->
+    <!--    tab被选中的文本颜色-->
     <color name="main_tab_selected">#FFFFFF</color>
-<!--    tab文本默认的颜色-->
+    <!--    tab文本默认的颜色-->
     <color name="player_top_tab">#B7C0C9</color>
     <color name="player_top_tab_selected">#FFFFFF</color>
     <color name="comment_date">#9c9c9c</color>
@@ -16,7 +16,7 @@
 
     <color name="comment_list_dialog">#EAE5E5</color>
 
-<!--    用户信息 编辑资料-->
+    <!--    用户信息 编辑资料-->
     <color name="home_user_edit">#393C45</color>
     <color name="btn_login_pressed">#46678d</color>
     <color name="btn_login_default">#00acff</color>
@@ -24,4 +24,106 @@
     <color name="btn_register_default">#ffffff</color>
     <color name="add_friend_input">#3A3A44</color>
     <color name="add_friend_input_hint">#7D7E83</color>
+
+    <color name="ff333333">#ff333333</color>
+    <color name="ff242728">#242728</color>
+    <color name="dd000000">#dd000000</color>
+    <color name="ffffffff">#ffffffff</color>
+    <color name="ccffffff">#CCffffff</color>
+    <color name="ff000000">#000000</color>
+    <color name="white_f8">#fff8f8f8</color>
+    <color name="alpha60_black">#66000000</color>
+    <color name="douyin_edit_background">#242728</color>
+    <!--<color name="colorSelItem">#3db5fe</color>-->
+    <!--<color name="colorUnSelItem">#e7f5ff</color>-->
+    <!--<color name="colorSelItemText">#ffffff</color>-->
+    <!--<color name="colorUnSelItemText">#67a5d2</color>-->
+    <color name="black_f3">#50000000</color>
+    <color name="ff4a90e2">#4a90e2</color>
+    <color name="cc4a90e2">#CC4a90e2</color>
+    <color name="ms994a90e2">#994a90e2</color>
+    <!-- 编辑界面 -->
+    <color name="msff242728">#ff363738</color>
+    <color name="ms979797">#979797</color>
+    <color name="msc4c4c4">#c4c4c4</color>
+    <color name="color_edit_buttomlayout">#ff242728</color>
+
+    <color name="unsel_white">#999cb0</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_alfph">#CC000000</color>
+    <color name="colorTranslucent">#00000000</color>
+    <color name="color60PercentWhite">#99ffffff</color>
+    <color name="colorThumbnailBorder">#FFD500</color>
+    <color name="color_yellow_a5">#FFA54B</color>
+    <color name="colorThumbViewSelected">#FFD500</color>
+    <color name="colorThumbViewUnSelected">#59502b</color>
+    <color name="fx_un_select">#ff4d4f51</color>
+    <color name="fx_select">#994a90e2</color>
+    <color name="ms_blue">#4a90e2</color>
+    <color name="nv_colorTranslucent">#00000000</color>
+    <color name="ms_gray">#4D4F51</color>
+    <color name="white_fb">#FFFBFB</color>
+    <color name="ms_red">#D0021B</color>
+    <color name="dy_yellow">#F8E71C</color>
+    <color name="dy_text_after_music_seleeted">#B3FFFFFF</color>
+    <color name="color_fx_select">#B352D3FF</color>
+    <color name="blue">#CC3DB5FE</color>
+    <color name="white_half">#999999</color>
+    <color name="white_10">#19ffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="ms_disable_color">#4D4F51</color>
+    <color name="ms_colorImageSelect">#52D3FF</color>
+    <color name="menu_selected">#4A90E2</color>
+
+    <color name="cs_textColor_recording">#ffd0021b</color>
+    <color name="selcet_bg_blue">#7F4A90E2</color>
+
+    <color name="douyin_speed_color">#4d000000</color>
+    <color name="douyin_speed_select_color">#ffd8d8d8</color>
+    <color name="douyin_speed_text_color">#ffeaebeb</color>
+    <color name="douyin_speed_text_select_color">#ff4d4f51</color>
+    <!-- 统一规范 -->
+    <color name="title_center_text_color">#ccffffff</color>
+    <!--    mimo-->
+    <color name="msfff5a623">#fff5a623</color>
+    <color name="color_black">#ff000000</color>
+
+    <color name="ff1a1d24">#ff1a1d24</color>
+    <color name="msffd0021b">#ffd0021b</color>
+    <color name="red_4fea">#4fea4359</color>
+    <color name="msff2a7dff">#FF2A7DFF</color>
+    <color name="image_default_color">#ff4a4a4a</color>
+    <color name="null_color">#00000000</color>
+    <color name="dialog_radio_item">#6c000000</color>
+    <color name="dialog_radio_item_null">#ff4d4f51</color>
+    <color name="story_activity_back_color">#ff1a1d24</color>
+
+    <color name="trim_edit_replace_text_color">#FF2A7DFF</color>
+    <color name="line_color">#1Affffff</color>
+
+    <color name="caption_edit_edit_text_bg">#ff242728</color>
+    <color name="caption_edit_edit_text_hint_color">#4dffffff</color>
+    <color name="caption_edit_bottom_menu_layout_bg">#0C0D0E</color>
+    <color name="video_fragment_bg">#ff12151d</color>
+    <color name="video_fragment_play_bar_bg">#ff12151d</color>
+    <color name="title_back">#ff1a1d24</color>
+    <color name="letter_background">#e8e8e8</color>
+    <color name="gray_90">#ff909293</color>
+    <color name="blue_63ab">#ff63abff</color>
+    <color name="blue_4a">#ff4a90e2</color>
+    <color name="red_ff54">#ffff54cc</color>
+    <color name="red_ff64">#ffff6464</color>
+    <color name="green_2bc5">#ff2bc55e</color>
+    <color name="green_1317">#ff13e7ef</color>
+    <color name="yellow_ff9b">#ffff9b44</color>
+    <color name="green_afd">#AFD800</color>
+    <color name="blue_8b">#8B68FF</color>
+    <color name="red_ff">#FF4B4B</color>
+    <color name="purple_c244">#ffc244ff</color>
+    <color name="gray_8288">#ff828282</color>
+    <color name="blue_63">#63ABFF</color>
+
+
+
 </resources>

@@ -121,34 +121,62 @@ class MainViewModel : ViewModel() {
         comments = MutableLiveData()
     }
 
+    /* private val defaultUrls = listOf(
+         "http://192.168.11.193:8080/douyin1.mp4",
+         "http://192.168.11.193:8080/douyin.mp4",
+         "http://192.168.11.193:8080/douyin2.mp4",
+         "http://192.168.11.193:8080/douyin3.mp4",
+         "http://192.168.11.193:8080/douyin4.mp4",
+         "http://192.168.11.193:8080/douyin5.mp4",
+         "http://192.168.11.193:8080/douyin6.mp4",
+         "http://192.168.11.193:8080/douyin7.mp4",
+         "http://192.168.11.193:8080/douyin8.mp4",
+         "http://192.168.11.193:8080/douyin9.mp4",
+         "http://192.168.11.193:8080/douyin10.mp4"
+     )
+
+     private val newUrls = listOf(
+         "http://192.168.11.193:8080/douyin7.mp4",
+         "http://192.168.11.193:8080/douyin1.mp4",
+         "http://192.168.11.193:8080/douyin.mp4",
+         "http://192.168.11.193:8080/douyin2.mp4",
+         "http://192.168.11.193:8080/douyin3.mp4",
+         "http://192.168.11.193:8080/douyin4.mp4",
+         "http://192.168.11.193:8080/douyin5.mp4",
+         "http://192.168.11.193:8080/douyin6.mp4",
+         "http://192.168.11.193:8080/douyin8.mp4",
+         "http://192.168.11.193:8080/douyin9.mp4",
+         "http://192.168.11.193:8080/douyin10.mp4"
+     )*/
+
+    //    本地视频
     private val defaultUrls = listOf(
-        "http://192.168.1.109:8080/douyin1.mp4",
-        "http://192.168.1.109:8080/douyin.mp4",
-        "http://192.168.1.109:8080/douyin2.mp4",
-        "http://192.168.1.109:8080/douyin3.mp4",
-        "http://192.168.1.109:8080/douyin4.mp4",
-        "http://192.168.1.109:8080/douyin5.mp4",
-        "http://192.168.1.109:8080/douyin6.mp4",
-        "http://192.168.1.109:8080/douyin7.mp4",
-        "http://192.168.1.109:8080/douyin8.mp4",
-        "http://192.168.1.109:8080/douyin9.mp4",
-        "http://192.168.1.109:8080/douyin10.mp4"
+        "file:///android_asset/douyin1.mp4",
+        "file:///android_asset/douyin.mp4",
+        "file:///android_asset/douyin2.mp4",
+        "file:///android_asset/douyin3.mp4",
+        "file:///android_asset/douyin4.mp4",
+        "file:///android_asset/douyin5.mp4",
+        "file:///android_asset/douyin6.mp4",
+        "file:///android_asset/douyin7.mp4",
+        "file:///android_asset/douyin8.mp4",
+        "file:///android_asset/douyin9.mp4",
+        "file:///android_asset/douyin10.mp4"
     )
 
     private val newUrls = listOf(
-        "http://192.168.1.109:8080/douyin7.mp4",
-        "http://192.168.1.109:8080/douyin1.mp4",
-        "http://192.168.1.109:8080/douyin.mp4",
-        "http://192.168.1.109:8080/douyin2.mp4",
-        "http://192.168.1.109:8080/douyin3.mp4",
-        "http://192.168.1.109:8080/douyin4.mp4",
-        "http://192.168.1.109:8080/douyin5.mp4",
-        "http://192.168.1.109:8080/douyin6.mp4",
-        "http://192.168.1.109:8080/douyin8.mp4",
-        "http://192.168.1.109:8080/douyin9.mp4",
-        "http://192.168.1.109:8080/douyin10.mp4"
+        "file:///android_asset/douyin7.mp4",
+        "file:///android_asset/douyin1.mp4",
+        "file:///android_asset/douyin.mp4",
+        "file:///android_asset/douyin2.mp4",
+        "file:///android_asset/douyin3.mp4",
+        "file:///android_asset/douyin4.mp4",
+        "file:///android_asset/douyin5.mp4",
+        "file:///android_asset/douyin6.mp4",
+        "file:///android_asset/douyin8.mp4",
+        "file:///android_asset/douyin9.mp4",
+        "file:///android_asset/douyin10.mp4"
     )
-
 
     private val urls: MutableLiveData<List<String>> by lazy {
         MutableLiveData<List<String>>()
@@ -170,7 +198,7 @@ class MainViewModel : ViewModel() {
     fun startRefresh(pageIndex: Int?) {
         if (pageIndex == 0) {
             followRefreshState?.value = RefreshState.START
-        }else if (pageIndex == 1) {
+        } else if (pageIndex == 1) {
             refreshState?.value = RefreshState.START
         }
     }

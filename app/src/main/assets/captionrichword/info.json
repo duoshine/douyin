@@ -1,0 +1,20 @@
+{
+  "fxInfoList": [
+    {
+      "name_Zh": "花字02",
+      "name": "Flower caption1",
+      "fxFileName": "72D49EAD-B9E4-4ADC-A188-545046835F65.2.captionrenderer",
+      "fxPackageId": "72D49EAD-B9E4-4ADC-A188-545046835F65",
+      "fxLicFileName": "72D49EAD-B9E4-4ADC-A188-545046835F65.lic",
+      "imageName": "72D49EAD-B9E4-4ADC-A188-545046835F65.png"
+    },
+    {
+      "name_Zh": "花字 01",
+      "name": "Effect 01",
+      "fxFileName": "565591C2-2227-468A-AFC7-4429EAD3C21C.2.captionrenderer",
+      "fxPackageId": "565591C2-2227-468A-AFC7-4429EAD3C21C",
+      "fxLicFileName": "565591C2-2227-468A-AFC7-4429EAD3C21C.lic",
+      "imageName": "565591C2-2227-468A-AFC7-4429EAD3C21C.png"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--占位，由于AlertDialog无法全屏问题-->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorTranslucent"
+        />
+    <!--聚焦、曝光、补光-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="53dp"
+        android:background="@mipmap/capture_more_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_zoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@null"
+                android:src="@mipmap/capture_zoom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/zoom"
+                android:textColor="@color/white_fb"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_exposure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@null"
+                android:src="@mipmap/capture_exposure" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/exposure"
+                android:textColor="@color/white_fb"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="28dp"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/iv_flash"
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@null"
+                android:src="@mipmap/capture_flash_off" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/flash_cs"
+                android:textColor="@color/white_fb"
+                android:textSize="11sp"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--聚焦进度条-->
+    <LinearLayout
+        android:id="@+id/ll_zoom_bar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="224dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginRight="26dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tv_zoom_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <com.duoshine.douyin.meishe.sdkdemo.edit.view.VerticalSeekBar
+            android:id="@+id/sb_zoom_bar"
+            android:layout_width="20dp"
+            android:layout_height="224dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <!--曝光进度条-->
+    <LinearLayout
+        android:id="@+id/ll_exposure_bar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginRight="26dp"
+        android:orientation="horizontal"
+        android:visibility="invisible"
+        >
+
+        <TextView
+            android:id="@+id/tv_exposure_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <com.duoshine.douyin.meishe.sdkdemo.edit.view.VerticalSeekBar
+            android:id="@+id/sb_exposure_bar"
+            android:layout_width="30dp"
+            android:layout_height="224dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+</FrameLayout>

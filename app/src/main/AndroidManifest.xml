@@ -23,8 +23,16 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <!-- 推荐的权限 -->
+    <!-- 添加如下权限，以便使用更多的第三方SDK和更精准的统计数据 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
     <application
-        android:name=".MyApplication"
+        android:name=".meishe.sdkdemo.MSApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -74,6 +82,118 @@
                 <action android:name="android.intent.action.USER_PRESENT" />
             </intent-filter>
         </receiver>
+        <activity
+            android:name=".meishe.sdkdemo.capture.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.selectmedia.SelectMediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.VideoEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.EditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.utils.permission.PermissionsActivity"
+            android:theme="@style/TranslucentFullScreenTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.filter.FilterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.filter.ClipFilterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.theme.ThemeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.spilt.SpiltActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.trim.TrimActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.speed.SpeedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.correctionColor.CorrectionColorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.volume.VolumeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.adjust.AdjustActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.photo.DurationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+        <activity
+            android:name=".meishe.sdkdemo.edit.clipEdit.photo.PhotoMovementActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.download.AssetDownloadActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity android:name=".meishe.sdkdemo.edit.anim.AnimationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme"
+            android:windowSoftInputMode="adjustNothing"
+            />
+        <activity
+            android:name=".meishe.sdkdemo.edit.animatesticker.AnimateStickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.Caption.CaptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.compoundcaption.CompoundCaptionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.watermark.WaterMarkActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.music.MusicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.record.RecordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
+
+        <activity
+            android:name=".meishe.sdkdemo.edit.music.SelectMusicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BaseAnimationTheme" />
     </application>
 
 </manifest>

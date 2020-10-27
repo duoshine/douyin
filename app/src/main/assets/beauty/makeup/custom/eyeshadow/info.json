@@ -1,0 +1,162 @@
+{
+    "className": "eyeshadowtick",
+    "cover": "cover.png",
+
+    "translation": [
+        {
+            "originalText": "eyeshadowtick",
+            "targetLanguage": "zh_CN",
+            "targetText": "眼影"
+        }
+    ],
+    "effectList": [
+        {
+            "name": "ordinary",
+            "cover": "cover0.png",
+            "translation": [
+                {
+                    "originalText": "ordinary",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "单色眼影"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeshadow",
+                        "makeupId": "eyeshadow",
+                        "intensity": 0.7,
+                        "color": "0.835294117,0.51372549,0.32941176,1",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 0.7,
+                                "texFilePath": "eyeshadow.png",
+                                "texColor": "0.835294117,0.51372549,0.32941176,1",
+                                "blendingMode": "multiply"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.40784313,0.258823529,0.10196078,1"
+                            },
+                            {
+                                "makeupColor": "0.945098039,0.494117647,0.325490196,1"
+                            },
+                            {
+                                "makeupColor": "1,0.56862745,0.58039215,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "gorgeous",
+            "cover": "cover1.png",
+            "translation": [
+                {
+                    "originalText": "gorgeous",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "华丽珠光"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeshadow",
+                        "makeupId": "eyeshadow",
+                        "intensity": 0.7,
+                        "color": "0,0,0,0",
+                        "makeupLayers": [                            
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 0.6,
+                                "texFilePath": "eyeshadow2.png",
+                                "texColor": "0.835294117,0.51372549,0.32941176,1",
+                                "blendingMode": "multiply"
+                            },
+                            {
+                                "layer": 1,
+                                "layerId": "1",
+                                "isLUT": 0,
+                                "intensity": 0.5,
+                                "texFilePath": "eyeshadow1.png",
+                                "texColor": "0,0,0,0",
+                                "blendingMode": "add"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.40784313,0.258823529,0.10196078,1"
+                            },
+                            {
+                                "makeupColor": "0.945098039,0.494117647,0.325490196,1"
+                            },
+                            {
+                                "makeupColor": "1,0.56862745,0.58039215,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "smoke",
+            "cover": "cover2.png",
+            "translation": [
+                {
+                    "originalText": "smoke",
+                    "targetLanguage": "zh_CN",
+                    "targetText": "烟熏"
+                }
+            ],
+            "effectContent": {
+                "makeupArgs": [
+                    {
+                        "makeupValueStr": "makeup_eyeshadow",
+                        "makeupId": "eyeshadow",
+                        "intensity": 0.7,
+                        "color": "0,0,0,0",
+                        "makeupLayers": [
+                            {
+                                "layer": 0,
+                                "layerId": "0",
+                                "isLUT": 0,
+                                "intensity": 1,
+                                "texFilePath": "eyeshadow3.png",
+                                "texColor": "0.835294117,0.51372549,0.32941176,1",
+                                "blendingMode": "multiply"
+                            },
+                            {
+                                "layer": 1,
+                                "layerId": "1",
+                                "isLUT": 0,
+                                "intensity": 0.4,
+                                "texFilePath": "eyeshadow1.png",
+                                "texColor": "0,0,0,0",
+                                "blendingMode": "add"
+                            }
+                        ],
+                        "makeupRecommendColors": [
+                            {
+                                "makeupColor": "0.40784313,0.258823529,0.10196078,1"
+                            },
+                            {
+                                "makeupColor": "0.945098039,0.494117647,0.325490196,1"
+                            },
+                            {
+                                "makeupColor": "1,0.56862745,0.58039215,1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
+

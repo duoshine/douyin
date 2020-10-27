@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.CustomTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/spaceLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.duoshine.douyin.meishe.sdkdemo.edit.view.HorizontalSeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            app:lineHeight="2dp"
+            app:leftTextSize="10sp"
+            app:leftTextColor="#50E3C2"
+            app:rightTextSize="10sp"
+            app:rightTextColor="#FC2B55"
+            app:inColor="@color/white"
+            app:leftOutColor="#50E3C2"
+            app:rightOutColor="#FC2B55"
+            app:imageLowPadding="5dp"
+            app:imageWidth="20dp"
+            app:imageHeight="35dp"
+            app:unit="s"
+            app:hasRule="false"
+            app:bigValue="100"
+            android:visibility="invisible"
+             />
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:background="#ff242728">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="39dp"
+            android:background="#1AFFFFFF" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/captionStyleTab"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:tabMode="scrollable" />
+
+        <com.duoshine.douyin.meishe.sdkdemo.edit.view.CustomViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_below="@+id/captionStyleTab" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/captionAssetFinish"
+            android:background="#1AFFFFFF" />
+
+        <ImageView
+            android:id="@+id/captionAssetFinish"
+            android:layout_width="25dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="12dp"
+            android:background="@mipmap/finish" />
+    </RelativeLayout>
+
+</LinearLayout>

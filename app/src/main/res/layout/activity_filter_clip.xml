@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.duoshine.douyin.meishe.sdkdemo.edit.view.CustomTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/video_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff" />
+
+    <!--底部布局（滤镜+关键帧处理）-->
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:background="#ff242728">
+        <!--滤镜面板-->
+        <RelativeLayout
+            android:id="@+id/filter_panel_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--滤镜页面Title-->
+            <RelativeLayout
+                android:id="@+id/add_keyframe_title_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/inline_add_keyframe_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31.5dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/add_key_frame_title_icon" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@id/inline_add_keyframe_text"
+                    android:background="#5E5E5E" />
+            </RelativeLayout>
+
+            <!--滤镜面板-->
+            <com.duoshine.douyin.meishe.sdkdemo.view.FilterView
+                android:id="@+id/filterView"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp" />
+
+            <!--底部确认-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@id/filterAssetFinish"
+                android:background="#1AFFFFFF" />
+
+            <ImageView
+                android:id="@+id/filterAssetFinish"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="15dp"
+                android:background="@mipmap/finish" />
+        </RelativeLayout>
+
+        <!--滤镜关键帧页面 -->
+        <RelativeLayout
+            android:id="@+id/filter_key_frame_panel_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible">
+            <!--滤镜关键帧页面Title-->
+            <RelativeLayout
+                android:id="@+id/edit_keyframe_title_view"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:id="@+id/inline_edit_keyframe_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/clip_edit_key_frame_text"
+                    android:textColor="#9EA0A1"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white_20" />
+            </RelativeLayout>
+
+            <!--关键帧面板-->
+            <com.duoshine.douyin.meishe.sdkdemo.edit.filter.FilterKeyFrameView
+                android:id="@+id/filter_key_frame_view"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp" />
+
+            <!--底部确认-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@id/filter_key_frame_finish_view"
+                android:background="#1AFFFFFF" />
+
+            <ImageView
+                android:id="@+id/filter_key_frame_finish_view"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="15dp"
+                android:background="@mipmap/finish" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

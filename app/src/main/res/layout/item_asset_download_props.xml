@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_square">
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="44dp"
+        android:layout_height="18dp"
+        android:background="@drawable/blue_left_top_circle"
+        android:gravity="center"
+        android:text="@string/down_load_use"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+    <!--上部封面、遮罩-->
+    <FrameLayout
+        android:id="@+id/fl_top_container"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null" />
+        <!--提示遮罩层-->
+        <RelativeLayout
+            android:id="@+id/rl_tip_parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff000000"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@mipmap/assets_incompatibility" />
+
+            <TextView
+                android:id="@+id/tv_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_tip"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <View
+        android:id="@+id/v_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/fl_top_container"
+        android:background="@color/white_f8" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v_line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#333333"
+        android:textSize="12sp" />
+
+    <ProgressBar
+        android:id="@+id/pb_download_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tv_size"
+        android:layout_marginTop="4dp"
+        android:progressDrawable="@drawable/horizontal_progress_bar"
+        android:visibility="gone"
+        />
+    <!--下载-->
+    <TextView
+        android:id="@+id/tv_download"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_below="@+id/tv_size"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/asset_download"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+</RelativeLayout>
