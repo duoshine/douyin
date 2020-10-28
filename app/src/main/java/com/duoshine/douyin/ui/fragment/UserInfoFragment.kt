@@ -5,10 +5,8 @@ import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.os.Handler
-import android.util.Log
 import android.view.*
 import android.widget.ImageView
-import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -17,8 +15,8 @@ import com.duoshine.douyin.R
 import com.duoshine.douyin.adapter.UserInfoTabAdapter
 import com.duoshine.douyin.constants.UserConstants
 import com.duoshine.douyin.widget.CRecyclerView
+import com.duoshine.douyin.widget.CTextView
 import com.google.android.material.appbar.AppBarLayout
-import com.google.android.material.appbar.AppBarLayout.Behavior.DragCallback
 import kotlinx.android.synthetic.main.fragment_userinfo.*
 import kotlin.math.abs
 
@@ -32,28 +30,28 @@ class UserInfoFragment : BaseFragment() {
 
     private var userId: String? = null
 
-    //    zoomView原本的宽高  在VieW恢复时使用
+    //zoomView原本的宽高  在VieW恢复时使用
     private var zoomViewWidth = -1
     private var zoomViewHeight = -1
 
-    //    最大的放大倍数
+    //最大的放大倍数
     private val mScaleTimes = 2f
 
-    //    顶部区域CollapsingToolbarLayout的偏移值 当为0时表示滑动到顶部
+    //顶部区域CollapsingToolbarLayout的偏移值 当为0时表示滑动到顶部
     private var verticalOffset = 0
 
-    //    回弹时间系数，系数越小，回弹越快
+    //回弹时间系数，系数越小，回弹越快
     private val mReplyRatio = 0.2f
 
     private var startY = 0f
     private var endY = 0f
 
-    //    滑动放大系数，系数越大，滑动时放大程度越大
+    //滑动放大系数，系数越大，滑动时放大程度越大
     private val mScaleRatio = 0.4f
 
     private var velocityTracker: VelocityTracker? = null
 
-    //    每秒内的Y轴滑动速度 用来作为判断是否触发回弹
+    //每秒内的Y轴滑动速度 用来作为判断是否触发回弹
     private var yVelocity: Float? = 0f
 
     // 速度追踪时 顶部回弹的单次偏移值 值越大 放大的动画抖动的越厉害
@@ -62,10 +60,10 @@ class UserInfoFragment : BaseFragment() {
     //速度追踪 当手指滑动RecyclerView的速度超过这个阈值时触发回弹效果 这个值是我自己在测试机上使用的 不具备权威
     private val SCROLL_ANIMATION_THRESHOLD = 6000
 
-    //    回弹任务
+    //回弹任务
     private var handler = Handler()
 
-    //    回弹任务
+    //回弹任务
     private var runnable: Runnable? = null
 
     private val fragments: MutableList<Fragment> by lazy {
@@ -112,8 +110,11 @@ class UserInfoFragment : BaseFragment() {
         return inflater.inflate(R.layout.fragment_userinfo, container, false)
     }
 
+    private var user_nameView: CTextView? = null
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        user_nameView = view.findViewById(R.id.user_name_view)
         initView()
     }
 
@@ -121,7 +122,7 @@ class UserInfoFragment : BaseFragment() {
         tab_layout.setupWithViewPager(view_pager)
         view_pager.offscreenPageLimit = 4
         view_pager.adapter = UserInfoTabAdapter(childFragmentManager, fragments, titles)
-//        添加AppBarLayout的偏移事件监听 目的是在达到阈值时显示和隐藏ToolBar的背景颜色 记录偏移值 在弹性滑动时作为一个条件,当AppBarLayout达到顶部时 偏移值为0
+        //添加AppBarLayout的偏移事件监听 目的是在达到阈值时显示和隐藏ToolBar的背景颜色 记录偏移值 在弹性滑动时作为一个条件,当AppBarLayout达到顶部时 偏移值为0
         appbarLayout.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, verticalOffset ->
             this.verticalOffset = verticalOffset
             //根据appbarLayout的偏移值 动态隐藏和显示ToolBar
@@ -132,10 +133,9 @@ class UserInfoFragment : BaseFragment() {
             }
         })
 
-//       下拉回弹效果 为什么要给RecyclerView也添加一个呢，因为它接收不到啊。。。。
+        //下拉回弹效果 为什么要给RecyclerView也添加一个呢，因为它接收不到啊。。。。
         coordinator.setOnTouchListener(object : View.OnTouchListener {
             override fun onTouch(v: View?, event: MotionEvent): Boolean {
-                Log.d(TAG, "coordinator.setOnTouchListener")
                 show(event)
                 return false
             }
@@ -162,7 +162,6 @@ class UserInfoFragment : BaseFragment() {
 
         recyclerView.setOnTouchListener(object : View.OnTouchListener {
             override fun onTouch(v: View?, event: MotionEvent): Boolean {
-                Log.d(TAG, "recyclerView.setOnTouchListener")
                 show(event)
                 return false
             }
@@ -211,6 +210,8 @@ class UserInfoFragment : BaseFragment() {
     }
 
     private fun show(event: MotionEvent) {
+        // 监控昵称View距离顶部的距离
+        offsetChange()
         //需要放大的View本次事件仅获取一次宽高 记录下来在UP时便于回复默认图片大小
         if (zoomViewWidth == -1 && zoomViewHeight == -1) {
             zoomViewWidth = top_bg.measuredWidth
@@ -247,6 +248,22 @@ class UserInfoFragment : BaseFragment() {
                 velocityTracker?.clear()
                 startY = 0f //一定要恢复默认值 下一次正常执行回弹动画
             }
+        }
+    }
+
+    /**
+     * 在布局移动过程中 监控昵称的View距离顶部的距离
+     * 当满足被ToolBar隐藏的条件时 将ToolBar上的昵称显示和隐藏
+     */
+    private fun offsetChange() {
+        val top = IntArray(2)
+        user_nameView!!.getLocationInWindow(top)
+        val height = user_nameView!!.height
+        val toolbarHeight = tool_bar.height
+        if (top[1] + height < toolbarHeight) {
+            tool_bar_title.visibility = View.VISIBLE
+        } else {
+            tool_bar_title.visibility = View.INVISIBLE
         }
     }
 
