@@ -18,14 +18,11 @@ import androidx.viewpager.widget.ViewPager
 
 import com.duoshine.douyin.adapter.HomeAdapter
 import com.duoshine.douyin.constants.UserConstants
-import com.duoshine.douyin.ui.activity.ChatActivity
-import com.duoshine.douyin.ui.fragment.LeftGroupFragment
+import com.duoshine.douyin.ui.fragment.ManageFragment
 import com.duoshine.douyin.ui.fragment.UserInfoFragment
 import com.duoshine.douyin.widget.LeftViewPager
-import com.google.android.material.snackbar.Snackbar
 import com.hyphenate.EMMessageListener
 import com.hyphenate.chat.EMClient
-import com.hyphenate.chat.EMMessage
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -33,12 +30,12 @@ class MainActivity : AppCompatActivity() {
 
     private val TAG = "MainActivity"
 
-    private var leftFragment: LeftGroupFragment? = null
+    private var leftFragment: ManageFragment? = null
 
     private var msgListener: EMMessageListener? = null
 
     private val fragments: ArrayList<Fragment> by lazy {
-        leftFragment = LeftGroupFragment()
+        leftFragment = ManageFragment()
         ArrayList<Fragment>().apply {
             add(leftFragment!!)
             add(UserInfoFragment.getUserInfoFragment(UserConstants.userId))

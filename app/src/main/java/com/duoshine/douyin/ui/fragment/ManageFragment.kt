@@ -26,7 +26,7 @@ import kotlinx.android.synthetic.main.fragment_home_parent.*
 /**
  *Created by chen on 2020
  */
-class LeftGroupFragment : BaseFragment() {
+class ManageFragment : BaseFragment() {
     private val TAG = "HomeParentFragment"
 
     private var homeFragment: HomeFragment? = null
